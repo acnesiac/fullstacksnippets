@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Svitlatrial</title>
+
+</head>
+<body>	
+
+  <form class="myapp">
+    <input type="text"  id= "searchtext" placeholder="Find.">
+  </form>
+
+  <div class="weather"></div>
+<script id="weather-template" type="text/template">
+    <h4>
+      <%= model.get("weather")[0].description %>
+    </h4>
+    <hr>
+    <div>
+      <table>
+        <tbody>
+          <% _.chain(model.get("main"))
+              .pick("temp", "pressure")
+              .each(function(value, name) {
+          %>
+          
+                  <tr>
+                    <td><%= name %></td>
+                    <td><%= value %></td>
+                  </tr>
+          
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button class="save">save me</button>
+    </div>
+  </script>
+
+
+  <script src="vendor/jquery.js"></script>
+  <script src="vendor/underscore.js"></script>
+  <script src="vendor/backbone.js"></script>
+
+  <script src="source/router.js"></script>
+  <script src="source/views/weather.js"></script>
+
+<script type="text/javascript">
+
+
+var FormView = Backbone.View.extend({
+  el: ".myapp",
+
+  events: {
+    "submit": "showWeather"
+  },
+  showWeather: function(ev) {
+    app.router.navigate("weather/" + this.input.val(), true);
+    return false;
+  },
+  initialize: function() {
+    this.input = this.$("#searchtext");
+  }
+});
+
+var WeatherModel = Backbone.Model.extend({
+  url: function() {
+    var base = "http://api.openweathermap.org/data/2.5/" + "weather?APPID=173b604187ac9f50a8b4dd6d114061d2&q=London";
+    return base;
+  },
+  parse: function(resp) {
+    resp.main.temp =resp.main.temp ;
+    return resp;
+  }
+});
+
+// spa
+var app = {};
+app.start = function() {
+  app.router = new Router();
+  Backbone.history.start();
+};
+app.start();
+
+
+</script>
+
+  
+</body>
+</html>

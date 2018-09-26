@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<job id="job" xmlns="http://www.springframework.org/schema/batch">
+		<step id="load">
+			<tasklet>
+				<chunk reader="instrumentReader" processor="instrumentProcessor" writer="instrumentWriter" commit-interval= "2000"  />
+				<listeners>
+					<listener ref="instrumentCallback"/>
+					<listener ref = "customStepListner"></listener>
+				</listeners>
+			</tasklet>
+		</step>
+	</job>
+
+	<bean id="instrumentReader" class="org.springframework.batch.item.file.FlatFileItemReader">
+		<property name="resource" value="classpath:data/input/${instruments.file.name}" />
+		<property name="lineMapper">
+			<bean class="org.springframework.batch.item.file.mapping.DefaultLineMapper">
+				<property name="lineTokenizer">
+					<bean class="org.springframework.batch.item.file.transform.DelimitedLineTokenizer">
+						<property name="names" value="INSTRUMENT_NAME,date,value" />
+					</bean>
+				</property>
+				<property name="fieldSetMapper">
+					<bean class="com.poland.job.InstrumentMapper" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="instrumentProcessor" class="com.poland.job.InstrumentProcessor" >
+			<constructor-arg ref="validator" />
+			<property name="dataSource" ref="dataSource" />
+			<property name="algorithmExecutor" ref="algContext"></property>
+	</bean>
+	
+	<bean id="algContext" class = "com.poland.algorithm.AlgorithmExecutor"></bean>
+	
+	<bean id="instrumentCallback" class="com.poland.summary.SummaryInstrumentCallback" />
+    <bean id="customStepListner" class="com.poland.summary.StepListener" />
+
+	<bean id="instrumentWriter" class="com.poland.job.InstrumentWriter">
+	</bean>
+
+
+	<bean id="appProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="properties">
+			<value>
+				instruments.file.name=instruments-large.csv
+			</value>
+		</property>
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="order" value="1" />
+	</bean>
+	
+	<bean id="validator" class="org.springframework.batch.item.validator.SpringValidator">
+		<property name="validator">
+			<bean id="instrumentValidator" class="com.poland.validator.InstrumentValidator"/>
+		</property>
+	</bean>
+</beans>
