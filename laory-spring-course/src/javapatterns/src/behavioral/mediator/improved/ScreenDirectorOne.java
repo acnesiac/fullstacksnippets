@@ -6,7 +6,7 @@ public class ScreenDirectorOne implements Screendirector{
     private InputText inputText;
 
 
-    @Override
+    
     public void itemSelected(String item) {
         inputText.setValue(item);
     }

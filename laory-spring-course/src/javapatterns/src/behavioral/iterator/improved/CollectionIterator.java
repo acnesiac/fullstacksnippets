@@ -10,7 +10,6 @@ public class CollectionIterator implements Iterator<String>{
         this.collection = collection;
     }
 
-    @Override
     public String getNext() {
         if(!isDone()){
             String item = collection.getItems()[cursor];
@@ -20,7 +19,6 @@ public class CollectionIterator implements Iterator<String>{
         return null;
     }
 
-    @Override
     public boolean isDone() {
         return cursor == collection.getItems().length;
     }

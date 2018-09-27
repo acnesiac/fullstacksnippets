@@ -40,7 +40,6 @@ class NodeS implements Comparable<NodeS>{
 		 this.cost=cost;
 		 this.next=next;
 	 }
-	@Override
 	public int compareTo(NodeS o) {
 		// TODO Auto-generated method stub
 		if (this.cost>o.cost )

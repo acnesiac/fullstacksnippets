@@ -8,7 +8,7 @@ public class List implements Observer {
     }
 
 
-    @Override
+    
     public void update() {
         setListValue(1);
     }

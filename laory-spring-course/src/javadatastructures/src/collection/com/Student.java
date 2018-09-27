@@ -8,7 +8,6 @@ public class Student  implements Comparable<Student> {
 			this.age=age;
 		}
 		 
-		@Override
 		public int compareTo(Student o) {
 			 if(this.age==o.age)
 				 return 0;

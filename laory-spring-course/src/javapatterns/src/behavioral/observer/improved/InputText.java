@@ -8,7 +8,7 @@ public class InputText implements Observer {
     }
 
 
-    @Override
+    
     public void update() {
         this.setText("button has been clicked");
     }
