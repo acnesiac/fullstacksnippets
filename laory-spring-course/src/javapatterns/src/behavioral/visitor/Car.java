@@ -1,4 +1,4 @@
-package behavioral.visitor.behavioral.visitor.improved;
+package behavioral.visitor;
 
 
 import java.util.ArrayList;
@@ -17,23 +17,20 @@ public class Car {
     }
 
     public void render(){
-        RenderCarPartVisitor renderer = new RenderCarPartVisitor();
         for (CarPart carPart : carParts) {
-            carPart.acceptCarPartVisitor(renderer);
-        }
-    }
-
-    public void print(){
-        PrintCarPartVisitor visitor = new PrintCarPartVisitor();
-        for (CarPart carPart : carParts) {
-            carPart.acceptCarPartVisitor(visitor);
+            carPart.render();
         }
     }
 
     public void upgrade(){
-        UpgradeCarPartVisitor visitor = new UpgradeCarPartVisitor();
         for (CarPart carPart : carParts) {
-            carPart.acceptCarPartVisitor(visitor);
+            carPart.upgrade();
+        }
+    }
+
+    public void print(){
+        for (CarPart carPart : carParts) {
+            carPart.print();
         }
     }
 
