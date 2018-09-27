@@ -8,7 +8,7 @@ public class TwoDArray {
 	  data[0][1]=2;
 	  data[0][2]=5;
 	  data[1][0]=5;
-	  data[1][1]=8;
+	  data[1][1]=8;    
 	  data[1][2]=12;
 	  data[2][0]=0;
 	  data[2][1]=0;
