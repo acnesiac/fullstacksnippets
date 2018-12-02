@@ -2,218 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd511a4-dfc3-4d9f-8776-29ddbccf6c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javapatterns/javapatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/CheckoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/chainofresponsibility/improved/CheckoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/chainofresponsibility/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/CustomerInfoCheckoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/chainofresponsibility/improved/CustomerInfoCheckoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/PaymentCheckoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/chainofresponsibility/improved/PaymentCheckoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/InterpreterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/InterpreterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Minus.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Minus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/interpreter/improved/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/interpreter/improved/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/improved/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/improved/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/improved/CollectionIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/improved/CollectionIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/iterator/improved/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/iterator/improved/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/InputText.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/InputText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/improved/InputText.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/improved/InputText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/improved/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/improved/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/improved/ScreenDirectorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/improved/ScreenDirectorOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/mediator/improved/Screendirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/mediator/improved/Screendirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/memento/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/memento/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/memento/improved/ConnectionSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/memento/improved/ConnectionSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/memento/improved/ConnectionSolverCaretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/memento/improved/ConnectionSolverCaretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/memento/improved/ConnectionSolverMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/memento/improved/ConnectionSolverMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/InputText.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/InputText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/InputText.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/InputText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/observer/improved/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/observer/improved/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/TCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/TCPConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/TCPConnectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/TCPConnectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/improved/ClosedTCPConnectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/improved/ClosedTCPConnectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/improved/OpenTCPConnectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/improved/OpenTCPConnectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/improved/TCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/improved/TCPConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/state/improved/TCPConnectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/state/improved/TCPConnectionState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/Chess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/Difficulty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/Chess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/ChessAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/ChessAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/EasyChessAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/EasyChessAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/HardChessAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/HardChessAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/strategy/improved/MediumChessAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/strategy/improved/MediumChessAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/templatemethod/improved/CheapLoanCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/templatemethod/improved/CheapLoanCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/templatemethod/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/templatemethod/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/templatemethod/improved/ExpensiveLoanCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/templatemethod/improved/ExpensiveLoanCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/templatemethod/improved/LoanCalculationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/templatemethod/improved/LoanCalculationAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/CarPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/CarPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/CarPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/CarPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/CarPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/CarPartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/PrintCarPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/PrintCarPartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/RenderCarPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/RenderCarPartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/UpgradeCarPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/UpgradeCarPartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/Composed.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/Composed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/improved/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/improved/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/improved/ComposedWorldObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/improved/ComposedWorldObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/improved/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/improved/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/documentstructure/improved/WorldObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/documentstructure/improved/WorldObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/ApplicationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/ApplicationWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/IconWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/IconWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/MacApplicationWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/MacApplicationWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/MacIconWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/MacIconWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/WindowsApplicationWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/WindowsApplicationWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/WindowsIconWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/WindowsIconWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/ApplicationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/ApplicationWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/IconWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/IconWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/MacWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/MacWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/WindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/WindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/multiplatform/improved/WindowsWindowImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/multiplatform/improved/WindowsWindowImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/rendering/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/rendering/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/rendering/DetailedRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/rendering/DetailedRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/rendering/QuickRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/rendering/QuickRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/rendering/RenderingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/rendering/RenderingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/rendering/WorldObjectRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/rendering/WorldObjectRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/useractions/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/useractions/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/useractions/PrintUserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/useractions/PrintUserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/useractions/ScreenOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/useractions/ScreenOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/useractions/ScreenTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/useractions/ScreenTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/casestudy/useractions/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/casestudy/useractions/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/PinkThemeScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/PinkThemeScrollBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/PinkThemeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/PinkThemeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/ScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/ScrollBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/YellowThemeScrollbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/YellowThemeScrollbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/YellowThemeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/YellowThemeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/PinkThemeScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/PinkThemeScrollBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/PinkThemeWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/PinkThemeWidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/PinkThemeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/PinkThemeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/ScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/ScrollBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/WidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/WidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/YellowThemeScrollbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/YellowThemeScrollbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/YellowThemeWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/YellowThemeWidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/abstractfactory/improved/YellowThemeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/abstractfactory/improved/YellowThemeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/MongoDbQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/MongoDbQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/SqlQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/SqlQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/MongoDbQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/MongoDbQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/MongoDbQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/MongoDbQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/QueryBuildDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/QueryBuildDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/QueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/SqlQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/SqlQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/builder/improved/SqlQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/builder/improved/SqlQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/BikeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/BikeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/factorymethod/improved/TransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/factorymethod/improved/TransportFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/Graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/GraphicTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/GraphicTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/improved/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/improved/Graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/improved/GraphicTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/improved/GraphicTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/improved/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/improved/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/prototype/improved/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/prototype/improved/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/singleton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/singleton/Preferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/singleton/Preferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/singleton/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/singleton/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/singleton/improved/MyPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/singleton/improved/MyPreferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/creational/singleton/improved/Preferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/creational/singleton/improved/Preferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/adapter/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/adapter/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/adapter/improved/LegacyRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/adapter/improved/LegacyRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/adapter/improved/LegacyRectangleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/adapter/improved/LegacyRectangleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/adapter/improved/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/adapter/improved/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/GraphicItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/GraphicItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/improved/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/improved/Graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/improved/GraphicItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/improved/GraphicItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/improved/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/improved/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/composite/improved/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/composite/improved/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/IconScrollbarWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/IconScrollbarWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/IconWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/IconWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/ScrollbarWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/ScrollbarWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/improved/IconWindowDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/improved/IconWindowDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/improved/ScrollbarWindowDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/improved/ScrollbarWindowDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/improved/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/improved/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/decorator/improved/WindowDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/decorator/improved/WindowDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/BillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/BillingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/InvoiceCustomerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/InvoiceCustomerSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/improved/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/improved/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/improved/BillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/improved/BillingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/improved/FinancialSystemFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/improved/FinancialSystemFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/facade/improved/InvoiceCustomerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/facade/improved/InvoiceCustomerSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/Letter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/WordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/WordProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/improved/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/improved/Letter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/improved/LetterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/improved/LetterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/flyweight/improved/WordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/flyweight/improved/WordProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/improved/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/improved/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/improved/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/improved/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/improved/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/improved/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapatterns/src/structural/proxy/improved/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapatterns/src/structural/proxy/improved/ImageProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/streams/bin/streams/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/streams/bin/streams/StreamExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamExamples2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamExamples2.class" beforeDir="false" afterPath="$PROJECT_DIR$/streams/bin/streams/StreamExamples2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamPersons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/bin/streams/StreamPersons.class" beforeDir="false" afterPath="$PROJECT_DIR$/streams/bin/streams/StreamPersons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/AbsDistinct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/AbsDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/AbsDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Binarygap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Binarygap.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/Binarygap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Caterpillar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/Caterpillar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/CiclicRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/CiclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/CiclicRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/CountDiv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/CountDiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Equilibrium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Equilibrium.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/Equilibrium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/FizzBuss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/FizzBuss.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/FizzBuss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/MinAbsOfTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/MinAbsOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/MinAbsOfTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/MinAbsSumOfTwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/MinAbsSumOfTwo.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/MinAbsSumOfTwo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/OddOccurrencesInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/OddOccurrencesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/OddOccurrencesInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PermCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PermCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/PermCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PermMissingElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PermMissingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/PermMissingElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/PrimeNumbers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/PrimeNumbers2.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/PrimeNumbers2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/SemiPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/SemiPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/SemiPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/StandarDeviation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/StandarDeviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/StandarDeviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/StandardDeviation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/codility/StandardDeviation.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/codility/StandardDeviation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/streams/StreamExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples2.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/streams/StreamExamples2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamExamples3.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/streams/StreamExamples3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamPersons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/src/streams/StreamPersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/streams/StreamPersons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/bullet_point.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/bullet_point.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/collapseall.gif" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/collapseall.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/failed.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/failed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/junitreports/TEST-NewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/junitreports/TEST-NewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/junitreports/TEST-NewTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/navigator-bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/navigator-bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/Default test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/Default test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/passed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/skipped.png" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/skipped.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/test-output/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/streams/test-output/testng.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -232,13 +134,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="32" />
+          <entry key="java" value="34" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="34" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -250,49 +152,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javapatterns/src/behavioral/chainofresponsibility/improved/Client.java">
+        <entry file="file://$PROJECT_DIR$/bin/codility/AbsDistinct.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="38" />
+            <state relative-caret-position="153">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#548#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javapatterns/src/structural/adapter/improved/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/CarPart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/streams/src/codility/AbsDistinct.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javapatterns/src/behavioral/visitor/behavioral/visitor/improved/Client.java">
+        <entry file="file://$PROJECT_DIR$/streams/src/codility/Binarygap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="28" lean-forward="true" selection-start-line="12" selection-end-line="28" />
+            <state relative-caret-position="238">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -344,42 +224,20 @@
             <path>
               <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="javapatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="javapatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="javapatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="javapatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="javapatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
-              <item name="improved" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,8 +250,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543765305508" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/javapatterns" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543765940085" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/streams" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -418,7 +276,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.AbsDistinct">
+    <configuration name="AbsDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.AbsDistinct" />
+      <module name="streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.adapter.improved.Client" />
       <module name="javapatterns" />
@@ -468,9 +339,11 @@
       <item itemvalue="Application.HashMapClass" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.AbsDistinct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbsDistinct" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.HashMapClass" />
@@ -492,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1323000" />
+    <option name="totallyTimeSpent" value="1434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,18 +380,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
@@ -526,15 +394,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,6 +563,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/codility/AbsDistinct.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streams/src/codility/AbsDistinct.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/streams/src/codility/Binarygap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -742,7 +635,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javapatterns</last-edited>
+          <last-edited>streams</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

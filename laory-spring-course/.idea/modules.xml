@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/javapatterns/javapatterns.iml" filepath="$PROJECT_DIR$/javapatterns/javapatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructure/src/main/main.iml" filepath="$PROJECT_DIR$/datastructure/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-course.iml" filepath="$PROJECT_DIR$/spring-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
     </modules>
   </component>
 </project>
