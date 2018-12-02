@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bd511a4-dfc3-4d9f-8776-29ddbccf6c9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../crossoverjournal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/HashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/HashMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/HashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/LinkListArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/LinkListArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/TreeSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/TreeSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/VectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/VectorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/myQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/myQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/collection/com/myStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/main/java/collection/com/myStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/DynamicArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/DynamicArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/LinkedListD.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/LinkedListD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/LinkedListDDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/LinkedListDDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/LinkedListU.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/LinkedListU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/LinkedListUDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/LinkedListUDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/NodeD.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/NodeD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/OneDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/OneDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueDArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueDArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/QueueLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/QueueLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackDArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackDArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/StackLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/StackLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/TwoDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/TwoDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/hash/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/hash/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/hash/HashTableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/hash/HashTableArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/ds/hash/HashTableArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/ds/hash/HashTableArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/BFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/BFSGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/BFSGraphDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/BFSGraphDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/DFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/DFSGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/DFSGraphDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/DFSGraphDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/graph/adjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/graph/adjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/search/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/search/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/search/InterploationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/search/InterploationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/search/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/search/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/sort/BubbleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/sort/BubbleSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/sort/QuickSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/sort/QuickSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/sort/SelectionSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/sort/SelectionSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/tree/BSTDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/tree/BSTDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadatastructures/src/com/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/javadatastructures/src/com/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/aspects/CounterAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/aspects/DiscountAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/aspects/LuckyWinnerAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/AuditoriumConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/StrategiesConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/db/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/db/DbSessionFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/configuration/db/DbSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/AuditoriumDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/BookingDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/EventDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/db/AuditoriumDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/db/BookingDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/db/EventDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/db/UserDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/inmemory/InMemoryAuditoriumDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/inmemory/InMemoryBookingDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/inmemory/InMemoryEventDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/daos/inmemory/InMemoryUserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/Auditorium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/Rate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/AuditoriumService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/AuditoriumServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/BookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/BookingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/DiscountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/DiscountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/EventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/EventServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/discount/BirthdayStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/discount/DiscountStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/services/discount/TicketsStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/CsvUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestCounterAspect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestCounterAspect$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestCounterAspect$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestCounterAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestDiscountAspect$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestDiscountAspect$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestDiscountAspect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestDiscountAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/TestLuckyWinnerAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/mocks/CountAspectMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/mocks/DiscountAspectMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/aspects/mocks/LuckyWinnerAspectMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestAspectsConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestAuditoriumConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestBookingServiceConfiguration$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestBookingServiceConfiguration$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestBookingServiceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestEventServiceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestStrategiesConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/configuration/TestUserServiceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/BookingDAOBookingMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/BookingDAODiscountMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/DBAuditoriumDAOMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/EventDAOMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/InMemoryAuditoriumDAOMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/daos/mocks/UserDAOMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/AuditoriumServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/BookingServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/EventServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/UserServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/discount/BirthdayStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/beans/services/discount/TicketsStrategyTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1211680769">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-course" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/collection/com/HashMapClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laory-spring-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+              <item name="inmemory" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543764628991" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datastructure" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\javasnippets\laory-spring-course\datastructure\src\main\java" />
+      <recent name="C:\workspace\javasnippets\laory-spring-course" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HashMapClass">
+    <configuration name="HashMapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.com.HashMapClass" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.HashMapClass" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HashMapClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bd511a4-dfc3-4d9f-8776-29ddbccf6c9b" name="Default Changelist" comment="" />
+      <created>1543763941880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543763941880</updated>
+      <workItem from="1543763943209" duration="686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="686000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/CheckoutHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javapatterns/src/behavioral/chainofresponsibility/improved/CustomerInfoCheckoutHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/daos/inmemory/InMemoryEventDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/collection/com/HashSetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/collection/com/myQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructure/src/main/java/collection/com/HashMapClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
