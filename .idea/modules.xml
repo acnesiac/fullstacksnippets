@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backendsnippets.iml" filepath="$PROJECT_DIR$/.idea/backendsnippets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crossoverjournal/journals.iml" filepath="$PROJECT_DIR$/crossoverjournal/journals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapp/myapp.iml" filepath="$PROJECT_DIR$/myapp/myapp.iml" />
     </modules>
   </component>
 </project>

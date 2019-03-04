@@ -2,651 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ee234a-9da2-42af-8da8-1eeb269c7bb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/myapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/CounterAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/DiscountAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/LuckyWinnerAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/TestCounterAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/TestDiscountAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/TestLuckyWinnerAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/mocks/CountAspectMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/mocks/DiscountAspectMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/aspects/mocks/LuckyWinnerAspectMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/AppConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/AuditoriumConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/StrategiesConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestAspectsConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestAuditoriumConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestBookingServiceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestEventServiceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestStrategiesConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/TestUserServiceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/db/DataSourceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/configuration/db/DbSessionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/AbstractDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/AuditoriumDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/BookingDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/EventDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/db/AuditoriumDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/db/BookingDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/db/EventDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/db/UserDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/inmemory/InMemoryAuditoriumDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/inmemory/InMemoryBookingDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/inmemory/InMemoryEventDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/inmemory/InMemoryUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/BookingDAOBookingMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/BookingDAODiscountMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/DBAuditoriumDAOMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/EventDAOMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/InMemoryAuditoriumDAOMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/daos/mocks/UserDAOMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/Auditorium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/Booking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/Rate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/AuditoriumService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/AuditoriumServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/AuditoriumServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/BookingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/BookingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/BookingServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/DiscountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/DiscountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/EventService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/EventServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/EventServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/UserServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/discount/BirthdayStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/discount/BirthdayStrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/discount/DiscountStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/discount/TicketsStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/beans/services/discount/TicketsStrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/chainofresponsibility/improved/CheckoutHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/chainofresponsibility/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/chainofresponsibility/improved/CustomerInfoCheckoutHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/chainofresponsibility/improved/PaymentCheckoutHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Evaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/InterpreterExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Minus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/interpreter/improved/Variable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/Collection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/improved/Collection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/improved/CollectionIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/iterator/improved/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/InputText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/improved/InputText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/improved/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/improved/ScreenDirectorOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/mediator/improved/Screendirector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/memento/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/memento/improved/ConnectionSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/memento/improved/ConnectionSolverCaretaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/memento/improved/ConnectionSolverMemento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/InputText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/InputText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/observer/improved/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/TCPConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/TCPConnectionState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/improved/ClosedTCPConnectionState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/improved/OpenTCPConnectionState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/improved/TCPConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/state/improved/TCPConnectionState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/Chess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/Difficulty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/Chess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/ChessAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/EasyChessAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/HardChessAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/strategy/improved/MediumChessAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/templatemethod/improved/CheapLoanCalculation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/templatemethod/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/templatemethod/improved/ExpensiveLoanCalculation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/templatemethod/improved/LoanCalculationAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/CarPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/Light.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/Wheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/CarPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/CarPartVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/Light.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/PrintCarPartVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/RenderCarPartVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/UpgradeCarPartVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/behavioral/visitor/behavioral/visitor/improved/Wheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/Composed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/improved/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/improved/ComposedWorldObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/improved/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/documentstructure/improved/WorldObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/ApplicationWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/IconWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/MacApplicationWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/MacIconWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/WindowsApplicationWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/WindowsIconWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/ApplicationWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/IconWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/MacWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/WindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/multiplatform/improved/WindowsWindowImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/rendering/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/rendering/DetailedRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/rendering/QuickRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/rendering/RenderingSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/rendering/WorldObjectRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/useractions/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/useractions/PrintUserAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/useractions/ScreenOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/useractions/ScreenTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/casestudy/useractions/UserAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/AbsDistinct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/Binarygap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/Caterpillar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/CiclicRotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/CountDiv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/Equilibrium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/FizzBuss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/MinAbsOfTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/MinAbsSumOfTwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/OddOccurrencesInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/PermCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/PermMissingElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/PrimeNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/PrimeNumbers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/PrimeNumbers2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/SemiPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/StandarDeviation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/codility/StandardDeviation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/HashMapClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/HashSetClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/LinkListArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/NodeS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/TreeSetExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/VectorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/myQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/collection/com/myStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/DynamicArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/DynamicArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/LinkedListD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/LinkedListDDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/LinkedListU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/LinkedListUDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/NodeD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/OneDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueDArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/QueueLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackDArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/StackLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/TwoDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/hash/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/hash/HashTableArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/ds/hash/HashTableArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/BFSGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/BFSGraphDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/DFSGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/DFSGraphDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/graph/adjList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/arrays/ArrayExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/arrays/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/basics/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/basics/CricketScorer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/basics/Cricketer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/defaultaccess/a/AnotherClassInSamePackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/defaultaccess/a/DefaultAccessClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/defaultaccess/b/ClassInDifferentPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/nonaccess/abstractclass/AbstractClassExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/nonaccess/abstractclass/AbstractSubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/nonaccess/abstractclass/SubClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/classmodifiers/nonaccess/finalclass/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/ArrayBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/ArrayDeque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/BlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Collection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/CollectionHierarchy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/FailFast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/FailSafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/HashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/HashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Hashtable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/LinkedBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/LinkedHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/LinkedHashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Map$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/NavigableMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/NavigableSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/SortedMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/SortedSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/TreeMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/TreeSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/examples/CollectionExamples$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/examples/CollectionExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/examples/ConcurrentCollectionsExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/examples/Cricketer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/collections/examples/DescendingSorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/Enum$Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced$SeasonCustomized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced2$SeasonCustomized$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced2$SeasonCustomized$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced2$SeasonCustomized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/EnumAdvanced2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/enums/SeasonOutsideClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/Amount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/AmountAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/CheckedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/CheckedException1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/CheckedException2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/CurrenciesDoNotMatchException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/ExceptionHandlingExample1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/ExceptionHandlingExample2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/Reuse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/RuntimeExceptionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/UnCheckedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/exceptionhandling/UnCheckedException2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/files/ConsoleExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/files/FileExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/BreakExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/ContinueExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/DoWhileLoopExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/ForLoopExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/IfElseExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/SwitchExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/flow/WhileLoopExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/GenericsExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/GenericsExamples2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/GenericsExamples3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/MyListGeneric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/generics/MyListRestricted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/initializers/InitializerExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/AnonymousClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/AnonymousClass$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/AnonymousClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/InnerClassExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/OuterClass$1MethodLocalInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/OuterClass$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/OuterClass$StaticNestedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/innerclass/OuterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/access/ExampleClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/access/SubClassInSamePackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/access/TestClassInSamePackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/access/different/SubClassInDifferentPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/access/different/TestClassInDifferentPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/Cricketer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/FinalMemberModifiersExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/StaticModifierExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/membermodifiers/nonaccess/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/EqualsHashCodeExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/ToStringExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/constructors/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/constructors/ConstructorExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/object/constructors/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/problem/CohesionExampleProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/problem/DownloadAndStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/solution/CohesionExampleSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/solution/DataParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/solution/DatabaseStorer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/solution/DownloadAndStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/cohesion/solution/InternetDownloader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/problem/CouplingExamplesProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/problem/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/problem/ShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/problem/ShoppingCartEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/solution/CartContents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/solution/CouplingExamplesSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/solution/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/coupling/solution/ShoppingCartEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/encapsulation/CricketScorer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/encapsulation/EncapsulationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/EveryClassExtendsObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/InheritanceExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overloading/Bar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overloading/Foo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overloading/OverloadingRules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overriding/OverridingRules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overriding/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/overriding/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/polymorphism/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/polymorphism/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/polymorphism/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/polymorphism/TestPolymorphism.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/reuse/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/reuse/Comedian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/reuse/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/inheritance/reuse/TestReuse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/Aeroplane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/ExampleInterface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/ExampleInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/IntefaceRules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/InterfaceExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/InterfaceWithMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/SampleImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/oops/interfaces/SubInterface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/IncrementAndDecrementOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/InstanceOfExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/LogicalOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/RelationalOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/SomeOtherClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/StringConcatenationExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/SubClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/SuperClassImplementingInteface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/operators/TernaryOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/Abstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/ConcreteClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/PrintfExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/SameType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/assertexample/AssertExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/date/CalendarExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/date/DateExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/garbagecollection/GarbageCollectionExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/others/regularexpressions/RegularExpressionExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/SerializationExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/SerializationExamples2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/SerializationExamples3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/serialization/Wall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/string/StringBufferBuilderExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/string/StringExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ExecutorServiceExamples$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ExecutorServiceExamples$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ExecutorServiceExamples$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ExecutorServiceExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/SomeOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/SpreadSheet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/SynchronizedSyntaxExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadDeadlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadExampleSynchronized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadExamples$1BattingStatisticsThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadExamples$1BowlingStatisticsThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadPriority$1ThreadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadPriority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/threads/ThreadWaitAndNotify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/varargs/VariableArgumentExamples$Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/varargs/VariableArgumentExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/Cricketer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/PassingVariablesToMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/StaticAndMemberVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/VariableInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/variables/scope/VariablesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/in28minutes/java/wrapper/WrapperExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/search/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/search/DataSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/search/InterploationSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/search/LinearSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/sort/BubbleSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/sort/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/sort/QuickSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/sort/SelectionSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/tree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/tree/BSTDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/com/tree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/PinkThemeScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/PinkThemeWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/ScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/YellowThemeScrollbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/YellowThemeWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/PinkThemeScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/PinkThemeWidgetFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/PinkThemeWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/ScrollBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/WidgetFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/YellowThemeScrollbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/YellowThemeWidgetFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/abstractfactory/improved/YellowThemeWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/MongoDbQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/SqlQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/MongoDbQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/MongoDbQueryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/QueryBuildDirector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/QueryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/SqlQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/builder/improved/SqlQueryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/Transport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/Bike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/BikeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/Transport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/factorymethod/improved/TransportFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/Graphic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/GraphicTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/improved/Graphic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/improved/GraphicTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/improved/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/prototype/improved/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/singleton/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/singleton/Preferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/singleton/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/singleton/improved/MyPreferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/creational/singleton/improved/Preferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/streams/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/streams/StreamExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/streams/StreamExamples2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/streams/StreamExamples3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/streams/StreamPersons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/adapter/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/adapter/improved/LegacyRectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/adapter/improved/LegacyRectangleAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/adapter/improved/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/GraphicItemGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/improved/Graphic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/improved/GraphicItemGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/improved/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/composite/improved/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/IconScrollbarWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/IconWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/ScrollbarWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/improved/IconWindowDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/improved/ScrollbarWindowDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/improved/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/decorator/improved/WindowDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/BillingSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/InvoiceCustomerSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/improved/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/improved/BillingSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/improved/FinancialSystemFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/facade/improved/InvoiceCustomerSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/Letter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/WordProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/improved/Letter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/improved/LetterFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/flyweight/improved/WordProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/improved/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/improved/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/improved/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/structural/proxy/improved/ImageProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/bin/util/CsvUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laory-spring-course/seleniumdemo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crossoverjournal/journals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/surefire-reports/TEST-sii.app.TradeServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/surefire-reports/TEST-sii.app.TradeServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siitrialbackend/target/surefire-reports/sii.app.TradeServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/siitrialbackend/target/surefire-reports/sii.app.TradeServiceTest.txt" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/myapp/target/" />
+    <ignored path="$PROJECT_DIR$/crossoverjournal/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-400890422">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="416481677">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="2" />
-          <entry key="jade" value="2" />
-          <entry key="java" value="2" />
-          <entry key="js" value="14" />
-          <entry key="json" value="11" />
-          <entry key="md" value="6" />
-          <entry key="png" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="3" />
-          <entry key="JSON" value="11" />
-          <entry key="Jade" value="2" />
-          <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expressnodetest/app.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="-527">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myapp/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -664,11 +57,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -680,20 +68,6 @@
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/expressnodetest/package.json" />
-    <package-json value="$PROJECT_DIR$/loopback/package.json" />
-    <package-json value="$PROJECT_DIR$/blog/package.json" />
-    <package-json value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/create-s3-event-trigger-helper/package.json" />
-    <package-json value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/extract-image-metadata/package.json" />
-    <package-json value="$PROJECT_DIR$/awsnodesample/package.json" />
-    <package-json value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -711,46 +85,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/blog/node_modules" />
-    <handled-path value="$PROJECT_DIR$/datsource/node_modules" />
-    <handled-path value="$PROJECT_DIR$/expressnodetest/node_modules" />
-    <handled-path value="$PROJECT_DIR$/loopback/i/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/awsnodesample/package.json" />
-      <path value="$PROJECT_DIR$/blog/package.json" />
-      <path value="$PROJECT_DIR$/datsource/package.json" />
-      <path value="$PROJECT_DIR$/expressnodetest/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/create-s3-event-trigger-helper/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/extract-image-metadata/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/rekognition/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/thumbnail/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/lambda-functions/transform-metadata/package.json" />
-      <path value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/package.json" />
-      <path value="$PROJECT_DIR$/loopback/i/package.json" />
-      <path value="$PROJECT_DIR$/loopback/package.json" />
-      <path value="$PROJECT_DIR$/nodesnippets/package.json" />
-      <path value="$PROJECT_DIR$/polandtrialwebapp/src/main/resources/static/bower_components/backbone/package.json" />
-      <path value="$PROJECT_DIR$/polandtrialwebapp/src/main/resources/static/bower_components/bootstrap-sass-official/package.json" />
-      <path value="$PROJECT_DIR$/polandtrialwebapp/src/main/resources/static/bower_components/chai/package.json" />
-      <path value="$PROJECT_DIR$/polandtrialwebapp/src/main/resources/static/bower_components/requirejs-text/package.json" />
-      <path value="$PROJECT_DIR$/siitrial/app/bower_components/backbone/package.json" />
-      <path value="$PROJECT_DIR$/siitrial/app/bower_components/bootstrap-sass-official/package.json" />
-      <path value="$PROJECT_DIR$/siitrial/app/bower_components/chai/package.json" />
-      <path value="$PROJECT_DIR$/siitrial/app/bower_components/requirejs-text/package.json" />
-      <path value="$PROJECT_DIR$/siitrial/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/src/main/resources/static/bower_components/backbone/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/src/main/resources/static/bower_components/bootstrap-sass-official/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/src/main/resources/static/bower_components/chai/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/src/main/resources/static/bower_components/requirejs-text/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/target/classes/static/bower_components/backbone/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/target/classes/static/bower_components/bootstrap-sass-official/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/target/classes/static/bower_components/chai/package.json" />
-      <path value="$PROJECT_DIR$/siitrialbackend/target/classes/static/bower_components/requirejs-text/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -764,6 +98,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -771,17 +106,21 @@
               <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551742272208" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactsnippets" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -789,8 +128,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -804,14 +143,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.MoviesItemOps01.js">
+  <component name="RunManager" selected="npm.test">
     <configuration name="MoviesItemOps01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MoviesItemOps01.js" working-dir="$PROJECT_DIR$/awsnodesample">
       <method v="2" />
     </configuration>
     <configuration name="sample.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="sample.js" working-dir="$PROJECT_DIR$/awsnodesample">
       <method v="2" />
     </configuration>
-    <configuration name="lint" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="journals" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crossover.trial.journals.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/package.json" />
       <command value="run" />
       <scripts>
@@ -821,7 +167,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/package.json" />
       <command value="run" />
       <scripts>
@@ -831,7 +177,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/awsnodesample/package.json" />
       <command value="run" />
       <scripts>
@@ -842,11 +188,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.MoviesItemOps01.js" />
-      <item itemvalue="Node.js.sample.js" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.lint" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -878,6 +223,7 @@
       <workItem from="1545033737767" duration="521000" />
       <workItem from="1545079800742" duration="268000" />
       <workItem from="1545215312285" duration="214000" />
+      <workItem from="1551741577545" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="Reference to  https://github.com/claudiajs/example-projects#web-api">
       <created>1545215401354</created>
@@ -890,7 +236,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12441000" />
+    <option name="totallyTimeSpent" value="13109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,16 +248,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.721202" visible="true" weight="0.18395658" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7177616" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.27879798" side_tool="true" visible="true" weight="0.18395658" />
+      <window_info id="npm" order="2" sideWeight="0.28223845" side_tool="true" weight="0.18381241" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
@@ -920,10 +271,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32847533" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -937,56 +290,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album-list.component.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album-info.service.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/welcome.component.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album-info.service.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.module.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/s3.service.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/round.pipe.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/welcome.component.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/login.service.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/config.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album-list.component.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.module.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/s3.service.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/round.pipe.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/photos.component.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/config.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/album.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/stepfunction.service.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/main.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/photos.component.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app-routing.module.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/login.service.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app-routing.module.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/stepfunction.service.js.map" />
-        <option value="$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/main.js" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reference to  https://github.com/claudiajs/example-projects#web-api" />
     <option name="LAST_COMMIT_MESSAGE" value="Reference to  https://github.com/claudiajs/example-projects#web-api" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/src/TestSelenium.java" />
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee/client/README.md" />
     <entry file="file://$PROJECT_DIR$/employee/common/models/person.js" />
     <entry file="file://$PROJECT_DIR$/employee/common/models/person.json" />
     <entry file="file://$PROJECT_DIR$/blog/package.json">
@@ -1162,32 +471,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.module.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app-routing.module.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/login.service.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.component.js.map" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app.module.js" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/app-routing.module.js" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/config.js" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/login.service.js" />
+    <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/main.js" />
     <entry file="file://$PROJECT_DIR$/lambda-refarch-imagerecognition/webapp/app/photos.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1235,6 +525,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1290,12 +597,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sagan</last-edited>
+          <last-edited>myapp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
