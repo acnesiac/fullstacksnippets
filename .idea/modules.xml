@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backendsnippets.iml" filepath="$PROJECT_DIR$/.idea/backendsnippets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/datastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/javadatastructures.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/javadatastructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/crossoverjournal/journals.iml" filepath="$PROJECT_DIR$/crossoverjournal/journals.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapp/myapp.iml" filepath="$PROJECT_DIR$/myapp/myapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/spring-course.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/spring-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/svitlatrial4/spring-svitla.iml" filepath="$PROJECT_DIR$/svitlatrial4/spring-svitla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" />
     </modules>
   </component>
 </project>
