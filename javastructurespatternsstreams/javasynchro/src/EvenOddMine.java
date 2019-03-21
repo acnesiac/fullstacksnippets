@@ -1,21 +1,19 @@
-
-public class EvenOddListSync {
-
+public class EvenOddMine {
     public static void main(String... args) {
-        Printer print = new Printer();
-        Thread t1 = new Thread(new TaskEvenOdd(print, 10, false), "Odd");
-        Thread t2 = new Thread(new TaskEvenOdd(print, 10, true), "Even");
+        PrinterMine print = new PrinterMine();
+        Thread t1 = new Thread(new ThreadPrinter(print, 10, true), "Odd");
+        Thread t2 = new Thread(new ThreadPrinter(print, 10, false), "Even");
         t1.start();
         t2.start();
     }
 }
 
-class TaskEvenOdd implements Runnable {
-    private final int max;
-    private final Printer print;
+class ThreadPrinter implements Runnable{
+    private final PrinterMine print;
+    int max;
     private final boolean isEvenNumber;
-
-    TaskEvenOdd(Printer print, int max, boolean isEvenNumber) {
+    
+    public ThreadPrinter(PrinterMine print, int max, boolean isEvenNumber){
         this.print = print;
         this.max = max;
         this.isEvenNumber = isEvenNumber;
@@ -34,8 +32,17 @@ class TaskEvenOdd implements Runnable {
         }
     }
 }
+class PrinterMine{
 
-class Printer {
+//    public void printEven(int i ){
+//        System.out.println(i);
+//    }
+//
+//    public void printOdd(int i ){
+//        System.out.println(i);
+//
+//    }
+
     private volatile boolean isOdd;
 
     synchronized void printEven(int number) {
