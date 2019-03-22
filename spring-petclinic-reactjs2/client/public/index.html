@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <div id='mount'></div>
+  </body>
+
+  <!-- dist/bundle.js will be created by Webpack -->
+  <script type="text/javascript"
+          src="/dist/bundle.js">
+
+
+  </script>
+<script>
+    
+    var Module = (function() {
+        var privateProperty = 'foo';
+
+        function privateMethod(args) {
+            console.log(args);
+        }
+
+        return {
+
+            publicProperty: '',
+
+            publicMethod: function(args) {
+                // do something
+            },
+
+            privilegedMethod: function(args) {
+                return privateMethod(args);
+            }
+        };
+    })();
+
+    var Module2 = (
+            function () {
+                var private = 'foos';
+
+                function privateMe() {
+                    console.log('hello');
+                }
+
+                return{
+                    show : function (args) {
+                        return privateMe();
+                    }
+                }
+            }
+    )();
+
+    Module2.show('hello');
+    Module.privilegedMethod('hello');
+
+
+
+    var car = {
+        registrationNumber: "GA12345",
+        brand: "Toyota",
+
+        displayDetails: function(){
+            console.log(this.registrationNumber + " " + this.brand);
+        }
+    }
+
+    car.displayDetails();
+
+    var displafunctionborrowed = car.displayDetails.bind(car);
+    displafunctionborrowed();
+
+
+
+
+
+
+
+
+</script>
+</html>
