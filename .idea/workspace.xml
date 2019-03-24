@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ee234a-9da2-42af-8da8-1eeb269c7bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/siitrial/siitrial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siitrialbackend/siitrialbackend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListDMine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodesnippets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodesnippets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodesnippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/codilityhackerrank/codility/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/codilityhackerrank/codility/Fibonacci.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myapp/target/" />
     <ignored path="$PROJECT_DIR$/crossoverjournal/target/" />
@@ -24,7 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListDMine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" lean-forward="true" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +54,11 @@
       <find>@rest</find>
       <find>queue</find>
       <find>codility</find>
+      <find>King*</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\dev\backendsnippets</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +81,7 @@
         <option value="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/AbsDistinct.java" />
         <option value="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Fibonacci.java" />
         <option value="$PROJECT_DIR$/nodesnippets/index.js" />
+        <option value="$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListDMine.java" />
       </list>
     </option>
   </component>
@@ -107,17 +124,37 @@
             <path>
               <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamodb" type="462c0819:PsiDirectoryNode" />
+              <item name="javastructurespatternsstreams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-core-hometask-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="javastructurespatternsstreams" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="javastructurespatternsstreams" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="javastructurespatternsstreams" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="javastructurespatternsstreams" type="462c0819:PsiDirectoryNode" />
+              <item name="javadatastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +173,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553395002209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553445917916" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/siitrial" />
@@ -149,6 +186,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ds" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\backendsnippets\javastructurespatternsstreams\codilityhackerrank\src" />
       <recent name="C:\dev\backendsnippets\javastructurespatternsstreams\codilityhackerrank" />
@@ -340,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553097808395</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reference to  https://github.com/claudiajs/example-projects#web-api">
+      <created>1553395299661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553395299662</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37542000" />
+    <option name="totallyTimeSpent" value="39626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,6 +404,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="67" width="1374" height="661" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6356383" visible="true" weight="0.23791541" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -462,91 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/PermCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/PrimeNumbers2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/PermMissingElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/dto/TradeDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/model/Forward.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/model/Options.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/model/Spot.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/AmericanEuropeanStyle.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/ExpireAndPremiumBeforeDelivery.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/ISOCurrencies.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/TradeRule.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/ValueDateBeforeTradeDate.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/ValueDateFallWeekend.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/sii/rules/ValueDateFallWorkingDay.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/util/ProductFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/siitrialbackend/src/main/java/util/Style.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/domain/Auditorium.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/domain/DomainObject.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/domain/EventRating.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/domain/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/service/AbstractDomainObjectService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/java/ua/epam/spring/hometask/service/AuditoriumService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,6 +661,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expressnodetest/app.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-design-patterns/adapter/src/test/java/com/iluwatar/adapter/AdapterPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-design-patterns/adapter/src/test/java/com/iluwatar/adapter/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-design-patterns/facade/src/main/java/com/iluwatar/facade/DwarvenCartOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-design-patterns/facade/src/main/java/com/iluwatar/facade/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-design-patterns/facade/src/main/java/com/iluwatar/facade/DwarvenGoldmineFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/OneDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/QueueArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/QueueArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/QueueDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/QueueDArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/NodeD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/QueueLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/StackDArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/StackDArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/StackLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/DynamicArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListUDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListDDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/src/com/ds/LinkedListDMine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" lean-forward="true" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
