@@ -4,6 +4,8 @@ public class Fibonacci {
     public static void main(String args[]){
         //0112358
         System.out.println( new Fibonacci().fibo(6) );
+        System.out.println( new StringBuffer("madam").reverse().toString().equals("madam") );
+
     }
 
  public int fibo(int i){
