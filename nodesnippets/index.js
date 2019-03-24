@@ -4,10 +4,10 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 exports.handler = (event, context, callback) => {
     // TODO implement
     console.log("PARAMS---:"+parseInt(event.params.querystring.bookid));
-    var params = {
+    var params =
         TableName: "Books",
         Key:{
-            "bookid": parseInt(event.params.querystring.bookid)
+            "bookid": parseInt(event.params.querystring.bookid){
         }
     };
     
