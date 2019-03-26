@@ -265,10 +265,10 @@
     <list>
       <item itemvalue="Application.Binarygap" />
       <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.CiclicRotationMine" />
       <item itemvalue="Application.EvenOddListSync (1)" />
       <item itemvalue="Application.CounterWords" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
