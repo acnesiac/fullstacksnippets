@@ -19,6 +19,7 @@ public class HashMapClass {
 		  }  
 
 
+
 		map(IntStream.of(new int[]{1,2,3,4,5,6}));
 		max(IntStream.of(new int[]{1,2,3,4,5,6}));
 		max(IntStream.of(new int[]{1,2,3,4,5,}).boxed().collect(Collectors.toList()).stream());
