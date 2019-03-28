@@ -1,4 +1,5 @@
 package codility;
+import java.util.*;
 //
 //I am exited to work for a company like Bayer and Monsanto because of  ,
 // the work that has been made in bioinformatics, biotecnology have  a
@@ -10,32 +11,51 @@ package codility;
 /**
 * Given a Text string, return the top 'K' frequent occurring words in ascending order.
 * Words must be non-trivial.
-* Trivial words are combination of Prepositions (to, at, of, with), Articles (the, a, an) and Conjunctions (and, but, so)
+* Trivial words are combination of Prepositions (to, at, of, with),
+ * Articles (the, a, an) and Conjunctions (and, but, so)
 */
-import java.io.*;
-import java.util.*;
-/*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
- */
 
-class Solution {
+public class FrequencyWords {
 	public static void main(String[] args) {
 
-		String text = "Considering how common illness is, how tremendous the spiritual change that it brings, how astonishing, when the lights of health go down, the undiscovered countries that are then disclosed, what wastes and deserts of the soul a slight attack of influenza brings to view, what precipices and lawns sprinkled with bright flowers a little rise of temperature reveals, what ancient and obdurate oaks are uprooted in us by the act of sickness, how we go down into the pit of death and feel the water of annihilation close above our heads and wake thinking to find ourselves in the presence of the angels and harpers when we have a tooth out and come to the surface in the dentist’s arm-chair and confuse his “Rinse the Mouth rinse the mouth” with the greeting of the Deity stooping from the floor of Heaven to welcome us when we think of this, as we are frequently forced to think of it, it becomes strange indeed that illness has not taken its place with love and battle and jealousy among the prime themes of literature.";
+		String text = "Considering how common illness is, common how tremendous the spiritual change that it brings, how astonishing, when the lights of health go down, the undiscovered countries that are then disclosed, what wastes and deserts of the soul a slight attack of influenza brings to view, what precipices and lawns sprinkled with bright flowers a little rise of temperature reveals, what ancient and obdurate oaks are uprooted in us by the act of sickness, how we go down into the pit of death and feel the water of annihilation close above our heads and wake thinking to find ourselves in the presence of the angels and harpers when we have a tooth out and come to the surface in the dentist’s arm-chair and confuse his “Rinse the Mouth rinse the mouth” with the greeting of the Deity stooping from the floor of Heaven to welcome us when we think of this, as we are frequently forced to think of it, it becomes strange indeed that illness has not taken its place with love and battle and jealousy among the prime themes of literature.";
 
-		ArrayList<String> strings = new ArrayList<String>();
-		strings.add("Hello, World!");
-		strings.add("Welcome to CoderPad.");
-//		strings.add("This pad is running Java " + Runtime.version().feature());
-
-		for (String string : strings) {
-			System.out.println(string);
+		StringTokenizer st  = new StringTokenizer(text, " ");
+		List<String> l =  new ArrayList<>();
+		while(st.hasMoreElements()){
+			l.add(st.nextToken());
 		}
+
+		List<String> li = Arrays.asList("Considering","common");
+		HashMap<String, Integer> hm  =  new HashMap<String,Integer>();
+		for(String s : li) {
+			hm.put(s,0);
+		}
+		for (String s: l) {
+			if (!hm.containsKey(s)){
+				//hm.put( s, 1);
+			}else{
+				int v =hm.get(s).intValue();
+				hm.put(s,++v);
+			}
+		}
+		System.out.println(hm);
+
+
+
+
+
+		//		ArrayList<String> strings = new ArrayList<String>();
+//		strings.add("Hello, World!");
+//		strings.add("Welcome to CoderPad.");
+////		strings.add("This pad is running Java " + Runtime.version().feature());
+//
+//		for (String string : strings) {
+//			System.out.println(string);
+//		}
 	}
 }
+
 /*
 Your previous JavaScript content is preserved below:
 
@@ -91,28 +111,28 @@ _.times(5, sayHello);
 //	}
 //
 
-public class CodilityBinarygapMine {
+//public class CodilityBinarygapMine {
+//
+//public static void main(String[] args) {
+//	System.out.print(CodilityBinarygapMine.solution(10400001));
+//}
+//
+//public static int solution(int integer) {
+//	String string = Integer.toBinaryString(integer);
+//	char[] charArray = "12000003030003".toCharArray();
+//	int maxlength = 0;
+//	int counter =0;
+//	for (int i = 0 ; i < charArray.length ; i++){
+//		if(charArray[i] == '0'){
+//			counter++;
+//		}else{
+//			counter = 0;
+//		}
+//		if(counter > maxlength){
+//			maxlength = counter;
+//		}
+//	}
+//	return maxlength;
+//}
 
-public static void main(String[] args) {
-	System.out.print(CodilityBinarygapMine.solution(10400001));
-}
 
-public static int solution(int integer) {
-	String string = Integer.toBinaryString(integer);
-	char[] charArray = "12000003030003".toCharArray();
-	int maxlength = 0;
-	int counter =0;
-	for (int i = 0 ; i < charArray.length ; i++){
-		if(charArray[i] == '0'){
-			counter++;
-		}else{
-			counter = 0;
-		}
-		if(counter > maxlength){
-			maxlength = counter;
-		}
-	}
-	return maxlength;
-}
-
-}
