@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07ee234a-9da2-42af-8da8-1eeb269c7bb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java" beforeDir="false" afterPath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myapp/target/" />
     <ignored path="$PROJECT_DIR$/crossoverjournal/target/" />
@@ -17,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8628">
-              <caret line="423" selection-start-line="423" selection-end-line="423" />
+            <state relative-caret-position="208">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -180,7 +172,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553629475976" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553634699170" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/siitrial" />
@@ -213,14 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapsStream">
-    <configuration name="EvenOddListSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EvenOddListSync" />
-      <module name="javasynchro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseStrin">
     <configuration name="EvenOddMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvenOddMine" />
       <module name="javasynchro" />
@@ -254,6 +239,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseStrin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.ReverseStrin" />
+      <module name="codilityhackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="journals" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.crossover.trial.journals.Application" />
@@ -272,20 +270,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EvenOddListSync" />
       <item itemvalue="Application.EvenOddMine" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.MapsStream" />
       <item itemvalue="npm.test" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.ReverseStrin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapsStream" />
+        <item itemvalue="Application.ReverseStrin" />
         <item itemvalue="npm.test" />
+        <item itemvalue="Application.MapsStream" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.EvenOddMine" />
-        <item itemvalue="Application.EvenOddListSync" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45131000" />
+    <option name="totallyTimeSpent" value="46190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,9 +430,9 @@
     <frame x="-4" y="67" width="1374" height="661" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62765956" visible="true" weight="0.23791541" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62691134" visible="true" weight="0.23791541" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.3723404" side_tool="true" visible="true" weight="0.23791541" />
+      <window_info id="npm" order="2" sideWeight="0.3730887" side_tool="true" visible="true" weight="0.23791541" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -444,12 +442,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2937063" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39779004" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30755064" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4567219" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -531,6 +529,18 @@
           <line>43</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -881,17 +891,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="16">
+          <caret line="476" selection-start-line="476" selection-end-line="476" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/ReverseStrin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8628">
-          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        <state relative-caret-position="208">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
