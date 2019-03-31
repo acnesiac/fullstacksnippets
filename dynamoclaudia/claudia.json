@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "dynamoclaudia-executor",
+    "name": "dynamoclaudia",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "uul6k2sxpg",
+    "module": "index"
+  }
+}
