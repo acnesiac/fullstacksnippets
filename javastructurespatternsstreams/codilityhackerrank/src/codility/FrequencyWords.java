@@ -26,15 +26,12 @@ public class FrequencyWords {
 			l.add(st.nextToken());
 		}
 
-		List<String> li = Arrays.asList("Considering","common");
-		HashMap<String, Integer> hm  =  new HashMap<String,Integer>();
+		List<String> li = Arrays.asList("a", "and", "of", "are", "the", "to", "in", "it", "with", "but", "so", "at");		HashMap<String, Integer> hm  =  new HashMap<String,Integer>();
 		for(String s : li) {
 			hm.put(s,0);
 		}
 		for (String s: l) {
-			if (!hm.containsKey(s)){
-				//hm.put( s, 1);
-			}else{
+			if (hm.containsKey(s)){
 				int v =hm.get(s).intValue();
 				hm.put(s,++v);
 			}
