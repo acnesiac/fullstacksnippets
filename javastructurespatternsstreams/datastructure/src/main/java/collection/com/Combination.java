@@ -24,18 +24,18 @@ public class Combination {
 
     public static void main(String[] args) {
 
-        int N= 4, M= 2; // values 0, 1, 2, 3 (<N), we want M=3 of them
+        int N= 9, M= 3; // values 0, 1, 2, 3 (<N), we want M=3 of them
 
         int[] a= new int[M];
-        int [] arr = new int[]{1,4,7,2};
+        int [] arr = new int[]{7,3,10,100,300,200,1000,20,30};
         List<Integer> l = new ArrayList<Integer>();
         do {
-            if(arr[a[0]] != arr[a[1]]){
-                //System.out.println(Arrays.toString(a));
-                //System.out.println(arr[a[0]] + ","+arr[a[1]]);
-                int max = max(arr[a[0]],arr[a[1]]);
-                int min = min(arr[a[0]],arr[a[1]]);
-                System.out.println(min + ","+max + " -> " + (max - min));
+            if(arr[a[0]] != arr[a[1]] && arr[a[1]] != arr[a[2]] && arr[a[2]] != arr[a[0]] ){
+
+                int max = max(arr[a[0]],arr[a[1]],arr[a[2]]);
+                int min = min(arr[a[0]],arr[a[1]],arr[a[2]]);
+
+                System.out.println(arr[a[0]] + ","+arr[a[1]]+ "," + arr[a[2]] + "  -- "+min + ","+max + " -> " + (max - min));
 
                 l.add(max - min);
 
@@ -56,11 +56,25 @@ public class Combination {
 
 
 
-    public static int max( Integer a, Integer b){
-        return  a.intValue() > b.intValue() ? a.intValue() : b.intValue();
+    public static int max( Integer x, Integer y, Integer z){
+        int max = Math.max(x,y);
+        if(max>y){ //suppose x is max then compare x with z to find max number
+            max = Math.max(x,z);
+        }
+        else{ //if y is max then compare y with z to find max number
+            max = Math.max(y,z);
+        }
+        return max;
     }
-    public static int min( Integer a, Integer b){
-        return  a.intValue() < b.intValue() ? a.intValue() : b.intValue();
+    public static int min( Integer x, Integer y, Integer z){
+        int max = Math.min(x,y);
+        if(max<y){ //suppose x is max then compare x with z to find max number
+            max = Math.min(x,z);
+        }
+        else{ //if y is max then compare y with z to find max number
+            max = Math.min(y,z);
+        }
+        return max;
     }
 
 }
