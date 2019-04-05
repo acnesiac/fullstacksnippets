@@ -1,4 +1,4 @@
-j// --- Directions
+// --- Directions
 // Given an array and chunk size, divide the array into many subarrays
 // where each subarray is of length size
 // --- Examples
@@ -19,6 +19,8 @@ function chunk(array, size) {
 
   return chunked;
 }
+
+chunk([1, 2, 3, 4, 5], 10);
 
 module.exports = chunk;
 
