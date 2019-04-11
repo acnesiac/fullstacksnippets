@@ -2,14 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ee234a-9da2-42af-8da8-1eeb269c7bb7" name="Default Changelist" comment="Reference to  https://github.com/claudiajs/example-projects#web-api">
-      <change afterPath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/target/classes/collection/com/Combination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/target/classes/collection/com/Facebook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/target/classes/collection/com/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/target/classes/collection/com/HashMapClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/target/classes/collection/com/HashMapClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/anagrams/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/anagrams/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/bst/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/bst/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/capitalize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/capitalize/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/chunk/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/chunk/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/circular/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/circular/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/circular/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/events/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/events/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/events/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fib/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fizzbuzz/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fizzbuzz/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fromlast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fromlast/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fromlast/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/levelwidth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/levelwidth/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/levelwidth/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/linkedlist/directions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/linkedlist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/linkedlist/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/matrix/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/matrix/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/maxchar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/maxchar/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/midpoint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/midpoint/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/midpoint/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/palindrome/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/palindrome/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/pyramid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/pyramid/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/qfroms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/qfroms/stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/qfroms/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/queue/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/queue/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/reverseint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/reverseint/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/reversestring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/reversestring/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/sorting/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/sorting/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/stack/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/stack/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/steps/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/steps/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tree/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tree/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/validate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/validate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/validate/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/vowels/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/vowels/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/weave/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/weave/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/weave/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/chunk/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/chunk/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodealgocastjs/exercises/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodealgocastjs/exercises/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/bst/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodealgocastjs/completed_exercises/bst/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodealgocastjs/exercises/pyramid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodealgocastjs/exercises/pyramid/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myapp/target/" />
     <ignored path="$PROJECT_DIR$/crossoverjournal/target/" />
@@ -31,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -143,72 +202,6 @@
             <path>
               <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="anagrams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="capitalize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="chunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="anagrams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backendsnippets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backendsnippets" type="462c0819:PsiDirectoryNode" />
-              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="weave" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,9 +333,9 @@
       <item itemvalue="Application.FrecuencyWords" />
       <item itemvalue="Application.FrequencyWords" />
       <item itemvalue="Application.Merge" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.Combination" />
       <item itemvalue="Application.Facebook" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -388,6 +381,7 @@
       <workItem from="1553662270110" duration="734000" />
       <workItem from="1553790287755" duration="15167000" />
       <workItem from="1553896893196" duration="26650000" />
+      <workItem from="1554830660545" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Reference to  https://github.com/claudiajs/example-projects#web-api">
       <created>1545215401354</created>
@@ -526,7 +520,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93214000" />
+    <option name="totallyTimeSpent" value="93222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,10 +534,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7248157" visible="true" weight="0.19591528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7223587" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.1816694" side_tool="true" weight="0.19591528" />
-      <window_info id="npm" order="3" sideWeight="0.27518427" side_tool="true" visible="true" weight="0.19591528" />
+      <window_info id="npm" order="3" sideWeight="0.27764127" side_tool="true" visible="true" weight="0.19591528" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
@@ -557,7 +551,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33387887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33387887" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -685,7 +679,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/index.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
@@ -1028,18 +1021,18 @@
     <entry file="file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/bst/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodealgocastjs/completed_exercises/anagrams/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
