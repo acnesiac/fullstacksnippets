@@ -19,8 +19,9 @@ api.get('/icecreams', function (request) { // GET all users
         .then(response => response.Items)
 });
 
+
 module.exports = api;
 
 
 
-curl -H "Content-Type: application/json" -X POST -d '{"icecreamId":"123", "name":"lime"}' https://uul6k2sxpg.execute-api.us-east-1.amazonaws.com/latest/icecreams
+//curl -H "Content-Type: application/json" -X POST -d '{"icecreamId":"123", "name":"lime"}' https://uul6k2sxpg.execute-api.us-east-1.amazonaws.com/latest/icecreams
