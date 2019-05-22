@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/calleable/Future.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/AbsDistinct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Binarygap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Caterpillar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/CiclicRotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/CiclicRotationMine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/CodilityBinarygapMine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/CountDiv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/CounterWords.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Equilibrium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/FizzBuss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/FrequencyWords.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/MinAbsOfTwo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/MinAbsSumOfTwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/OddOccurrencesInArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/PermCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/PermMissingElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/PrimeNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/PrimeNumbers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/PrimeNumbers2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Printer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/ReverseStrin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/SemiPrime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/StandarDeviation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/StandardDeviation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/ThreadP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/codilityhackerrank/codility/WordsFrecuency.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/CountDiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Stream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,10 +82,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            <state relative-caret-position="17">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#670#671#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
@@ -164,6 +133,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
@@ -451,6 +425,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -529,7 +504,7 @@
       <workItem from="1556145017760" duration="462000" />
       <workItem from="1558489848992" duration="66000" />
       <workItem from="1558490420309" duration="4386000" />
-      <workItem from="1558506413967" duration="1288000" />
+      <workItem from="1558506413967" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="2019 intelllij">
       <created>1556145218481</created>
@@ -545,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558502610788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019 intelllij">
+      <created>1558508499372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558508499373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6202000" />
+    <option name="totallyTimeSpent" value="6548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -767,10 +749,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/src/codility/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        <state relative-caret-position="17">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />

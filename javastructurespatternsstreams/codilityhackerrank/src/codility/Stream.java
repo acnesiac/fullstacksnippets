@@ -9,8 +9,10 @@ public class Stream {
     public static void main(String[] args) {
         List<Integer> modelsAfter2000 = getModelsAfter2000(Arrays.asList(new Car()));
         System.out.println(modelsAfter2000);
-    }
+        List<Integer> modelosViejos = getModelosViejos(Arrays.asList(new Car()));
+        System.out.println(modelosViejos);
 
+    }
 
     public static List<Integer> getModelsAfter2000(List<Car> cars) {
         return cars.stream().filter(car -> car.getYear() < 2000)
@@ -23,6 +25,13 @@ public class Stream {
                 .sorted(Comparator.comparing(Car::getYear))
                 .map(Car::getModel).collect(Collectors.toList());
     }
+
+    public static List<Integer> getModelosViejos(List<Car> cars){
+        return cars.stream().filter(c -> c.getYear() > 2000)
+                .map(Car::getModel)
+                .collect(Collectors.toList());
+    }
+
 
 }
 
