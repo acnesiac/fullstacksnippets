@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
  
 public class HashSetClass {
 
-	public static void main(String args[]){  
+	public static void main(String[] args){
 		   
 		  HashSet<String> al=new HashSet<String>();  
 		  al.add("Ravi");  

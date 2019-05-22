@@ -4,6 +4,6 @@ import casestudy.documentstructure.improved.WorldObject;
 
 public interface WorldObjectRenderer {
 
-	public void render(WorldObject object);
+	void render(WorldObject object);
 	
 }

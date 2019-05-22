@@ -4,7 +4,7 @@ import java.util.*;
 
 public class VectorExample {
 
-   public static void main(String args[]) {
+   public static void main(String[] args) {
       /* Vector of initial capacity(size) of 2 */
       Vector<String> vec = new Vector<String>(2);
 
