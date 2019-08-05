@@ -11,7 +11,7 @@ kafka:
 
 websocket:
   messages:
-   in: /dashboard/stream-in
+     in: /dashboard/stream-in
    out: /dashboard/stream-out
   broker: /dashboard
   prefix: /app

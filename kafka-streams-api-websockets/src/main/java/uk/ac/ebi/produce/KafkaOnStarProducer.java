@@ -19,7 +19,7 @@ import java.util.Random;
  * value - represents waiting time for particular job submission
  *
  */
-public class KafkaExampleProducer {
+public class KafkaOnStarProducer {
 
     public static KafkaProducer<String, String> producer = null;
 
@@ -56,7 +56,7 @@ public class KafkaExampleProducer {
                 if (clusterName.equals("HX")) waitTime = random.nextInt(30) + 120;
                 if (clusterName.equals("HH")) waitTime = random.nextInt(30) + 130;
 
-                ProducerRecord<String, String> record = new ProducerRecord<>("data-in", clusterName, String.valueOf(waitTime));
+                ProducerRecord<String, String> record = new ProducerRecord<>("onstar-profile", clusterName, String.valueOf(waitTime));
 
                 producer.send(record, (RecordMetadata r, Exception e) -> {
                     if (e != null) {
