@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/codilityhackerrank.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/codilityhackerrank/codilityhackerrank.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/javadatastructures.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/javadatastructures/javadatastructures.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/javapatterns/javapatterns.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/javapatterns/javapatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/javasynchro/javasynchro.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/javasynchro/javasynchro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-streams-api-websockets/kafka-streaming-websockets.iml" filepath="$PROJECT_DIR$/kafka-streams-api-websockets/kafka-streaming-websockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-batch-examples/spring-boot/src/main/main.iml" filepath="$PROJECT_DIR$/spring-batch-examples/spring-boot/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/bridge/src/main/main1.iml" filepath="$PROJECT_DIR$/java-design-patterns/bridge/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/service-locator/src/main/main10.iml" filepath="$PROJECT_DIR$/java-design-patterns/service-locator/src/main/main10.iml" />
@@ -26,8 +23,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/value-object/src/main/main113.iml" filepath="$PROJECT_DIR$/java-design-patterns/value-object/src/main/main113.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/front-controller/src/main/main114.iml" filepath="$PROJECT_DIR$/java-design-patterns/front-controller/src/main/main114.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/state/src/main/main115.iml" filepath="$PROJECT_DIR$/java-design-patterns/state/src/main/main115.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crossover/src/main/main116.iml" filepath="$PROJECT_DIR$/crossover/src/main/main116.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crossoverjournal/src/main/main117.iml" filepath="$PROJECT_DIR$/crossoverjournal/src/main/main117.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/event-aggregator/src/main/main118.iml" filepath="$PROJECT_DIR$/java-design-patterns/event-aggregator/src/main/main118.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/factory-method/src/main/main119.iml" filepath="$PROJECT_DIR$/java-design-patterns/factory-method/src/main/main119.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/naked-objects/webapp/src/main/main12.iml" filepath="$PROJECT_DIR$/java-design-patterns/naked-objects/webapp/src/main/main12.iml" />
@@ -35,17 +30,14 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/double-checked-locking/src/main/main121.iml" filepath="$PROJECT_DIR$/java-design-patterns/double-checked-locking/src/main/main121.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/aggregator-microservices/inventory-microservice/src/main/main122.iml" filepath="$PROJECT_DIR$/java-design-patterns/aggregator-microservices/inventory-microservice/src/main/main122.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/business-delegate/src/main/main123.iml" filepath="$PROJECT_DIR$/java-design-patterns/business-delegate/src/main/main123.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/main124.iml" filepath="$PROJECT_DIR$/spring-core-hometask-skeleton/src/main/main124.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/fluentinterface/src/main/main125.iml" filepath="$PROJECT_DIR$/java-design-patterns/fluentinterface/src/main/main125.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/guarded-suspension/src/main/main126.iml" filepath="$PROJECT_DIR$/java-design-patterns/guarded-suspension/src/main/main126.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/api-gateway/image-microservice/src/main/main127.iml" filepath="$PROJECT_DIR$/java-design-patterns/api-gateway/image-microservice/src/main/main127.iml" />
-      <module fileurl="file://$PROJECT_DIR$/polandtrialwebapp/src/main/main128.iml" filepath="$PROJECT_DIR$/polandtrialwebapp/src/main/main128.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/extension-objects/src/main/main129.iml" filepath="$PROJECT_DIR$/java-design-patterns/extension-objects/src/main/main129.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/data-transfer-object/src/main/main13.iml" filepath="$PROJECT_DIR$/java-design-patterns/data-transfer-object/src/main/main13.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/thread-pool/src/main/main130.iml" filepath="$PROJECT_DIR$/java-design-patterns/thread-pool/src/main/main130.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/decorator/src/main/main131.iml" filepath="$PROJECT_DIR$/java-design-patterns/decorator/src/main/main131.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/template-method/src/main/main132.iml" filepath="$PROJECT_DIR$/java-design-patterns/template-method/src/main/main132.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/src/main/main133.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/src/main/main133.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-petclinic-reactjs2/src/main/main14.iml" filepath="$PROJECT_DIR$/spring-petclinic-reactjs2/src/main/main14.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/page-object/src/main/main15.iml" filepath="$PROJECT_DIR$/java-design-patterns/page-object/src/main/main15.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/eip-splitter/src/main/main16.iml" filepath="$PROJECT_DIR$/java-design-patterns/eip-splitter/src/main/main16.iml" />
@@ -77,7 +69,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/caching/src/main/main4.iml" filepath="$PROJECT_DIR$/java-design-patterns/caching/src/main/main4.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/callback/src/main/main40.iml" filepath="$PROJECT_DIR$/java-design-patterns/callback/src/main/main40.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/model-view-presenter/src/main/main41.iml" filepath="$PROJECT_DIR$/java-design-patterns/model-view-presenter/src/main/main41.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cognizanttest/Movies-Manager-Services-Java/src/main/main42.iml" filepath="$PROJECT_DIR$/cognizanttest/Movies-Manager-Services-Java/src/main/main42.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/api-gateway/price-microservice/src/main/main43.iml" filepath="$PROJECT_DIR$/java-design-patterns/api-gateway/price-microservice/src/main/main43.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/semaphore/src/main/main44.iml" filepath="$PROJECT_DIR$/java-design-patterns/semaphore/src/main/main44.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/lazy-loading/src/main/main45.iml" filepath="$PROJECT_DIR$/java-design-patterns/lazy-loading/src/main/main45.iml" />
@@ -91,7 +82,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/mediator/src/main/main52.iml" filepath="$PROJECT_DIR$/java-design-patterns/mediator/src/main/main52.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/marker/src/main/main53.iml" filepath="$PROJECT_DIR$/java-design-patterns/marker/src/main/main53.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/memento/src/main/main54.iml" filepath="$PROJECT_DIR$/java-design-patterns/memento/src/main/main54.iml" />
-      <module fileurl="file://$PROJECT_DIR$/siitrialbackend/src/main/main55.iml" filepath="$PROJECT_DIR$/siitrialbackend/src/main/main55.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/tls/src/main/main56.iml" filepath="$PROJECT_DIR$/java-design-patterns/tls/src/main/main56.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/eip-message-channel/src/main/main57.iml" filepath="$PROJECT_DIR$/java-design-patterns/eip-message-channel/src/main/main57.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/acyclic-visitor/src/main/main58.iml" filepath="$PROJECT_DIR$/java-design-patterns/acyclic-visitor/src/main/main58.iml" />
@@ -116,21 +106,17 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/chain/src/main/main75.iml" filepath="$PROJECT_DIR$/java-design-patterns/chain/src/main/main75.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/flux/src/main/main76.iml" filepath="$PROJECT_DIR$/java-design-patterns/flux/src/main/main76.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/facade/src/main/main77.iml" filepath="$PROJECT_DIR$/java-design-patterns/facade/src/main/main77.iml" />
-      <module fileurl="file://$PROJECT_DIR$/polandtrialbatch/src/main/main78.iml" filepath="$PROJECT_DIR$/polandtrialbatch/src/main/main78.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/event-queue/src/main/main79.iml" filepath="$PROJECT_DIR$/java-design-patterns/event-queue/src/main/main79.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/half-sync-half-async/src/main/main8.iml" filepath="$PROJECT_DIR$/java-design-patterns/half-sync-half-async/src/main/main8.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/spatial-partition/src/main/main80.iml" filepath="$PROJECT_DIR$/java-design-patterns/spatial-partition/src/main/main80.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/builder/src/main/main81.iml" filepath="$PROJECT_DIR$/java-design-patterns/builder/src/main/main81.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/partial-response/src/main/main82.iml" filepath="$PROJECT_DIR$/java-design-patterns/partial-response/src/main/main82.iml" />
-      <module fileurl="file://$PROJECT_DIR$/credit_suisse_trial/src/main/main83.iml" filepath="$PROJECT_DIR$/credit_suisse_trial/src/main/main83.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/dirty-flag/src/main/main84.iml" filepath="$PROJECT_DIR$/java-design-patterns/dirty-flag/src/main/main84.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/datastructure/src/main/main85.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/datastructure/src/main/main85.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/step-builder/src/main/main86.iml" filepath="$PROJECT_DIR$/java-design-patterns/step-builder/src/main/main86.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/adapter/src/main/main87.iml" filepath="$PROJECT_DIR$/java-design-patterns/adapter/src/main/main87.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/layers/src/main/main88.iml" filepath="$PROJECT_DIR$/java-design-patterns/layers/src/main/main88.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/promise/src/main/main89.iml" filepath="$PROJECT_DIR$/java-design-patterns/promise/src/main/main89.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/proxy/src/main/main9.iml" filepath="$PROJECT_DIR$/java-design-patterns/proxy/src/main/main9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/svitlatrial4/src/main/main90.iml" filepath="$PROJECT_DIR$/svitlatrial4/src/main/main90.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/async-method-invocation/src/main/main91.iml" filepath="$PROJECT_DIR$/java-design-patterns/async-method-invocation/src/main/main91.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/observer/src/main/main92.iml" filepath="$PROJECT_DIR$/java-design-patterns/observer/src/main/main92.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/mutex/src/main/main93.iml" filepath="$PROJECT_DIR$/java-design-patterns/mutex/src/main/main93.iml" />
@@ -140,10 +126,8 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/repository/src/main/main97.iml" filepath="$PROJECT_DIR$/java-design-patterns/repository/src/main/main97.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/converter/src/main/main98.iml" filepath="$PROJECT_DIR$/java-design-patterns/converter/src/main/main98.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/page-object/test-automation/src/main/main99.iml" filepath="$PROJECT_DIR$/java-design-patterns/page-object/test-automation/src/main/main99.iml" />
-      <module fileurl="file://$PROJECT_DIR$/polandtrialbatch/src/polandtrialbatch.iml" filepath="$PROJECT_DIR$/polandtrialbatch/src/polandtrialbatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/extension-objects/src/test/test.iml" filepath="$PROJECT_DIR$/java-design-patterns/extension-objects/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/credit_suisse_trial/src/test/test1.iml" filepath="$PROJECT_DIR$/credit_suisse_trial/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/marker/src/test/test10.iml" filepath="$PROJECT_DIR$/java-design-patterns/marker/src/test/test10.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/caching/src/test/test100.iml" filepath="$PROJECT_DIR$/java-design-patterns/caching/src/test/test100.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/semaphore/src/test/test101.iml" filepath="$PROJECT_DIR$/java-design-patterns/semaphore/src/test/test101.iml" />
@@ -171,7 +155,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/guarded-suspension/src/test/test121.iml" filepath="$PROJECT_DIR$/java-design-patterns/guarded-suspension/src/test/test121.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/spatial-partition/src/test/test122.iml" filepath="$PROJECT_DIR$/java-design-patterns/spatial-partition/src/test/test122.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/property/src/test/test123.iml" filepath="$PROJECT_DIR$/java-design-patterns/property/src/test/test123.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cognizanttest/Movies-Manager-Services-Java/src/test/test124.iml" filepath="$PROJECT_DIR$/cognizanttest/Movies-Manager-Services-Java/src/test/test124.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/abstract-factory/src/test/test125.iml" filepath="$PROJECT_DIR$/java-design-patterns/abstract-factory/src/test/test125.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/mutex/src/test/test13.iml" filepath="$PROJECT_DIR$/java-design-patterns/mutex/src/test/test13.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/retry/src/test/test14.iml" filepath="$PROJECT_DIR$/java-design-patterns/retry/src/test/test14.iml" />
@@ -206,11 +189,9 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/feature-toggle/src/test/test40.iml" filepath="$PROJECT_DIR$/java-design-patterns/feature-toggle/src/test/test40.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/unit-of-work/src/test/test41.iml" filepath="$PROJECT_DIR$/java-design-patterns/unit-of-work/src/test/test41.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/repository/src/test/test42.iml" filepath="$PROJECT_DIR$/java-design-patterns/repository/src/test/test42.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/src/test/test43.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/src/test/test43.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/hexagonal/src/test/test44.iml" filepath="$PROJECT_DIR$/java-design-patterns/hexagonal/src/test/test44.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/twin/src/test/test45.iml" filepath="$PROJECT_DIR$/java-design-patterns/twin/src/test/test45.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/page-object/src/test/test46.iml" filepath="$PROJECT_DIR$/java-design-patterns/page-object/src/test/test46.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-core-hometask-skeleton/src/test/test47.iml" filepath="$PROJECT_DIR$/spring-core-hometask-skeleton/src/test/test47.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/dependency-injection/src/test/test48.iml" filepath="$PROJECT_DIR$/java-design-patterns/dependency-injection/src/test/test48.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/eip-wire-tap/src/test/test49.iml" filepath="$PROJECT_DIR$/java-design-patterns/eip-wire-tap/src/test/test49.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/partial-response/src/test/test5.iml" filepath="$PROJECT_DIR$/java-design-patterns/partial-response/src/test/test5.iml" />
@@ -231,10 +212,8 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/dao/src/test/test63.iml" filepath="$PROJECT_DIR$/java-design-patterns/dao/src/test/test63.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/state/src/test/test64.iml" filepath="$PROJECT_DIR$/java-design-patterns/state/src/test/test64.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/data-mapper/src/test/test65.iml" filepath="$PROJECT_DIR$/java-design-patterns/data-mapper/src/test/test65.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crossover/src/test/test66.iml" filepath="$PROJECT_DIR$/crossover/src/test/test66.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/event-aggregator/src/test/test67.iml" filepath="$PROJECT_DIR$/java-design-patterns/event-aggregator/src/test/test67.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/double-checked-locking/src/test/test68.iml" filepath="$PROJECT_DIR$/java-design-patterns/double-checked-locking/src/test/test68.iml" />
-      <module fileurl="file://$PROJECT_DIR$/crossoverjournal/src/test/test69.iml" filepath="$PROJECT_DIR$/crossoverjournal/src/test/test69.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/mute-idiom/src/test/test7.iml" filepath="$PROJECT_DIR$/java-design-patterns/mute-idiom/src/test/test7.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/proxy/src/test/test70.iml" filepath="$PROJECT_DIR$/java-design-patterns/proxy/src/test/test70.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/template-method/src/test/test71.iml" filepath="$PROJECT_DIR$/java-design-patterns/template-method/src/test/test71.iml" />
@@ -243,7 +222,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/api-gateway/image-microservice/src/test/test74.iml" filepath="$PROJECT_DIR$/java-design-patterns/api-gateway/image-microservice/src/test/test74.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/iterator/src/test/test75.iml" filepath="$PROJECT_DIR$/java-design-patterns/iterator/src/test/test75.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/specification/src/test/test76.iml" filepath="$PROJECT_DIR$/java-design-patterns/specification/src/test/test76.iml" />
-      <module fileurl="file://$PROJECT_DIR$/siitrialbackend/src/test/test77.iml" filepath="$PROJECT_DIR$/siitrialbackend/src/test/test77.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/poison-pill/src/test/test78.iml" filepath="$PROJECT_DIR$/java-design-patterns/poison-pill/src/test/test78.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-petclinic-reactjs2/src/test/test79.iml" filepath="$PROJECT_DIR$/spring-petclinic-reactjs2/src/test/test79.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/api-gateway/api-gateway-service/src/test/test8.iml" filepath="$PROJECT_DIR$/java-design-patterns/api-gateway/api-gateway-service/src/test/test8.iml" />
