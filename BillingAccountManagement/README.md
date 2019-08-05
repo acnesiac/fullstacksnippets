@@ -5,7 +5,7 @@ Billing account management
 
 2. Create two topics: data-in and data-out
 
-   ```bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic onstar-profile```
+   ```kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic onstar-profile```
   
 3. Clone and build java project
     
