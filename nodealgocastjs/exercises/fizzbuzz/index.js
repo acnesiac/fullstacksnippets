@@ -1,3 +1,4 @@
+// 
 // --- Directions
 // Write a program that console logs the numbers
 // from 1 to n. But for multiples of three print
@@ -11,7 +12,9 @@
 //   fizz
 //   4
 //   buzz
-
+//
+//
+//:
 function fizzBuzz(n) {
 
     for(var a = 1; a <= n; a++){
@@ -29,6 +32,7 @@ function fizzBuzz(n) {
         }
     }
 }
+
 
 fizzBuzz(40);
 

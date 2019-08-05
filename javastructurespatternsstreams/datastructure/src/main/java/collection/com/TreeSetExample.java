@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 import java.util.TreeSet;
 
 public class TreeSetExample {
-	 public static void main(String args[]){  
+	 public static void main(String[] args){
 		   
 		  TreeSet<String> al=new TreeSet<String>();  
 		  al.add("Ravi");  

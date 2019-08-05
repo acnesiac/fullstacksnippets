@@ -23,7 +23,7 @@ public class CiclicRotationMine {
 	}
 	
 	public void rotate(int A[]){
-		int temp = A[0];
+		int temp = A[0];	// magic
 		for (int i= 0; i< A.length -1; i++){
 			A[i]= A[i + 1] ;
 		}
