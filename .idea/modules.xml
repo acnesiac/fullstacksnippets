@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BillingAccountManagement/billingaccountaanagement.iml" filepath="$PROJECT_DIR$/BillingAccountManagement/billingaccountaanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OnStarProfile/billingaccountaanagement (1).iml" filepath="$PROJECT_DIR$/OnStarProfile/billingaccountaanagement (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-streams-api-websockets/kafka-streaming-websockets.iml" filepath="$PROJECT_DIR$/kafka-streams-api-websockets/kafka-streaming-websockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-batch-examples/spring-boot/src/main/main.iml" filepath="$PROJECT_DIR$/spring-batch-examples/spring-boot/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/bridge/src/main/main1.iml" filepath="$PROJECT_DIR$/java-design-patterns/bridge/src/main/main1.iml" />
@@ -126,7 +128,6 @@
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/repository/src/main/main97.iml" filepath="$PROJECT_DIR$/java-design-patterns/repository/src/main/main97.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/converter/src/main/main98.iml" filepath="$PROJECT_DIR$/java-design-patterns/converter/src/main/main98.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/page-object/test-automation/src/main/main99.iml" filepath="$PROJECT_DIR$/java-design-patterns/page-object/test-automation/src/main/main99.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" filepath="$PROJECT_DIR$/javastructurespatternsstreams/streams/streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/extension-objects/src/test/test.iml" filepath="$PROJECT_DIR$/java-design-patterns/extension-objects/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/marker/src/test/test10.iml" filepath="$PROJECT_DIR$/java-design-patterns/marker/src/test/test10.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-design-patterns/caching/src/test/test100.iml" filepath="$PROJECT_DIR$/java-design-patterns/caching/src/test/test100.iml" />

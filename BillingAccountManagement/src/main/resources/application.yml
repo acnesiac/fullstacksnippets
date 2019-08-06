@@ -1,13 +1,9 @@
 kafka:
   bootstrapAddress: localhost:9092
   topic:
-    in: data-in
+    in: onstar-profile
     out: data-out
 
-#spring:
-#  kafka:
-#    consumer:
-#      auto-offset-reset: earliest
 
 websocket:
   messages:
@@ -16,3 +12,5 @@ websocket:
   broker: /dashboard
   prefix: /app
   endpoint: /jdisp-websocket-endpoint
+server:
+  port: 8082

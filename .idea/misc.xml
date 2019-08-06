@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/kafka-streams-api-websockets/pom.xml" />
+        <option value="$PROJECT_DIR$/BillingAccountManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/OnStarProfile/pom.xml" />
       </list>
     </option>
   </component>
