@@ -12,7 +12,6 @@ import java.util.Random;
 
 @SpringBootApplication
 public class BillingaccountmanagementApplication {
-	public static KafkaProducer<String, String> producer = null;
 
 	public static void main(String[] args) throws  Exception {
 		SpringApplication.run(BillingaccountmanagementApplication.class, args);
