@@ -1,7 +1,7 @@
 package collection.com;
 
 public class Facebook {
-    public static void main(String args[]){
+    public static void main(String[] args){
         int []arr  = new int []{1,2,4,7};
 
         for (int  i = 0 ; i< 4 ; i++){

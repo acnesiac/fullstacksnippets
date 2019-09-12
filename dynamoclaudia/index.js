@@ -19,6 +19,7 @@ api.get('/icecreams', function (request) { // GET all users
         .then(response => response.Items)
 });
 
+
 module.exports = api;
 
 

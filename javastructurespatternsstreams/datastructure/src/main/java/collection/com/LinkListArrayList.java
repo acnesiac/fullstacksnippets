@@ -3,7 +3,7 @@ package collection.com;
 import java.util.*;
 
 public class LinkListArrayList {
-	 public static void main(String args[]){    
+	 public static void main(String[] args){
 		 ArrayList a;
 		 LinkedList ba;
 		  List<String> al=new ArrayList<String>();//creating arraylist    

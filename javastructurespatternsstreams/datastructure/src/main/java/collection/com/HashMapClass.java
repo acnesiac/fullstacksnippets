@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class HashMapClass {
-	 public static void main(String args[]){  
+	 public static void main(String[] args){
 		   
 		  LinkedHashMap<Integer,String> hm=new LinkedHashMap<Integer,String>();  
 		  
@@ -20,9 +20,9 @@ public class HashMapClass {
 
 
 
-		map(IntStream.of(new int[]{1,2,3,4,5,6}));
-		max(IntStream.of(new int[]{1,2,3,4,5,6}));
-		max(IntStream.of(new int[]{1,2,3,4,5,}).boxed().collect(Collectors.toList()).stream());
+		map(IntStream.of(1,2,3,4,5,6));
+		max(IntStream.of(1,2,3,4,5,6));
+		max(IntStream.of(1,2,3,4,5).boxed().collect(Collectors.toList()).stream());
 
 		//filter(IntStream.of(new int[]{1,2,3,4,5,}).boxed().collect(Collectors.toList()).stream());
 

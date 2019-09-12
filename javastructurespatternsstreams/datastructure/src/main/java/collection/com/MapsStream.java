@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class MapsStream {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //IntStream.of(1,2,3,4,5,6,6).map(n -> n *2).forEach(System.out::print);
         IntStream.of(2,3,4,5,6,7,7).max();
         IntStream.of(3,2,3,4,5,5,6).boxed().collect(Collectors.toList());
@@ -20,7 +20,7 @@ public class MapsStream {
             if( !hm.containsKey(arr[i])){
                 hm.put(arr[i],1);
             }else{
-                int n = (Integer)hm.get(arr[i]);
+                int n = hm.get(arr[i]);
                 n++;
                 hm.put(arr[i],n);
             }

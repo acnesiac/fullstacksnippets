@@ -12,7 +12,7 @@ public class StreamExamples3 {
 
 	public static void main(String[] args) {
 		//
-		int A[] = new int []{1,2,3,4,5};
+        int[] A = new int[]{1, 2, 3, 4, 5};
 		map(IntStream.of(A));
 		max(IntStream.of(A));
 		filter(IntStream.of(A));
