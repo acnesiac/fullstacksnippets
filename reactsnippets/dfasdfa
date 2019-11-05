@@ -1,0 +1,891 @@
+[33mcommit 79996e88a3ecfe190f6f5c2295c721d3f49200c2[m[33m ([m[1;36mHEAD -> [m[1;32mchanges[m[33m, [m[1;31morigin/changes[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Mon Sep 16 11:38:18 2019 -0400
+
+    index menu
+
+[33mcommit 82c76f6508fd3be6c55fd3cb21ef75855d9e56ca[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Tue Sep 10 17:10:12 2019 -0400
+
+    'menu'
+
+[33mcommit 13a2e627f9a1252c941a9c79891c5547750cb67c[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Tue Sep 10 16:38:25 2019 -0400
+
+    'Toggle'
+
+[33mcommit 9347cab07500b00192686da6513eb7fff5ddc931[m
+Merge: 0a453946 fbd9fa3a
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Tue Sep 10 13:41:39 2019 -0400
+
+    Merge branch 'reduxminimal'
+
+[33mcommit fbd9fa3a7fdd528c41ac04597bfba2fd4826996c[m
+Merge: 66f2be3c 0a453946
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Tue Sep 10 13:40:15 2019 -0400
+
+    Merge branch 'master' into reduxminimal
+
+[33mcommit 0a4539465c47bbc581307ba80807c08ab0ad64af[m[33m ([m[1;32mtrone8[m[33m)[m
+Merge: aa0cd78d 6e4daf48
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Tue Sep 10 13:34:43 2019 -0400
+
+    Merge branch 'master' into trone8
+
+[33mcommit 6e4daf481436fe2edbe057b6fd27454bdbb23b26[m
+Merge: d8135ba8 523de623
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Tue Sep 10 13:31:03 2019 -0400
+
+    Merge branch 'dynamodb'
+
+[33mcommit 523de6232de15466cd073f00d95d1a31972e6f23[m[33m ([m[1;32mdynamodb[m[33m)[m
+Merge: 2a01e157 d8135ba8
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Tue Sep 10 12:40:53 2019 -0400
+
+    Merge branch 'master' into dynamodb
+
+[33mcommit d8135ba8558a2b92bab9cf3b17fbe67fa3c2f521[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Tue Sep 10 11:49:09 2019 -0400
+
+    deleted alertify
+
+[33mcommit ab04839cf806256a8ff898e0e89b088bc62753da[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Tue Sep 10 11:25:05 2019 -0400
+
+    rateapp
+
+[33mcommit 6c5a8dbc537c6cd7bda3bac3e9da5a102dfb3461[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 15:50:50 2019 -0400
+
+    ofcanvas4menu
+
+[33mcommit 84ab129333a1a679bd58368e42b8d6deac61b576[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 15:40:51 2019 -0400
+
+    ofcanvas3menu
+
+[33mcommit 45235bc991d51ede49f46c4c28c78d2962308a31[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 15:26:36 2019 -0400
+
+    ofcanvas2
+
+[33mcommit 98dde5434aa4801d95d3568d158fb4d5870442b4[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 15:20:46 2019 -0400
+
+    offcanvas
+
+[33mcommit 2a01e15776b47603693463398fe2c0f32bb26d1a[m
+Merge: febb4c81 d6198a75
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Fri Sep 6 14:27:47 2019 -0400
+
+    Merge branch 'master' into dynamodb
+
+[33mcommit d6198a756d39038903256089492fe0dc1b9f90f0[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 14:26:39 2019 -0400
+
+    refactoring
+
+[33mcommit f96ef927beeb359c45dd5f73e08c14d1e39f4942[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 14:15:46 2019 -0400
+
+    ok
+
+[33mcommit 1c4aa0bec3fa0f8daa75c2b769efea23ab4bc64f[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 13:47:53 2019 -0400
+
+    menu
+
+[33mcommit 3dda3a19dda5009bf31d3cc5342e6ed78a595900[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 13:31:12 2019 -0400
+
+    horizontal menu chido
+
+[33mcommit bf73b7ee7b308e7e2ed5cab7b47544ebeb57abef[m
+Merge: febb4c81 66f2be3c
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 13:26:54 2019 -0400
+
+    Merge branch 'master' of https://github.com/acnesiac/reactsnippets
+
+[33mcommit febb4c81e053b2028339d1f9afe986f6fcabbd94[m[33m ([m[1;31morigin/dynamodb[m[33m)[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 13:13:32 2019 -0400
+
+    alertify changes
+
+[33mcommit 66f2be3cada57a72adc1239ca1c036456e148dc8[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 11:58:32 2019 -0400
+
+    beautybootstrap
+
+[33mcommit 66cc8b439c2dc6bdf7db679b09bec82c1eea2db0[m
+Author: Adolfo Rivas <adolfo.rivas@gm.com>
+Date:   Fri Sep 6 11:55:41 2019 -0400
+
+    prettyformbootstrap
+
+[33mcommit b07202e4b98a57d7cd21279f9cadd58d0d5925d3[m
+Merge: aa0cd78d ded6c7cb
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Fri Sep 6 11:50:59 2019 -0400
+
+    Merge branch 'master' into reduxminimal
+
+[33mcommit ded6c7cb5407baadb895e411067a762b13d7f345[m
+Merge: d9b1ce09 96b6ee73
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Thu Aug 22 11:38:34 2019 -0400
+
+    Merge branch 'master' into dynamodb
+
+[33mcommit 96b6ee7386e50339d44bc744bc0d1601c71848bd[m
+Merge: a692b584 aa0cd78d
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Aug 22 11:28:15 2019 -0400
+
+    Merge pull request #20 from acnesiac/trone4
+    
+    Trone4
+
+[33mcommit aa0cd78d8971e02b13ca2518535b07362ea9c834[m[33m ([m[1;31morigin/trone8[m[33m, [m[1;31morigin/trone7[m[33m, [m[1;31morigin/trone4[m[33m, [m[1;31morigin/space[m[33m, [m[1;31morigin/reduxminimal[m[33m, [m[1;32mtrone7[m[33m)[m
+Author: Adolfo Ruiz Rivas <acnesiac@hotmail.com>
+Date:   Thu Aug 22 10:56:57 2019 -0400
+
+    ok
+
+[33mcommit 9314110fb3c0b422cd29da62f8fe4da250083aa5[m
+Merge: 0a57c13a 06b1525c
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Aug 14 09:32:04 2019 -0400
+
+    Merge pull request #19 from acnesiac/changes
+    
+    changes in bootstrap
+
+[33mcommit 06b1525c7e37e6bfc492e43b28af07cd6e6d8cbb[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Aug 14 09:29:36 2019 -0400
+
+    changes in bootstrap
+
+[33mcommit 0a57c13af14f2c9846722eaa3df6c150dd48414d[m
+Merge: 34190b01 3b58312e
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Tue Aug 13 12:53:24 2019 -0400
+
+    Merge pull request #18 from acnesiac/changes
+    
+    Changes
+
+[33mcommit 3b58312e2574c1ee3ccced289730fe1b3f46d898[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Aug 13 12:52:33 2019 -0400
+
+    ok
+
+[33mcommit 721b345d4f9cb85cc6286e23f67b0e384fa38a78[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Aug 13 12:50:55 2019 -0400
+
+    changes in employee
+
+[33mcommit 34190b01980bd5eb5accf2b6ff3e5071107f7c25[m
+Merge: 41278ac0 ec847b78
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Mon Aug 12 12:12:01 2019 -0400
+
+    Merge pull request #17 from acnesiac/master
+    
+    Master
+
+[33mcommit ec847b78f15c1add4d6b23998d9d533eb19c95a0[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Aug 12 11:19:53 2019 -0400
+
+    merged
+
+[33mcommit 175059c079c3f454f5376b71d0db0bcfa6422484[m
+Merge: cf61ad34 41278ac0
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Mon Aug 12 11:18:22 2019 -0400
+
+    Merge pull request #16 from acnesiac/beatles
+    
+    ok
+
+[33mcommit 41278ac00202ed9a3bf206303c25e2b83269d582[m
+Merge: 5d1f61f0 cf61ad34
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Mon Aug 12 11:18:12 2019 -0400
+
+    Merge branch 'master' into beatles
+
+[33mcommit 5d1f61f02b9fa1f691d63aeaa83fe9f9d4a7b62d[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Aug 12 11:15:11 2019 -0400
+
+    merged
+
+[33mcommit 59c5002f662f699b7e41d57a305f893333028ada[m
+Merge: 6692650f e050d69c
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Aug 12 11:14:36 2019 -0400
+
+    merged
+
+[33mcommit cf61ad3433ef07202e4203ad8309c352a7255a62[m
+Merge: 9131338e 93f819ae
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Mon Apr 22 10:56:44 2019 -0700
+
+    Merge pull request #15 from acnesiac/space
+    
+    Space
+
+[33mcommit 93f819aef254b4f884d0e4109d2b38f4fa3ba3f5[m
+Merge: 9131338e 6692650f
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Mon Apr 22 10:55:50 2019 -0700
+
+    Merge branch 'beatles' into space
+
+[33mcommit 9131338e7423b6a995eb679a4a48661390e9a5fc[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Mar 26 12:34:22 2019 -0700
+
+    rate
+
+[33mcommit 272639a875d4b10bf4ed3e5ebc75112533bf96e1[m
+Merge: 7523c49e fe13b6d7
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Sun Mar 24 10:41:02 2019 -0700
+
+    Merge pull request #13 from acnesiac/reduxminimal
+    
+    Reduxminimal
+
+[33mcommit fe13b6d7a31ec80bca6301548376c56048c25e9d[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Mar 24 10:39:33 2019 -0700
+
+    reduxminimal
+
+[33mcommit 7523c49e3d25e3ba30bfe03567b1936a5f4fa828[m
+Merge: d4ca467f 48996983
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Mar 21 23:20:40 2019 -0700
+
+    Merge pull request #12 from acnesiac/counter
+    
+    ok
+
+[33mcommit 489969835cde60d89f278829911f07a10d467b00[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Mar 21 23:15:23 2019 -0700
+
+    ok
+
+[33mcommit d4ca467fab75b3386a57093f8c6747a6b4664327[m
+Merge: e050d69c deadb114
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Mar 21 23:14:30 2019 -0700
+
+    Merge pull request #11 from acnesiac/counter
+    
+    [exit
+
+[33mcommit 8cc8a971507ca67a7e3a2a8419aed7e0482dc3e4[m
+Merge: deadb114 e050d69c
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Mar 21 23:10:22 2019 -0700
+
+    Merge branch 'master' of https://github.com/acnesiac/reactsnippets
+
+[33mcommit e050d69cb26aafdcf60f73a1d6b89e543cf934d9[m
+Merge: b7b1fced fd8d77b2
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Mar 21 15:51:28 2019 -0700
+
+    Merge branch 'master' of https://github.com/acnesiac/reactsnippets
+
+[33mcommit b7b1fcedfbf5aef7b1705b34ca66b78c57b4ecea[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Mar 21 15:51:01 2019 -0700
+
+    dynamo
+
+[33mcommit fd8d77b2e6dea1f00c96081aafeea035e6a7ef24[m
+Merge: e06e8a7e d9b1ce09
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Mar 21 15:34:54 2019 -0700
+
+    Merge pull request #10 from acnesiac/dynamodb
+    
+    dynamo
+
+[33mcommit d9b1ce09fc0979d5a067774d8ca600f65fa7c5d8[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Mar 21 15:33:37 2019 -0700
+
+    dynamo
+
+[33mcommit deadb114ca2e14e04875c42f41b31844edd8a405[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Mar 19 19:45:27 2019 -0700
+
+    [exit
+
+[33mcommit e06e8a7e141b03bfc81f77b284aad80f54ddbfab[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Mar 19 19:27:45 2019 -0700
+
+    'ok'
+
+[33mcommit c5e0a4efbed8cf0c55e889c7a06eb3289a8950d7[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Dec 19 11:35:46 2018 +0100
+
+    Default Changelist
+
+[33mcommit a89407cb91b173c072f99e53aa4cef0bf56fd036[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Dec 19 11:05:47 2018 +0100
+
+    jquery snippet
+
+[33mcommit 6692650fed0de2f119197fa1c339f2ec8c9c5170[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Dec 19 10:33:43 2018 +0100
+
+    Update README.md
+
+[33mcommit 7c62c395bbebb5d29e80c98a284693910f28f77f[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 23:15:30 2018 +0100
+
+    jquery snippet
+
+[33mcommit b8f2f170da547b23384d7375c384b46778416878[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 23:15:08 2018 +0100
+
+    jquery snippet
+
+[33mcommit be783ecb9fa40434bbfe47eed95c9ecd7f7025c4[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 22:17:59 2018 +0100
+
+    jquery snippet
+
+[33mcommit 100026b9f74a0e171ea7e858f11f52a738f3bc40[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 22:17:24 2018 +0100
+
+    jquery snippet
+
+[33mcommit dfb943f8a519d2544fd0651196998de3d92a0d95[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 22:00:23 2018 +0100
+
+    jquery snippet
+
+[33mcommit 44bf8c518beec7656fd444208f101958ae73b7f5[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Mon Dec 17 21:59:25 2018 +0100
+
+    jquery snippet
+
+[33mcommit 0a8356bcd481f0c16c1f22474de0580cab278a18[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 22:11:42 2018 +0100
+
+    'jquery'
+
+[33mcommit 96412caefcf04566ea6a4e26ef2f9f466facf1ff[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 21:25:22 2018 +0100
+
+    'jquery'
+
+[33mcommit 19c08fb23a10884dfcdf84997f317c3bd346c9e7[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 21:12:16 2018 +0100
+
+    'jquery'
+
+[33mcommit 5d3f95ce9617eec74259905b2b735bd37f71fc18[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 20:59:38 2018 +0100
+
+    'jquery'
+
+[33mcommit ef84b6e553f4263700cf1e5b9c4f4dea16a21011[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 20:59:01 2018 +0100
+
+    jquery snippet
+
+[33mcommit 5a1de754e93536348b971def8928b4b6f7a63595[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Dec 9 20:41:37 2018 +0100
+
+    npx support
+
+[33mcommit b65b08d3f8606924c350b2bd46b35b0fddaa8a44[m
+Author: Ruiz Rivas Adolfo <adolfo.rivas@volvo.com>
+Date:   Fri Dec 7 00:17:24 2018 +0100
+
+    'init'
+
+[33mcommit 933e9658095b998714f1bd55c8c4d689564ef32d[m
+Author: Ruiz Rivas Adolfo <adolfo.rivas@volvo.com>
+Date:   Tue Dec 4 21:42:17 2018 +0100
+
+    'changestomergejsnippets'
+
+[33mcommit 229a0d8fe3ba558bd967b904b60c7c0c89d43b99[m
+Author: acnesiac <Aruizr1$>
+Date:   Tue Dec 4 14:06:56 2018 +0100
+
+    merged
+
+[33mcommit cbc7710e55df027deebd0ea64688e29aaa51c756[m
+Author: acnesiac <Aruizr1$>
+Date:   Tue Dec 4 13:45:23 2018 +0100
+
+    ok
+
+[33mcommit 84bc0da7a7d6f09ed1a8381ee4f5c40bd0d9826e[m
+Merge: 518c4f3b 211d47d7
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Tue Dec 4 13:27:15 2018 +0100
+
+    Merge pull request #9 from acnesiac/master
+    
+    jsnipets
+
+[33mcommit 211d47d70260cb2e1d229f951b330a89ef9f8844[m
+Author: acnesiac <Aruizr1$>
+Date:   Tue Dec 4 13:24:56 2018 +0100
+
+    jsnipets
+
+[33mcommit 518c4f3b274250966d9feb506873d9666d8a600b[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Fri Oct 26 15:11:05 2018 +0200
+
+    Update README.md
+
+[33mcommit 55e402ac879192082e13b1e2f948fed092b88634[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Fri Oct 26 11:08:25 2018 +0200
+
+    Update README.md
+
+[33mcommit 51800e7573cb2f3411d5193e677ad2c9d337e3b4[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Fri Oct 26 10:24:23 2018 +0200
+
+    Update README.md
+
+[33mcommit 561b65d6ef5ae6cb2b8e5124587fdbda05b492a3[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Fri Oct 26 10:22:33 2018 +0200
+
+    Update README.md
+
+[33mcommit 50728d5adb2ee00fd7949b416888e8dd8f1ccb46[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Fri Oct 26 10:18:09 2018 +0200
+
+    Update README.md
+
+[33mcommit cdf031ebb3324080502530b4e866bd0e44e85f4a[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Oct 25 15:44:23 2018 +0200
+
+    Update README.md
+
+[33mcommit ef9a34a057e4ffb05be27c55a55e7201f410b1e0[m
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Oct 25 11:30:01 2018 +0200
+
+    Update README.md
+
+[33mcommit 00161a8e8a19545f96f07645c44e1d8f49a04aae[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Oct 25 11:09:16 2018 +0200
+
+    acopio ui
+
+[33mcommit 351041970a91d7ccc76b2cb8f7fe435976a2206f[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Oct 25 11:01:45 2018 +0200
+
+    other fullprojects
+
+[33mcommit e62f87de69c97895994d9d41ebe6a8449c830712[m
+Merge: bba7b44d 88a10df1
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Thu Oct 25 10:36:26 2018 +0200
+
+    Merge pull request #8 from acnesiac/master
+    
+    reduxecosystem
+
+[33mcommit 88a10df1d92e46310fe9ee53c53df51fca1b3ae8[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Thu Oct 25 10:34:17 2018 +0200
+
+    reduxecosystem
+
+[33mcommit bba7b44d2b7b8e15cbe290c1194bc489f3f225c2[m
+Merge: 6b70045f 186993d5
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Oct 24 16:58:41 2018 +0200
+
+    Merge pull request #7 from acnesiac/master
+    
+    Master
+
+[33mcommit 186993d59d463b504fba3d96b8a35827258089fa[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 16:54:57 2018 +0200
+
+    links3
+
+[33mcommit 9ce1477f88e09cc06b610cd0612949374420a07d[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 16:38:00 2018 +0200
+
+    b2links2
+
+[33mcommit be7e231c5297c08d60bf5e198f70575165ff8a39[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 16:34:27 2018 +0200
+
+    link2
+
+[33mcommit 6b70045f163ae6ceee706bc3abfc6c178230b9b1[m
+Merge: cf3ff3a7 aa0183ef
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Oct 24 16:28:47 2018 +0200
+
+    Merge pull request #6 from acnesiac/b2links
+    
+    links
+
+[33mcommit aa0183ef842d608c55decf8c1de016a3397b93af[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 16:26:01 2018 +0200
+
+    links
+
+[33mcommit cf3ff3a7e18a616a1b6751c94a8f915a777cacda[m
+Merge: 9ca1d170 05eaa3c8
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Oct 24 15:52:52 2018 +0200
+
+    Merge pull request #5 from acnesiac/master
+    
+    Merge pull request #4 from acnesiac/beatles
+
+[33mcommit 05eaa3c81ea003bd2b4664c80e01bbf230b2e0e8[m
+Merge: 69020b4e 9ca1d170
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Oct 24 15:52:08 2018 +0200
+
+    Merge pull request #4 from acnesiac/beatles
+    
+    uniendo beatles a master
+
+[33mcommit 9ca1d17048024ebb37a4f157d107cc34c79c8641[m
+Merge: 1468aa36 8f919560
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 15:41:10 2018 +0200
+
+    uniendo
+
+[33mcommit 8f91956016b3e2bc45eaedd80534c87700a72a7b[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 15:35:03 2018 +0200
+
+    ok
+
+[33mcommit 54099a6ad2ffdb43c48263a52817492e00f3f524[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 15:26:33 2018 +0200
+
+    OOB
+
+[33mcommit 1468aa36c3d60ec2ff920d09b03339e28c5d6a0d[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 15:21:42 2018 +0200
+
+    branchtodeletechanges
+
+[33mcommit a692b58419cf5a7e1b4869fe0bebb7e6a7f837fe[m
+Merge: 9b02f09e 69020b4e
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Wed Oct 24 13:49:09 2018 +0200
+
+    Merge pull request #3 from acnesiac/master
+    
+    Master
+
+[33mcommit 69020b4e5d1d21b6c710efcb298cd853b5075e93[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 13:46:20 2018 +0200
+
+    branch
+
+[33mcommit 68b184ce32d0e8ee5aebbff26efa60973517b722[m
+Merge: b296d86a 0dfa304b
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 13:39:33 2018 +0200
+
+    ok
+    Merge branch 'master' of https://github.com/acnesiac/reacttemplates
+
+[33mcommit b296d86a497fe33bd6f996bb71e614511edd1658[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Oct 24 13:38:38 2018 +0200
+
+    ok
+
+[33mcommit 0dfa304b13bfdc261a67d65f1f7fbcc6d2e89405[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Fri Oct 12 00:24:35 2018 +0200
+
+    add redux and package.json super power
+
+[33mcommit 7eab827c84220000f80783ee7e9c7fe661d9a903[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Oct 7 03:43:14 2018 +0200
+
+    'clock'
+
+[33mcommit 85d4826db4d9ecf0b3c435c826843d2ec8c3a1bd[m
+Merge: bcb15f56 44faad3b
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Oct 7 03:32:52 2018 +0200
+
+    Merge branch 'master' of https://github.com/acnesiac/reacttemplates
+
+[33mcommit bcb15f56f3761841e6d78e960767d6db7076bf10[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sun Oct 7 03:32:28 2018 +0200
+
+    'barchartjs'
+
+[33mcommit a09a173a7839422bf286dd03f88817167df89eb4[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 21:59:37 2018 +0200
+
+    'ok'
+
+[33mcommit 766f839372c880cca35b95a60483fb6ccc89af5e[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 21:53:54 2018 +0200
+
+    'ok'
+
+[33mcommit 3af1fd9920d0e00ba43e3d38e4a217205af924a4[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 16:38:03 2018 +0200
+
+    'ok'
+
+[33mcommit 9b02f09e6418dcb18369cfc7f00e9ff5a8233972[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 01:08:03 2018 +0200
+
+    'ok'
+
+[33mcommit 44faad3be4758a1c69216c2d1f0a5d97b57f4710[m
+Merge: 257d87f0 3b737411
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Sat Oct 6 00:32:05 2018 +0200
+
+    Merge pull request #2 from acnesiac/beatles
+    
+    ok
+
+[33mcommit 3b7374111535034cbd22365f71257b22b9715ffe[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 00:31:01 2018 +0200
+
+    ok
+
+[33mcommit 257d87f00bdd688eb1b82d0c5a25f6515fc76ec6[m
+Merge: f2e3a4e2 7e3fec8a
+Author: acnesiac <xenbyl@gmail.com>
+Date:   Sat Oct 6 00:29:48 2018 +0200
+
+    Merge pull request #1 from acnesiac/beatles
+    
+    beatles
+
+[33mcommit 7e3fec8a1cecf2d13a07e6732004fda560bc9b08[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Sat Oct 6 00:28:32 2018 +0200
+
+    beatles
+
+[33mcommit f2e3a4e293487560b18141a092ece54c0f18bf20[m
+Author: Adolfo <acnesiac@hotmail.com>
+Date:   Thu Sep 27 21:39:33 2018 +0200
+
+    'reactbmi'
+
+[33mcommit f0d0a0b62436846d3ecd6e9233177742269be1dd[m
+Author: Adolfo <acnesiac@hotmail.com>
+Date:   Thu Sep 27 21:35:03 2018 +0200
+
+    crud
+
+[33mcommit 1bd6100cbc627ba6770e925123d695e843e8747e[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Wed Sep 26 01:27:29 2018 +0200
+
+    'stetic'
+
+[33mcommit ce854c1c5ef809b0dba60382a06df5a04d2f4842[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Tue Aug 21 02:14:52 2018 +0200
+
+    todoapp
+
+[33mcommit be26edd9c34b7f22d5465dca21d9b0ddcffb9df7[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Sat Aug 18 21:15:22 2018 +0200
+
+    navbar
+
+[33mcommit d142c19545b8b2b8efda768ae9c44010444bc882[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Wed Aug 15 12:48:55 2018 +0200
+
+    ok
+
+[33mcommit 901953824110e519756994488b56e4f15d0ec671[m
+Author: Ruiz Rivas Adolfo (2) <adolfo.rivas.2@volvo.com>
+Date:   Wed Aug 15 12:05:52 2018 +0200
+
+    ok
+
+[33mcommit 8e606447e3b20a785f7db1bf6dbbe077106d13c5[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Wed Feb 28 15:48:59 2018 -0600
+
+    security
+
+[33mcommit 0df9cdb4559dd82ae086644c9a7eb716fdff6c6a[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Tue Feb 27 16:23:47 2018 -0600
+
+    graph and axios
+
+[33mcommit 3e75b822d309cc8b0a4e381d2c3dee2113ad0ec2[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Tue Feb 27 16:13:10 2018 -0600
+
+    graph and axios
+
+[33mcommit 6993966e45182446a9ff11a26c2cb52ab1d38ef2[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Tue Feb 27 15:39:48 2018 -0600
+
+    graph and axios
+
+[33mcommit ba8b78ed4c51f7cba0b9856bac628b5cef592880[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Tue Feb 27 15:30:42 2018 -0600
+
+    axios and chartjs2
+
+[33mcommit 5eef666fab3b9a482a63d3827b659dfd5ef612bc[m
+Author: Rivas <adolfo.ruiz.rivas@hp.com>
+Date:   Wed Feb 21 12:18:04 2018 -0600
+
+    game
+
+[33mcommit d7adde5f755cae38c65c0c661ce81131dd5f8c5c[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Fri Aug 18 17:18:17 2017 -0500
+
+    ok
+
+[33mcommit dee26c8d7a4aa544663e7e4386af5f8874a34fbc[m
+Merge: 024409a0 e0f5ce85
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Fri Aug 18 16:53:55 2017 -0500
+
+    Merge branch 'master' of https://github.com/acnesiac/reacttemplates
+
+[33mcommit 024409a0f149618357adb16d1b3f5ddee2e221b7[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Fri Aug 18 16:53:12 2017 -0500
+
+    ok
+
+[33mcommit e0f5ce857662cdb26611205069133769f76141e4[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Wed Aug 2 15:12:58 2017 -0500
+
+    ok
+
+[33mcommit 07ed5444be8605fdb1f84985c31ca5bd230554ad[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 16:29:41 2017 -0500
+
+    faces
+
+[33mcommit 32eb9d06eb9a130b860f145ca9a0d637c8e13a19[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 16:24:22 2017 -0500
+
+    navbar
+
+[33mcommit dbec8637eb5cd2f41cbe9e71ae22676bb66e58dc[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 16:02:56 2017 -0500
+
+    empleados
+
+[33mcommit 41033450c9cb4c6bd32dc594763c4f4e4218b8e7[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 14:05:42 2017 -0500
+
+    html added
+
+[33mcommit 6cc7bf0738a6e8550c3487a015ff64e3bad3caf0[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 14:02:29 2017 -0500
+
+    npm run build
+
+[33mcommit f65ad69caed7a8635955dfde1b8560ac6bc43673[m
+Author: acnesiac <acnesiac@hotmail.com>
+Date:   Tue Jul 18 12:42:15 2017 -0500
+
+    initial

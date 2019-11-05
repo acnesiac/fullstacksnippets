@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link href="css/main.css" rel="stylesheet"></link>
+	<script>
+
+	$(document).ready(function(){
+
+		var util = {
+			uuid: function () {
+				console.log('AppUtil con jquery');
+				return "jquery";
+			}
+		};
+
+		var App = {
+			init: function () {
+				console.log('AppUtil');
+				console.log(' jquery ' + util.uuid());
+				$(".selected").on('click',this.click.bind(this));
+			},
+			click: function(){
+				var array = [1,2,3,4,5,6,7];
+				$(".selected").text('hola' + array.sort((a,b)=> b-a));
+				console.log('hola this is a click in button');
+			}
+
+		};
+
+		App.init();
+
+	});
+
+
+	</script>
+	<ul class="filters">
+		<li>
+			<a class="selected" href="#/all">All</a>
+		</li>
+
+	</ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "templates",
+  "description": "",
+  "main": "backbone.js",
+  "authors": [
+    "acnesiac <acnesiac@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

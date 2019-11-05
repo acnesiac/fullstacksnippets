@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>css demo</title>
+  <style>
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<div >
+  <input type="text" value="123"/>
+  <input id="button" type="button" value="clickme">
+<ul class="filters">
+  <li id="uno"><a>1</a></li>
+  <li><a>2</a></li>
+  <li><a>3</a></li>
+</ul>
+</div>
+<body>
+
+
+<script>
+
+  // Anonimous function, named function, declared function, function variable
+  // High order function
+
+  //var foo = function() {
+    // Some code
+  //};
+  //function bar () {
+    // Some code
+  //};
+  //Answer
+  //The main difference is function foo is defined at run-time and is called function expression, whereas
+  // function bar is defined at parse time and is called function statement.
+  // To understand in better, let's see below code :
+  Q-6. Why Is “Self” Needed Instead Of “This” In JavaScript?
+    Answer.
+      Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
+
+    var aProperty = 'global';
+
+  var myObject = {
+
+    outerFun: function() {
+
+      this.aProperty = 'local';
+
+      setTimeout(function() {
+
+        console.log(this.aProperty); // outputs 'global'
+
+      }, 1);
+
+    }
+
+  };
+  $(document).ready(function(){
+
+      var Module = (function () {
+        return {
+          bind : function(){
+            var ref = this;
+            $('#button').on('click',function () {
+              ref.init();
+            })
+          },
+          init : function () {
+            var a = NaN;
+            var b = "";
+            var c = false;
+            var d = function () {
+
+            };
+            var e =undefined;
+
+            var arr = [a,b,c,d,e];
+            console.log(arr);
+
+          }
+        }
+      })();
+
+      Module.bind();
+
+  });
+</script>
+
+</body>
+</html>

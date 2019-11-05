@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script>
+
+
+		var util = {
+			uuid: function () {
+				console.log('Hola como estan');
+				return "bien";
+			},
+			sort: function (points) {
+
+				points.sort(function(a, b){return a - b});
+				return points;
+			},
+			sortDesc: function (points) {
+				points.sort((a,b)=>{ return b-a });
+				return points;
+			}
+		};
+
+		var App = {
+			init: function () {
+				profile.getName();
+				console.log(' Sort ' + util.sort([1,2,4,34,7,0]));
+				util.sortDesc([1,2,4,34,7,0]).forEach((value,index,array)=>{
+					console.log(index);
+				});
+			}
+		};
+
+		const profile = {
+			name : 'techshit',
+			getName : function(){
+				console.log(this.name);
+			}
+		}
+		App.init();
+	</script>
+</body>
+</html>

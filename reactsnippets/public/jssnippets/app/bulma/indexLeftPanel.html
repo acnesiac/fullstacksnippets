@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="css/bulma.css">
+	<script>
+
+$(document).ready(function(){
+	var util = {
+		uuid: function () {
+
+			return "bien";
+		}
+	};
+
+	var App = {
+		init: function () {
+
+			console.log('Hola como estan' + API.get(function(err, result) {
+					console.log(result.title);
+					$('#bulmabutton').val( Math.random() + result.title);
+
+}));
+			console.log(' Estamos ' + util.uuid());
+
+		}
+
+	};
+
+var API = {
+get: function(callback) {
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'http://jsonplaceholder.typicode.com/posts/1', true);
+
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4) {
+			if(xhr.status == 200) {
+				callback(null, JSON.parse(xhr.responseText));
+			}
+			else {
+				callback(xhr.status);
+			}
+		}
+	};
+
+	xhr.send();
+},
+
+post: function(data, callback) {
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST', 'http://jsonplaceholder.typicode.com/posts', true);
+
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4) {
+			callback();
+		}
+	};
+
+	xhr.send(JSON.stringify(data));
+}
+};
+
+
+	document.getElementById('search').onkeyup= function(){
+		App.init();
+	}
+
+	document.getElementById('reset').onclick= function(){
+		App.init();
+	}
+
+
+});
+
+
+	</script>
+
+	<div class="container">
+		<div class="tabs">
+  <ul>
+    <li class="is-active"><a>Pictures</a></li>
+    <li><a>Music</a></li>
+    <li><a>Videos</a></li>
+    <li><a>Documents</a></li>
+  </ul>
+</div>
+	<nav class="panel">
+	  <p class="panel-heading">
+	    repositories
+	  </p>
+	  <div class="panel-block">
+	    <p class="control has-icons-left">
+	      <input id="search" class="input is-small" type="text" placeholder="search">
+	      <span class="icon is-small is-left">
+	        <i class="fas fa-search" aria-hidden="true"></i>
+	      </span>
+	    </p>
+	  </div>
+	  <p class="panel-tabs">
+	    <a class="is-active">all</a>
+	    <a>public</a>
+	    <a>private</a>
+	    <a>sources</a>
+	    <a>forks</a>
+	  </p>
+	  <a  class="panel-block is-active">
+	    <span class="panel-icon">
+	      <i class="fas fa-book" aria-hidden="true"></i>
+
+	    </span>
+			<input type="text" class="input is-primary" id="bulmabutton"/>
+
+	  </a>
+	  <a class="panel-block">
+	    <span class="panel-icon">
+	      <i class="fas fa-book" aria-hidden="true"></i>
+	    </span>
+	    marksheet
+	  </a>
+	  <a class="panel-block">
+	    <span class="panel-icon">
+	      <i class="fas fa-book" aria-hidden="true"></i>
+	    </span>
+	    minireset.css
+	  </a>
+	  <a class="panel-block">
+	    <span class="panel-icon">
+	      <i class="fas fa-book" aria-hidden="true"></i>
+	    </span>
+	    jgthms.github.io
+	  </a>
+	  <a class="panel-block">
+	    <span class="panel-icon">
+	      <i class="fas fa-code-branch" aria-hidden="true"></i>
+	    </span>
+	    daniellowtw/infboard
+	  </a>
+	  <a class="panel-block">
+	    <span class="panel-icon">
+	      <i class="fas fa-code-branch" aria-hidden="true"></i>
+	    </span>
+	    mojs
+	  </a>
+	  <label class="panel-block">
+	    <input type="checkbox">
+	    remember me
+	  </label>
+	  <div class="panel-block">
+	    <button id="reset" class="button is-link is-outlined is-fullwidth">
+	      reset all filters
+	    </button>
+	  </div>
+	</nav>
+	</div>
+
+</body>
+</html>
