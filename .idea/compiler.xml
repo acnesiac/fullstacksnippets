@@ -7,16 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="billingaccountaanagement" />
+        <module name="onstarprofile" />
         <module name="billingaccountaanagement (1)" />
         <module name="kafka-streaming-websockets" />
-        <module name="onstarprofile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="billingaccountaanagement" target="1.8" />
       <module name="billingaccountaanagement (1)" target="1.8" />
-      <module name="kafka-streaming-websockets" target="1.8" />
-      <module name="onstarprofile" target="1.8" />
+      <module name="kafka-streaming-websockets" target="1.5" />
+      <module name="onstarprofile" target="1.5" />
+      <module name="spring-course" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
