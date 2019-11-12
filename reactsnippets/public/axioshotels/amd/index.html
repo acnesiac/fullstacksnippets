@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Rest test cases</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://fgnass.github.com/spin.js/spin.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.16/require.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		    body,html{
+		height: 100%;
+	}
+
+	/* remove outer padding */
+	.main .row{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	/*Remove rounded coners*/
+
+	nav.sidebar.navbar {
+		border-radius: 0px;
+	}
+
+	nav.sidebar, .main{
+		-webkit-transition: margin 200ms ease-out;
+	    -moz-transition: margin 200ms ease-out;
+	    -o-transition: margin 200ms ease-out;
+	    transition: margin 200ms ease-out;
+	}
+
+	/* Add gap to nav and right windows.*/
+	.main{
+		padding: 10px 10px 0 10px;
+	}
+
+	/* .....NavBar: Icon only with coloring/layout.....*/
+
+	/*small/medium side display*/
+	@media (min-width: 768px) {
+
+		/*Allow main to be next to Nav*/
+		.main{
+			position: absolute;
+			width: calc(100% - 40px); /*keeps 100% minus nav size*/
+			margin-left: 40px;
+			float: right;
+		}
+
+		/*lets nav bar to be showed on mouseover*/
+		nav.sidebar:hover + .main{
+			margin-left: 200px;
+		}
+
+		/*Center Brand*/
+		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+			margin-left: 0px;
+		}
+		/*Center Brand*/
+		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+			text-align: center;
+			width: 100%;
+			margin-left: 0px;
+		}
+
+		/*Center Icons*/
+		nav.sidebar a{
+			padding-right: 13px;
+		}
+
+		/*adds border top to first nav box */
+		nav.sidebar .navbar-nav > li:first-child{
+			border-top: 1px #e5e5e5 solid;
+		}
+
+		/*adds border to bottom nav boxes*/
+		nav.sidebar .navbar-nav > li{
+			border-bottom: 1px #e5e5e5 solid;
+		}
+
+		/* Colors/style dropdown box*/
+		nav.sidebar .navbar-nav .open .dropdown-menu {
+			position: static;
+			float: none;
+			width: auto;
+			margin-top: 0;
+			background-color: transparent;
+			border: 0;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		/*allows nav box to use 100% width*/
+		nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+			padding: 0 0px 0 0px;
+		}
+
+		/*colors dropdown box text */
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+			color: #777;
+		}
+
+		/*gives sidebar width/height*/
+		nav.sidebar{
+			width: 200px;
+			height: 100%;
+			margin-left: -160px;
+			float: left;
+			z-index: 8000;
+			margin-bottom: 0px;
+		}
+
+		/*give sidebar 100% width;*/
+		nav.sidebar li {
+			width: 100%;
+		}
+
+		/* Move nav to full on mouse over*/
+		nav.sidebar:hover{
+			margin-left: 0px;
+		}
+		/*for hiden things when navbar hidden*/
+		.forAnimate{
+			opacity: 0;
+		}
+	}
+
+	/* .....NavBar: Fully showing nav bar..... */
+
+	@media (min-width: 1330px) {
+
+		/*Allow main to be next to Nav*/
+		.main{
+			width: calc(100% - 200px); /*keeps 100% minus nav size*/
+			margin-left: 200px;
+		}
+
+		/*Show all nav*/
+		nav.sidebar{
+			margin-left: 0px;
+			float: left;
+		}
+		/*Show hidden items on nav*/
+		nav.sidebar .forAnimate{
+			opacity: 1;
+		}
+	}
+
+	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #CCC;
+		background-color: transparent;
+	}
+
+	nav:hover .forAnimate{
+		opacity: 1;
+	}
+	section{
+		padding-left: 15px;
+	}
+	</style>
+	<script type="text/javascript">
+
+	</script>
+
+    <script>
+    var end, start;
+
+   $(document).ready(function(){
+   	console.log('ready');
+   		end = moment().add(2, 'days');
+		start = moment().add(1, 'days');
+		$('input[name="daterange"]').val(start.format('YYYY-MM-DD') + ' / ' + end.format('YYYY-MM-DD'));
+		console.log(''+ $('input[name="daterange"]') );
+   });
+
+      requirejs.config({
+        paths: {
+          axios: '/axios.min'
+        }
+      });
+	   var opts = {
+      lines: 11, // The number of lines to draw
+      length: 12, // The length of each line
+      width: 12, // The line thickness
+      radius: 12, // The radius of the inner circle
+      corners: 1, // Corner roundness (0..1)
+      rotate: 0, // The rotation offset
+      direction: 1, // 1: clockwise, -1: counterclockwise
+      color: 'black', // #rgb or #rrggbb
+      speed: 0.6, // Rounds per second
+      trail: 60, // Afterglow percentage
+      shadow: false, // Whether to render a shadow
+      hwaccel: false, // Whether to use hardware acceleration
+      className: 'spinner', // The CSS class to assign to the spinner
+      zIndex: 2e9, // The z-index (defaults to 2000000000)
+      top: '-10', // Top position relative to parent in px
+      left: 'auto' // Left position relative to parent in px
+    };
+
+
+
+        function clickHotelTPI(e){
+           console.log("10.163.76.45");
+          requirejs(['axios'], function (axios) {
+
+          var config = {
+            headers: {'IHG-ChannelId': 'BKGTL',
+                      'IHG-User':'GROLLAT',
+                      'IHG-RequestorId':'BKGTL',
+                      'IHG-ApplicationId':'BKT'}
+          };
+
+          var config2 = {
+            headers: {'AVAIL_MESSAGE': 'IHG/SYDHA?start_date=2017-09-20&end_date=2017-09-21&rateplan=codes:(IDAVP)&guests=[{"type":10,"occ":2}]&room_nb=1&room_type=codes:(KSTG)&room_type=attributes:(-ADA +ADA)',
+                      'channelId':'SYDHA',
+                      'hotelCodes':'[SYDHA]',
+                      'ApplicationId':'HGW',
+                      'IHG-ChannelId':'SYDHA',
+                      'IHG-Pos':'{"hotelSource":"SYDHA"}',
+                      'IHG-RequestorId':'PMSES',
+                      'operationName':'AUAVS',
+                      'PropertyId':'SYDHA',
+                      'requestorId':'PMSES',
+                      'TPI_MESSAGE':'AU AV:S/ECHO/SYDHA//20SEP17/01/IDAVP   /01/02/KSTG///P',
+                      'Access-Control-Allow-Origin': '*',
+                      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
+                      'Access-Control-Allow-Headers':'Content-Type, X-Your-Extra-Header-Key',
+                      'Access-Control-Allow-Credentials':' true',
+                      'Access-Control-Expose-Headers':' Authorization',
+                      'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+          };
+
+          var box = document.getElementById('selector');
+          var env = box.options[box.selectedIndex].getAttribute("title");
+          console.log("env" + env );
+           var spinner_div = $('#spinner').get(0);
+    var spinner = null;
+
+    if(spinner == null) {
+          spinner = new Spinner(opts).spin(spinner_div);
+        } else {
+          spinner.spin(spinner_div);
+        }
+        // 10.22.52.66
+        // //10.163.76.45
+          axios.post('http://10.163.76.45:8080/AvailabilityTPIService?MessageType=SAI_MSG_IN&PropertyId=SYDHA&MessageText=AU%20%0AAV:S/ECHO/SYDHA//14SEP17/5/IGCOR/01/02////P%0A', config2)
+            .then(function (hotel) {
+              //console.log(hotel.data.hotel.code);
+              //document.getElementById('useravatar').src = user.data.avatar_url;
+              document.getElementById('response').innerHTML = generateSuccessHTMLOutput(hotel);//hotel.data.hotel.code;
+                spinner.stop(spinner_div);
+
+            })
+            .catch(function(error){
+                     spinner.stop(spinner_div);
+
+              document.getElementById('response').innerHTML  = generateErrorHTMLOutput(error);
+            });
+
+
+
+      });
+        }
+
+
+        function clickHotel(e){
+
+
+			requirejs(['axios'], function (axios) {
+				var config = {
+					headers: {'IHG-ChannelId': 'BKGTL',
+					          'IHG-User':'GROLLAT',
+					          'IHG-RequestorId':'BKGTL',
+					          'IHG-ApplicationId':'BKT'}
+				};
+	          	var config2 = {
+		            headers: {'IHG-ChannelId': 'SYSTW',
+		                      'IHG-User':'GROLLAT',
+		                      'IHG-RequestorId':'SYSTW',
+		                      'IHG-ApplicationId':'availability',
+							  'Access-Control-Allow-Origin':'yes'}
+	          	};
+	          	  document.getElementById('responseH3').innerHTML = '' + e.innerText ;
+		          var box = document.getElementById('selector');
+		          var env = box.options[box.selectedIndex].getAttribute("title");
+				    var spinner_div = $('#spinner').get(0);
+			    	var spinner = null;
+
+					if(spinner == null) {
+			          spinner = new Spinner(opts).spin(spinner_div);
+			        } else {
+			          spinner.spin(spinner_div);
+			        }
+
+		          axios.get('http://'+ env +  ':8081/availability/v1/hotels/'+ e.innerText +'?end_date='+ end.format('YYYY-MM-DD') +'&process_modifiers=0&chainCode=IHG&guests=%5b%7b%22type%22:10,%22occ%22:1%7d,%7b%22type%22:7,%22occ%22:0%7d%5d&room_nb=1&includeAlternate=true&rateplan_long_desc=true&room_long_desc=true&start_date='+ start.format('YYYY-MM-DD'), config2)
+		            .then(function (hotel) {
+		              //console.log(hotel.data.hotel.code);
+		              //document.getElementById('useravatar').src = user.data.avatar_url;
+		              document.getElementById('response').innerHTML = generateSuccessHTMLOutput(hotel);//hotel.data.hotel.code;
+					          spinner.stop(spinner_div);
+
+		            })
+		            .catch(function(error){
+		                     spinner.stop(spinner_div);
+
+		              document.getElementById('response').innerHTML  = generateErrorHTMLOutput(error);
+		            });
+
+
+
+      });
+          }
+
+          function generateSuccessHTMLOutput(response) {
+  return  '<h4>Result</h4>' +
+          '<h5>Status:</h5> ' +
+          '<pre>' + response.status + ' ' + response.statusText + '</pre>' +
+          '<h5>Headers:</h5>' +
+          '<pre>' + JSON.stringify(response.headers, null, '\t') + '</pre>' +
+          '<h5>Data:</h5>' +
+          '<pre>' + JSON.stringify(response.data, null, '\t') + '</pre>';
+}
+
+          function generateErrorHTMLOutput(error) {
+
+              console.log(error.response);
+
+  return  '<h4>Result</h4>' +
+          '<h5>Message:</h5> ' +
+          '<pre>' + error.message + '</pre>' +
+          '<h5>Status:</h5> ' +
+          '<pre>' + error.response.status + ' ' + error.response.statusText + '</pre>' +
+          '<h5>Headers:</h5>' +
+          '<pre>' + JSON.stringify(error.response.headers, null, '\t') + '</pre>' +
+          '<h5>Data:</h5>' +
+          '<pre>' + JSON.stringify(error.response.data, null, '\t') + '</pre>';
+}
+    </script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse sidebar" role="navigation">
+    <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Rest Avail Tool </a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hotels HDX
+					<span class="caret">    </span>
+					<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+					<ul class="dropdown-menu forAnimate" role="menu">
+						<li> <a href="#" class="list-group-item active">Hotels HDX</a></li>
+          				<li><a href="#" class="list-group-item" value= "SINCQ" onclick="clickHotel(this)">SINCQ</a> </li>
+						<li><a href="#" class="list-group-item" value= "APPOG" onclick="clickHotel(this)">APPOG</a></li>
+						<li> <a href="#" class="list-group-item" value= "OFDUK" onclick="clickHotel(this)">OFDUK</a></li>
+						<li><a href="#" class="list-group-item" value= "DENAC" onclick="clickHotel(this)">DENAC</a></li>
+						<li> <a href="#" class="list-group-item" value= "DXBGA" onclick="clickHotel(this)">DXBGA</a></li>
+						<li> <a href="#" class="list-group-item" value= "STHCT" onclick="clickHotel(this)">STHCT</a></li>
+						<li> <a href="#" class="list-group-item" value= "CBGIM" onclick="clickHotel(this)">CBGIM</a></li>
+						<li> <a href="#" class="list-group-item" value= "ICTUS" onclick="clickHotel(this)">ICTUS</a></li>
+						<li> <a href="#" class="list-group-item" value= "MSNRR" onclick="clickHotel(this)">MSNRR</a></li>
+						<li> <a href="#" class="list-group-item" value= "HOWIN" onclick="clickHotel(this)">HOWIN</a></li>
+						<li> <a href="#" class="list-group-item" value= "LALLD" onclick="clickHotel(this)">LALLD</a></li>
+						<li> <a href="#" class="list-group-item" value= "ACAMX" onclick="clickHotel(this)">ACAMX</a></li>
+						<li> <a href="#" class="list-group-item" value= "ABEDP" onclick="clickHotel(this)">ABEDP</a></li>
+						<li> <a href="#" class="list-group-item" value= "ACACC" onclick="clickHotel(this)">ACACC</a></li>
+						<li> <a href="#" class="list-group-item" value= "ATLAA" onclick="clickHotel(this)">ATLAA</a></li>
+
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hotels GRS<span class="caret">    </span>
+					<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+					<ul class="dropdown-menu forAnimate" role="menu">
+						<li> <a href="#" class="list-group-item active">Hotels HDX </a></li>
+						<li><a href="#" class="list-group-item" value= "APPOG" onclick="clickHotel(this)">APPOG</a></li>
+						<li><a href="#" class="list-group-item" value= "SINCQ" onclick="clickHotel(this)">SINCQ</a> </li>
+						<li> <a href="#" class="list-group-item" value= "OFDUK" onclick="clickHotel(this)">OFDUK</a></li>
+						<li><a href="#" class="list-group-item" value= "ATLRS" onclick="clickHotel(this)">ATLRS</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+ <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li> </li>
+            <li class="active"><form class="form-inline">
+      <div class="form-group" style="padding-top: 10px">
+
+	          <label for="exampleInputName2"> Date range</label>
+		<input class="form-control" type="text" name="daterange"  />
+        <label for="exampleInputName2">Env</label>
+        <select id="selector" class="form-control">
+                <option title="localhost">localhost</option>
+                <option title="10.163.76.95">grsdevlab95.hiw.com</option>
+                <option title="10.163.76.156">grsdevlab156.hiw.com</option>
+                <option title="10.163.76.45">grsdevlab45.hiw.com</option>
+                <option title="10.163.24.64">adcavailabilityi1.hiw.com</option>
+
+              </select>
+      </div>
+
+    </form>
+    </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+     <h4>Hotel Rest</h4>
+  		<br>
+     <div class="row">
+       <div class="col-md-2">
+
+        </div>
+        <div class="col-md-10">
+
+          <div class="row">
+               <div class="panel panel-default">
+                 <div class="panel-heading" class="d-inline" >
+                  <h3 id="responseH3"> Response</h3><div id='spinner' class='spinner d-inline pull-right' ></div>
+                 </div>
+                 <div class="panel-body">
+                    <strong id="response"></strong>
+                 </div>
+               </div>
+          </div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>

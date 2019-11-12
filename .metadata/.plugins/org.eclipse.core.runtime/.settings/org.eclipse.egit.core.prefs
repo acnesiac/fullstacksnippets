@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\exocerebro\\java\\javasnippets\\.git;
+GitRepositoriesView.GitDirectories=C\:\\dev\\backendsnippets\\.git;C\:\\exocerebro\\java\\javasnippets\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\exocerebro\\java\\javasnippets\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

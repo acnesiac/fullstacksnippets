@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Module pattern</title>
+	<script type="text/javascript">
+
+		function clousure(){
+			return {
+				data : {
+					value : 'hello world 2'
+				},
+				show : function(){console.log('hello ' + this.data.value );}
+			}
+
+		}
+
+		var Module = clousure();
+		Module.show();
+
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

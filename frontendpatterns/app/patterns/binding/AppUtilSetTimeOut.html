@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script>
+
+
+		var util = {
+			uuid: function () {
+				console.log('Hola como estan');
+				return "bien";
+			},
+			setTime: function(){
+				setTimeout(function(){ console.log('hola') }, 3000);
+				return "timming";
+			}
+		};
+
+		var App = {
+			init: function () {
+				console.log('Hola como estan');
+				console.log(' Estamos ' + util.uuid());
+				console.log(' Settime ' + util.setTime());
+			}
+
+		};
+
+		App.init();
+
+	</script>
+</body>
+</html>

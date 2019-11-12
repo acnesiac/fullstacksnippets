@@ -6,18 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datastructure" />
-        <module name="journals" />
-        <module name="myapp" />
-        <module name="spring-svitla" />
+        <module name="billingaccountaanagement" />
+        <module name="onstarprofile" />
+        <module name="billingaccountaanagement (1)" />
+        <module name="kafka-streaming-websockets" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="datastructure" target="1.8" />
-      <module name="journals" target="1.8" />
-      <module name="myapp" target="1.7" />
-      <module name="spring-course" target="1.8" />
-      <module name="spring-svitla" target="1.5" />
+      <module name="billingaccountaanagement" target="1.8" />
+      <module name="billingaccountaanagement (1)" target="1.8" />
+      <module name="kafka-streaming-websockets" target="1.5" />
+      <module name="onstarprofile" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

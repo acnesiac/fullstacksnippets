@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>binding</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			function clickear(){
+				var data = 'world';	
+				return { 
+					data : 'world1',	
+					sinc : function(){
+					console.log('hello ' + this.data);
+				}};
+			}
+
+
+			var Module = clickear();
+			var sincBorrowed = Module.sinc;
+			var another = sincBorrowed.bind(Module);
+			another();
+			
+
+
+			$('#myBoton').on('click', 
+				function (){ Module.sinc();}
+			);
+
+			$('#myBoton').on('click', 
+				function (){ Module.sinc();}
+			);
+
+
+		});
+
+	</script>
+</head>
+<body>
+	<form>
+		
+		<input type="text" name="input" id="textfield">
+		<input type="button" name="boton" id="myBoton"  value="hola"></input>
+	</form>
+</body>
+</html>

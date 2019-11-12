@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script>
+
+
+		var util = {
+			uuid: function () {
+				console.log('Hola como estan');
+				return "bien";
+			},
+			sort: function () {
+				var points = [40, 100, 1, 5, 25, 10];
+				points.sort(function(a, b){return a - b});
+				return points;
+			},
+			sortDesc: function () {
+				var points = [1,2,4,56,7,0];
+				points.sort(function(a,b){return b-a });
+
+				return points;
+			}
+		};
+
+		var App = {
+			init: function () {
+				console.log(' Sort ' + util.sort());
+				util.sortDesc().forEach(function (value,index,array){
+					console.log(array);
+				});
+			}
+		};
+		App.init();
+	</script>
+</body>
+</html>

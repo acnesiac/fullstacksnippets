@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d40a590f-bae9-4b7d-82f8-01043337a540" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenuTraversi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenuTraversi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/patterns/AppUtilScopeThisSetTimeOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/patterns/AppUtilScopeThisSetTimeOut.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/angularjs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/angularjs/index.html" afterDir="false" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+      <change beforePath="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed" beforeDir="false" afterPath="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2055628806">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="1" />
+<<<<<<< HEAD
+          <entry key="project.open.time.2" value="1" />
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+<<<<<<< HEAD
+          <entry key="project.opened" value="16" />
+=======
+          <entry key="project.opened" value="15" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="1" />
+<<<<<<< HEAD
+          <entry key="html" value="2225" />
+=======
+          <entry key="html" value="1771" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+          <entry key="js" value="1" />
+          <entry key="txt" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1" />
+<<<<<<< HEAD
+          <entry key="HTML" value="2225" />
+=======
+          <entry key="HTML" value="1771" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="105" value="1" />
+          <entry key="238" value="1" />
+          <entry key="30" value="1" />
+          <entry key="33" value="1" />
+          <entry key="css" value="10" />
+          <entry key="extensions::binding" value="4" />
+          <entry key="extensions::event_bindings" value="2" />
+          <entry key="extensions::runtime" value="7" />
+          <entry key="extensions::uncaught_exception_handler" value="2" />
+<<<<<<< HEAD
+          <entry key="html" value="87" />
+          <entry key="js" value="31" />
+=======
+          <entry key="html" value="80" />
+          <entry key="js" value="29" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+          <entry key="json" value="1" />
+          <entry key="jsx" value="3" />
+          <entry key="md" value="3" />
+          <entry key="sass" value="6" />
+          <entry key="scss" value="2" />
+          <entry key="sql" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+<<<<<<< HEAD
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="87" />
+          <entry key="JSON" value="1" />
+          <entry key="JSX Harmony" value="3" />
+          <entry key="JavaScript" value="50" />
+=======
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="80" />
+          <entry key="JSON" value="1" />
+          <entry key="JSX Harmony" value="3" />
+          <entry key="JavaScript" value="48" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SCSS" value="2" />
+          <entry key="SQL" value="1" />
+          <entry key="Sass" value="6" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenuTraversi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bulma/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/leftsidemenu/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/app/patterns/AppUtilScopeThisSetTimeOut.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/patterns/searchlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bulma/bulmaPromise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="76" column="3" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="76" selection-end-column="3" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/angularjs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#p#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>placeholder</find>
+      <find>*promise.html</find>
+      <find>jsonpla</find>
+      <find>jsonplaceholder</find>
+      <find>function</find>
+      <find>jsonplace</find>
+      <find>foreach</find>
+      <find>side</find>
+      <find>*ajax</find>
+      <find>get</find>
+      <find>util</find>
+      <find>jquery</find>
+      <find>*Apputil.js</find>
+      <find>arr.sort</find>
+      <find>bulma</find>
+      <find>bulma*</find>
+      <find>input1</find>
+      <find>simple</find>
+<<<<<<< HEAD
+      <find>button</find>
+      <find>timeout</find>
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\exocerebro\html\htmlsnippets2\app\wines</dir>
+      <dir>C:\exocerebro\html\htmlsnippets2\</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/promise/index.html" />
+        <option value="$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js" />
+        <option value="$PROJECT_DIR$/app/patterns/jqueryAjaxGet.html" />
+        <option value="$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPI.html" />
+        <option value="$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPIPromise.html" />
+        <option value="$PROJECT_DIR$/app/patterns/css/main.css" />
+        <option value="$PROJECT_DIR$/app/patterns/AppUtilVars.html" />
+        <option value="$PROJECT_DIR$/app/patterns/AppUtilAssociativeArray.html" />
+        <option value="$PROJECT_DIR$/app/patterns/AppUtilVarsRef.html" />
+        <option value="$PROJECT_DIR$/app/patterns/allTemplate.html" />
+        <option value="$PROJECT_DIR$/app/bulma/bulmaPromise.html" />
+        <option value="$PROJECT_DIR$/app/foundation/FoundationFormUtilApp.html" />
+        <option value="$PROJECT_DIR$/app/foundation/FoundationFormUtilAppPromise.html" />
+        <option value="$PROJECT_DIR$/app/patterns/searchlist.html" />
+        <option value="$PROJECT_DIR$/app/angularjs/index.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/patterns/AppUtilScopeThisSetTimeOut.html" />
+        <option value="$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenuTraversi.html" />
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>styles</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>scripts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>lint</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>lint:test</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="styles" />
+              <dependency value="scripts" />
+            </dependencies>
+            <task-name>html</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>images</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>extras</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>serve</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="default" />
+            </dependencies>
+            <task-name>serve:dist</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="scripts" />
+            </dependencies>
+            <task-name>serve:test</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>wiredep</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="lint" />
+              <dependency value="html" />
+              <dependency value="images" />
+              <dependency value="fonts" />
+              <dependency value="extras" />
+            </dependencies>
+            <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/app/angularjssimple/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/axios/axios/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/redux/async/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/redux/counter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/redux/real-world/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/redux/shopping-cart/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/redux/todomvc/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/superagent/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/testing/mocha/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/todomvc/backbone/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/todomvc/jquery/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/todomvc/react/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/angularjssimple/app/bower_components/angular-loader/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/app/bower_components/angular-mocks/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/app/bower_components/angular-route/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/app/bower_components/angular/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/app/bower_components/html5-boilerplate/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/@types/jasmine/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/@types/q/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/@types/selenium-webdriver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/after/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/agent-base/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/array-slice/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/array-union/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/arraybuffer.slice/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/arrify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/backo2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base64-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/base64id/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/batch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/better-assert/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/blob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/body-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/body-parser/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ansi-escapes/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ansicolors/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/array-filter/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/array-find-index/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/array-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/array-reduce/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bl/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/boom/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-config/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-config/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-endpoint-parser/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-json/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-logger/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/bower-registry-client/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/boxen/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/camelcase-keys/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/capture-stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cardinal/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chalk/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chmodr/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cli-cursor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cli-width/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/configstore/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/configstore/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/configstore/node_modules/uuid/benchmark/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/configstore/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/create-error-class/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/currently-unhandled/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/decompress-zip/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/decompress-zip/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/decompress-zip/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/dot-prop/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/duplexer2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ends-with/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/exit-hook/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ext-list/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ext-name/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/figures/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/filled-array/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/findup-sync/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fs-write-stream-atomic/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fstream-ignore/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fstream/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fstream/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/github/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/handlebars/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/handlebars/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/hawk/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/iferr/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/inquirer/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/inquirer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/intersect/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-npm/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-obj/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-redirect/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-retry-allowed/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-root/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/jsonify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/junk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/latest-version/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/lockfile/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/loud-rejection/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/lowercase-keys/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/map-obj/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/md5-hex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/md5-o-matic/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/meow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mkpath/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mout/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/nested-error-stacks/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/node-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/normalize-package-data/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/onetime/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/optimist/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/optimist/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/p-throttler/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/p-throttler/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/package-json/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/package-json/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/promptly/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/read-all-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/read/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/read/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/readline2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/redent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/redeyed/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/redeyed/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/registry-auth-token/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/registry-url/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/repeating/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request-progress/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request-replay/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/biz/node_modules/garply/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/requireg/test/fixtures/lib/node_modules/beaker/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/restore-cursor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/retry/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/rimraf/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/run-async/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/rx-lite/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/semver-diff/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/semver-diff/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/semver-utils/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/shell-quote/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/slide/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/sntp/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/sort-keys-length/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/stringify-object/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tar-fs/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tar-fs/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tar-fs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tar-stream/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tar-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/throttleit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/timed-out/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/touch/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/touch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/untildify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/unzip-response/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/user-home/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/widest-line/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/lib/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bower/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/buffer-alloc-unsafe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/buffer-alloc/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/buffer-fill/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/cache-base/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/callsite/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/class-utils/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/component-bind/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/component-inherit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/connect/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/corser/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/custom-event/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/del/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/di/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/dom-serialize/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ecstatic/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io-client/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io-client/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io-client/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/engine.io/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/eventemitter3/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/exit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-braces/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-braces/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-braces/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-braces/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-braces/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/finalhandler/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/finalhandler/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fs-access/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-binary/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-binary/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-cors/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-values/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-values/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/http-proxy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/http-server/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/https-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/https-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-path-cwd/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-path-in-cwd/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-path-inside/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-plain-object/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/isbinaryfile/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine-core/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine/node_modules/jasmine-core/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasmine/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jasminewd2/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/json3/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma-chrome-launcher/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma-firefox-launcher/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma-jasmine/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma-junit-reporter/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/karma/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/log4js/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/log4js/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/log4js/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/log4js/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/math-random/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/nanomatch/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/nanomatch/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/nanomatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/null-check/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-component/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-visit/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object.pick/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/opener/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/optimist/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/options/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/parsejson/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/parseqs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/parseuri/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/portfinder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/protractor/exampleTypescript/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/protractor/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/protractor/node_modules/webdriver-manager/built/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/protractor/node_modules/webdriver-manager/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/protractor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/randomatic/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/requires-port/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/saucelabs/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/selenium-webdriver/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/selenium-webdriver/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/selenium-webdriver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-adapter/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-adapter/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-adapter/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-client/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-client/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-client/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-parser/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-parser/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-parser/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/socket.io/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/to-array/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/to-regex-range/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/union/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unset-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/url-join/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/useragent/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/void-elements/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/wtf-8/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/xml2js/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/xmlhttprequest-ssl/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/node_modules/yeast/package.json" />
+      <path value="$PROJECT_DIR$/app/angularjssimple/package.json" />
+      <path value="$PROJECT_DIR$/app/axios/axios/package.json" />
+      <path value="$PROJECT_DIR$/app/bulma/package.json" />
+      <path value="$PROJECT_DIR$/app/chartaws-master/package.json" />
+      <path value="$PROJECT_DIR$/app/cms/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/app/leftsidemenu/package.json" />
+      <path value="$PROJECT_DIR$/app/movie-db-master/movie-db-master/package.json" />
+      <path value="$PROJECT_DIR$/app/movie-db-master/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/async/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/counter/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/real-world/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/shopping-cart/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/todomvc/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/todos-flow/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/todos-with-undo/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/todos/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/tree-view/package.json" />
+      <path value="$PROJECT_DIR$/app/redux/universal/package.json" />
+      <path value="$PROJECT_DIR$/app/semanticui/package.json" />
+      <path value="$PROJECT_DIR$/app/superagent/package.json" />
+      <path value="$PROJECT_DIR$/app/testing/jest2/package.json" />
+      <path value="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/example/package.json" />
+      <path value="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed/package.json" />
+      <path value="$PROJECT_DIR$/app/testing/karma/package.json" />
+      <path value="$PROJECT_DIR$/app/testing/mocha/package.json" />
+      <path value="$PROJECT_DIR$/app/todomvc/backbone/package.json" />
+      <path value="$PROJECT_DIR$/app/todomvc/jquery/package.json" />
+      <path value="$PROJECT_DIR$/app/todomvc/react/package.json" />
+      <path value="$PROJECT_DIR$/app/wines/bower_components/backbone/package.json" />
+      <path value="$PROJECT_DIR$/app/wines/bower_components/bootstrap-sass-official/package.json" />
+      <path value="$PROJECT_DIR$/app/wines/bower_components/chai/package.json" />
+      <path value="$PROJECT_DIR$/app/wines/bower_components/requirejs-text/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bootstrap-sass/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/chai/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/mocha/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="htmlsnippets2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlsnippets2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlsnippets2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlsnippets2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlsnippets2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlsnippets2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htmlsnippets2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htmlsnippets2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\exocerebro\html\htmlsnippets2\app\axios\axios\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\exocerebro\html\htmlsnippets2\app\ligthdashboardmin\examples" />
+      <recent name="C:\exocerebro\html\htmlsnippets2\app\foundation" />
+      <recent name="C:\exocerebro\html\htmlsnippets2\app\bulma" />
+      <recent name="C:\exocerebro\html\htmlsnippets2\app\patterns" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="FoundationFormUtilApp.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlsnippets2/app/foundation/FoundationFormUtilApp.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="bulmaPromise.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlsnippets2/app/bulma/bulmaPromise.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlsnippets2/app/foundation/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlsnippets2/app/angularjs/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:9000" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>serve</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.localhost" />
+      <item itemvalue="Gulp.js.serve" />
+      <item itemvalue="JavaScript Debug.bulmaPromise.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.FoundationFormUtilApp.html" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+<<<<<<< HEAD
+        <item itemvalue="Gulp.js.serve" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+=======
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="Gulp.js.serve" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+        <item itemvalue="JavaScript Debug.FoundationFormUtilApp.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.bulmaPromise.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d40a590f-bae9-4b7d-82f8-01043337a540" name="Default Changelist" comment="" />
+      <created>1537306938991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537306938991</updated>
+      <workItem from="1537306940913" duration="15000" />
+      <workItem from="1537483606505" duration="814000" />
+      <workItem from="1537484470003" duration="300000" />
+      <workItem from="1537484777727" duration="1834000" />
+      <workItem from="1537541976096" duration="6485000" />
+      <workItem from="1537617740617" duration="5609000" />
+      <workItem from="1537688237182" duration="35000" />
+      <workItem from="1537688326314" duration="12000" />
+      <workItem from="1537688515606" duration="1422000" />
+      <workItem from="1537711903567" duration="2000" />
+      <workItem from="1537712003702" duration="146000" />
+      <workItem from="1537912848531" duration="1310000" />
+      <workItem from="1538041885899" duration="1465000" />
+      <workItem from="1538049578063" duration="6237000" />
+      <workItem from="1538128905203" duration="1082000" />
+<<<<<<< HEAD
+      <workItem from="1539529742740" duration="2913000" />
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+    </task>
+    <task id="LOCAL-00001" summary="ok promise">
+      <created>1537486416518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537486416518</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok promise">
+      <created>1537643018085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537643018085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ok promise">
+      <created>1539531875558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539531875558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="29681000" />
+=======
+    <option name="totallyTimeSpent" value="26768000" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6317073" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" sideWeight="0.3682927" side_tool="true" weight="0.25" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6045977" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" sideWeight="0.3954023" side_tool="true" visible="true" weight="0.25" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="3" weight="0.36497545" />
+=======
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3289689" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40589198" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28805238" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28805238" />
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/cacheUtils.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/defaults.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/visualStudioOptionsResolver.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/visualStudioOptionsResolver.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/optionsResolver.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/utils.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/utils.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/compile.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/tsconfig.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/compile.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/transformers.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/optionsResolver.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/html2ts.js.map" />
+        <option value="$PROJECT_DIR$/app/testing/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/tsconfig.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/cacheUtils.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/ts.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/ts.js" />
+        <option value="$PROJECT_DIR$/app/testing/karma-jasmine/integration-tests/karma-seed/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/app/testing/mocha/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/html2ts.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/amdLoader.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/amdLoader.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/templateCache.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/defaults.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/transformers.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/reference.js" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/templateCache.js.map" />
+        <option value="$PROJECT_DIR$/app/axios/axios/node_modules/grunt-ts/tasks/modules/reference.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok promise" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok promise" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/lodash/index.html</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/lodash/index.html</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/promise/index.html</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/jquery/js/app.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/jquery/js/app.js</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/jquery/js/app.js</url>
+          <line>152</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/jquery/js/app.js</url>
+          <line>157</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/app.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/app-view.js</url>
+          <line>116</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/app-view.js</url>
+          <line>121</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/models/todo.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>119</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>81</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>63</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>58</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/todo-view.js</url>
+          <line>52</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/todomvc/backbone/js/views/app-view.js</url>
+          <line>38</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/AppUtil.html</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/AppUtil.html</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/jqueryAjaxGet.html</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPI.html</url>
+          <line>24</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPI.html</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPIPromise.html</url>
+          <line>31</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/jqueryAjaxGetAPIPromise.html</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/AppUtilVars.html</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/AppUtilAssociativeArray.html</url>
+          <line>81</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/patterns/AppUtilAssociativeArray.html</url>
+          <line>70</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/backbone-contact-manager/app/js/app.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/backbone-contact-manager/app/js/app.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/foundation/FoundationFormUtilApp.html</url>
+          <line>35</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/superagent/docs/tail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/superagent/examples/simple-get.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/todomvc/react/js/footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/todomvc/react/js/todoModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-797">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/todomvc/react/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/todomvc/react/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/todomvc/react/js/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlynavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/assets/css/light-bootstrap-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="618" column="1" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar/style5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+    <entry file="file://$PROJECT_DIR$/app/sidebar/index4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar/index3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sidebar/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/vendor/underscore/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="206" column="82" selection-start-line="206" selection-start-column="82" selection-end-line="206" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/vendor/backbone/backbone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="1446" column="4" selection-start-line="1446" selection-start-column="4" selection-end-line="1446" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/vendor/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="4499" column="2" selection-start-line="4499" selection-start-column="2" selection-end-line="4499" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-directory-1/directory.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-directory-1/readme.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-directory-1/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/semanticui/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/semanticui/package.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/semanticui/components/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/semanticui/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/alertify/AppUtilJqueryCssAlertify.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbonesnippets/backboneMaginficent2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbonesnippets/backboneMenuItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:9000/backbone-contact-manager/app/js/app.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bulma/indexLeftPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/indexmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/wines/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/foundation/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/patterns/AppUtilJquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/patterns/AppUtilArraySort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/foundation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/axiosmocha/css/bulma.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/foundation/FoundationFormUtilApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/foundation/js/vendor/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/foundation/FoundationFormUtilAppPromise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/backbone-contact-manager/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2095">
+          <caret line="8" column="23" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/alertify/alertify.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+    <entry file="file://$PROJECT_DIR$/app/leftsidemenu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/angularjs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+    <entry file="file://$PROJECT_DIR$/app/patterns/searchlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/todomvc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/patterns/allTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/assets/sass/lbd/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/assets/sass/light-bootstrap-dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/assets/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="180" column="23" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/assets/css/light-bootstrap-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="5024" column="10" selection-start-line="5024" selection-start-column="4" selection-end-line="5024" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cms/bower_components/jquery/src/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bulma/bulmaPromise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="76" column="3" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="76" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bulma/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/patterns/AppUtilScopeThisSetTimeOut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ligthdashboardmin/examples/onlymenuTraversi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/alertify/alertify.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/angularjs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> 5615ef6a6a589eb7b23b7670f31313091f21395a
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

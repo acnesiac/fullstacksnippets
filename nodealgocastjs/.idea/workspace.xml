@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39f9f386-51e8-4a5e-bda2-588e5202c63e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/datastructure/target/classes/collection/com/Combination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/datastructure/target/classes/collection/com/Facebook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/datastructure/target/classes/collection/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/fizzbuzz/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/fizzbuzz/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javastructurespatternsstreams/datastructure/target/classes/collection/com/HashMapClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/datastructure/target/classes/collection/com/HashMapClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed_exercises/anagrams/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/completed_exercises/anagrams/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed_exercises/chunk/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/completed_exercises/chunk/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed_exercises/maxchar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/completed_exercises/maxchar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed_exercises/pyramid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/completed_exercises/pyramid/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/fizzbuzz/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/fizzbuzz/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/anagrams/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/chunk/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/linkedlist/directions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/maxchar/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/linkedlist/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/completed_exercises/anagrams/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/completed_exercises/pyramid/index.js" />
+        <option value="$PROJECT_DIR$/completed_exercises/maxchar/index.js" />
+        <option value="$PROJECT_DIR$/completed_exercises/chunk/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="anagrams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="capitalize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="chunk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="maxchar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="palindrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="pyramid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="qfroms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="reverseint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="reversestring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodealgocastjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodealgocastjs" type="462c0819:PsiDirectoryNode" />
+              <item name="completed_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="weave" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/imagenesrx/reactfrontend" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js (1)">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/completed_exercises/chunk/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/completed_exercises/pyramid/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/completed_exercises/maxchar/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/completed_exercises/maxchar/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/completed_exercises/anagrams/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.test.js (2)" />
+        <item itemvalue="Node.js.index.js (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39f9f386-51e8-4a5e-bda2-588e5202c63e" name="Default Changelist" comment="" />
+      <created>1554337419050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554337419050</updated>
+      <workItem from="1554337421092" duration="3851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3851000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3453355" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/completed_exercises/maxchar/index.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/completed_exercises/maxchar/index.js</url>
+          <line>27</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/completed_exercises/chunk/index.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>array</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array.slice(index, 3)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array.slice(index, index + size)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/completed_exercises/weave/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/reversestring/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/reverseint/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/queue/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/qfroms/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/qfroms/stack.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/qfroms/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/pyramid/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/pyramid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/palindrome/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/midpoint/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/maxchar/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/anagrams/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/anagrams/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/chunk/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/linkedlist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/linkedlist/directions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/completed_exercises/maxchar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

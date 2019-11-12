@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>binding</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+
+			App = {
+					data : 'world',
+					init: function clickear(){
+
+
+								console.log('hello ' + this.data);
+
+				}
+
+			};
+
+
+
+
+
+
+			$('#myBoton').on('click',
+				function (){ App.init();}
+			);
+
+
+		});
+
+	</script>
+</head>
+<body>
+	<form>
+
+		<input type="text" name="input" id="textfield">
+		<input type="button" name="boton" id="myBoton"  value="hola"></input>
+	</form>
+</body>
+</html>

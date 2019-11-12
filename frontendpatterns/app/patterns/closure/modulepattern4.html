@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Module pattern 4</title>
+	<script type="text/javascript">
+		
+		var functionholder = (function functionClosure(){
+			var data = 'hello world in most shrink way';
+			return {
+				datain : data,
+				sinc : function(){
+					console.log(' showing ' + data  );
+				} 
+			} ;
+		})();
+
+		//var functionholder = functionClosure();
+		functionholder.sinc();
+
+
+
+	</script>
+</head>
+<body> 
+	
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style type="text/css">
+		
+		body{ background-color: blue; }
+		input:hover{background-color: yellow;}
+
+	</style>
+	<script type="text/javascript">
+		$(document).ready(
+			function(){
+				console.log('hello');
+				function moduleFunction(){
+					return {
+						sound : 'woof',
+						talk : function(){
+							console.log('' + this.sound);
+						}
+					};
+				}
+				var Module = moduleFunction();
+				Module.talk();
+				
+				$('#buttonme').on('click', function(){
+						console.log('  clicking me ' );
+					}
+				);
+				var Things = ["a", "b", "a", "b", "c", "a", "v"];
+				function iterate(){
+					for (var i = 0; i < Things.length; i++) {
+						console.log(Things[i]);
+					}
+				}
+				iterate(Things);
+
+
+			}
+		);
+	</script>
+</head>
+<body>
+	<input id="buttonme" type="button" value="go">
+</body>
+</html>

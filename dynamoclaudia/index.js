@@ -1,0 +1,27 @@
+const ApiBuilder = require('claudia-api-builder'),
+    AWS = require('aws-sdk');
+var api = new ApiBuilder(),
+    dynamoDb = new AWS.DynamoDB.DocumentClient();
+
+api.post('/icecreams', function (request) { // SAVE your icecream
+    var params = {
+        TableName: 'icecreams',
+        Item: {
+            icecreamid: request.body.icecreamId,
+            name: request.body.name // your icecream name
+        }
+    }
+    return dynamoDb.put(params).promise(); // returns dynamo result
+}, { success: 201 }); // returns HTTP status 201 - Created if successful
+
+api.get('/icecreams', function (request) { // GET all users
+    return dynamoDb.scan({ TableName: 'icecreams' }).promise()
+        .then(response => response.Items)
+});
+
+
+module.exports = api;
+
+
+
+//curl -H "Content-Type: application/json" -X POST -d '{"icecreamId":"123", "name":"lime"}' https://uul6k2sxpg.execute-api.us-east-1.amazonaws.com/latest/icecreams
