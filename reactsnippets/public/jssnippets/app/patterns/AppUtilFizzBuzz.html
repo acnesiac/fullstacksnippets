@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<script>
+
+	var FizzBuzzModule = {
+			array : [1,2,3,4,5,6,7,8,9,0],
+			fizzbuzz: function(){
+						console.log(this.array);
+			},
+			max: function(){
+				this.array.reduce(function(a,b){Math.max(b,a);});
+			},
+			reduceSum: function(){
+				return this.array.reduce(function(total,value,index){
+					return total += value;
+				});
+
+			}
+
+	};
+
+	var FizzBuzzModuleIffe = (function(){
+		return {
+			hola : function(){
+				console.log('hola');
+			}
+		}
+	})();
+
+console.log(FizzBuzzModule.reduceSum());
+
+
+
+
+		var util = {
+			uuid: function () {
+				console.log('Hola como estan');
+				return "bien";
+			}
+		};
+
+		var App = {
+			init: function () {
+				console.log('Hola como estan');
+				console.log(' Estamos ' + util.uuid());
+
+			}
+
+		};
+
+		App.init();
+
+	</script>
+</body>
+</html>

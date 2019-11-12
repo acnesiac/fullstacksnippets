@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>https://docs.emmet.io/cheat-sheet/</title>
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		</head>
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			var Module = (function(){
+				return {
+					log : function( obj ){
+						obj.append("<strong>Hello</strong>" );
+					}
+				}
+			})();
+
+
+			
+
+			$('#go-button').on('click', 
+				function (){ Module.log(this);}
+			);
+		});
+
+		</script>
+		<body>
+			<div class="container">
+				<nav class="navbar navbar-inverse">
+					<div class="navbar-header">
+						<a href="" class="navbar-brand">https://docs.emmet.io/cheat-sheet/</a>
+						<ul class="nav navbar-nav">
+							<li><a href="" class="menu-1"></a></li>
+							<li><a href="" class="menu-2">Menu Item 2</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="jumbotron text-center">
+					<h1></h1>
+					<p></p>
+					<a href="" id="go-button" class="btn btn-danger">Learn More</a>
+				</div>
+				<div class="row text-center">
+					<div class="col-sm-3">
+						<div class="info-box">
+							<span class="glyphicon glyphicon-fire"></span>
+							<h2>Lions</h2>
+							<p>
+								html:5>div.container>(nav.navbar.navbar-inverse>div.navbar-header>a.navbar-brand{Crazy Fast}+ul.nav.navbar-nav>li*2>a.menu-${Menu Item $})+(div.jumbotron.text-center>h1{Crazy Fast HTML}+p+a#go-button.btn.btn-danger{Learn More})+(div.row.text-center>(div.col-sm-4>div.info-box>span.glyphicon.glyphicon-fire+h2{Lions}+p)+(div.col-sm-8>div.info-box>span.glyphicon.glyphicon-send+h2{Emmmet}+p))
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="info-box">
+							<span class="glyphicon glyphicon-send"></span>
+							<h2>Link</h2>
+							<p>link[rel=”stylesheet” href=”//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css”]</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="info-box">
+							<span class="glyphicon glyphicon-send"></span>
+							<p>
+								script[src=""]
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-3">	
+						<div class="info-box">	
+								<span class="glyphicon glyphicon-send">	</span>
+								<p>	https://docs.emmet.io/cheat-sheet/</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</body>
+		</html>		

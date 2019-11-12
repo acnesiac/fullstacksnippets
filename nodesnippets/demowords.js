@@ -11,9 +11,12 @@ for (var i= 0 ; i < arr.length; i ++){
 		}
 }
 
+
+
 var res = Object.keys(hash).sort().forEach(
 		function (key,index){  
 			console.log( key ) } ) ;
+
 
 
 

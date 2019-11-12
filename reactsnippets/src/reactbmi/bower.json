@@ -1,0 +1,17 @@
+{
+  "name": "reactcontactmanager",
+  "description": "",
+  "main": "",
+  "authors": [
+    "acnesiac <acnesiac@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/acnesiac/reactcontactmanager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -7,6 +7,7 @@ const ordered = {};
 for (var i = 0; i < trivialWords.length; i++) {
 		hash[trivialWords[i]] = 0;
 }
+
 for (var i = 0; i < arrtext.length; i++) {
 	if( hash[arrtext[i]] != undefined){
 		hash[arrtext[i]] ++;

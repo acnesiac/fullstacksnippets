@@ -1,0 +1,30 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+  	  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	  <script src="bower_components/underscore/underscore.js" ></script>
+	  <script src="bower_components/backbone/backbone.js"></script>
+
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			    $.ajax({
+			        url: "http://rest-service.guides.spring.io/greeting"
+			    }).then(function(data) {
+			       $('.greeting-id').append(data.id);
+			       $('.greeting-content').append(data.content);
+			    });
+			});
+		</script>
+	</head>
+	<body>
+        <div>
+            <p class="greeting-id">The ID is </p>
+            <p class="greeting-content">The content is </p>
+        </div>
+    </body>
+	</html>

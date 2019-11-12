@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="./js/underscore-min.js"></script>
+
+	<script>
+
+
+		var util = {
+			uuid: function () {
+				Object.keys([1, 2, 1, 2]).forEach(key => {
+				
+				 console.log('key',key)
+
+				})
+				console.log('Hola como estan' + _.indexOf([1, 2, 1, 2], 2) );
+				return "bien";
+			}
+		};
+
+		var App = {
+			init: function () {
+				console.log('Hola como estan');
+				console.log(' Estamos ' + util.uuid());
+
+			}
+
+		};
+
+		App.init();
+
+	</script>
+</body>
+</html>

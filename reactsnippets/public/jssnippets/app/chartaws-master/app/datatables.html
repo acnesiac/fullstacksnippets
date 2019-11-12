@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="samples.js"></script>
+    <script src="utils.js"></script>
+    <title>Kaiser Monitor Tool</title>
+
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+</head>
+
+<style type="text/css">
+    td.details-control {
+        background: url('details_open.png') no-repeat center center;
+        cursor: pointer;
+    }
+
+    tr.shown td.details-control {
+        background: url('details_close.png') no-repeat center center;
+    }
+</style>
+
+<body>
+   <div class="wrapper" style="padding-top:0">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+				
+                <h3> 
+				 <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+				<img  src= "images/hp.png"/ height="42" width="42">
+                                
+                                <span>Toogle sidebar</span>
+                            </button>
+					
+				</h3>
+				<h3>HP Kaiser Tool</h3>
+                <strong> 
+				<button type="button" id="sidebarCollapse1" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>X</span>
+                            </button></strong>
+            </div>
+
+            <ul class="list-unstyled components">
+				<li>
+                    <a href="/">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Usage by device
+                        </a>
+                </li>
+				  <li>
+                    <a href="/consumable.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Consume by device
+                        </a>
+                </li>				<li>
+                    <a href="/datatablesUsage.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Usage by family
+                        </a>
+                </li>
+				  <li>
+                    <a href="/datatables.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Consume by family
+                        </a>
+                </li>
+                
+
+              
+               
+            </ul>
+
+
+        </nav>
+        <!-- Page Content Holder -->
+        <div id="content" style="width:100%">
+ 
+
+            <h3>Consumable details by family</h3>
+
+            <div id="container">
+
+                <div>
+                    <div>
+                        <div>
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+
+									var DisctinctValuesModule = (function (){
+										return {
+											disctinct : //11223456789			  	9
+												function (arreglo){
+													var hashMap = [];
+													var repeated = 0;
+													for( i=0; i < arreglo.length ; i++){
+														if (!hashMap[arreglo[i]]) {
+															hashMap[arreglo[i]] = 1;
+														}
+														else{
+															hashMap[arreglo[i]] = 1 +hashMap[arreglo[i]] ;
+														}				
+													}
+											
+
+													return Object.keys(hashMap).length;
+
+												}
+										}
+									})();
+
+                                    var ModuleLauncher = (function() {
+
+                                        var launch = function(deviceTypeUrl, idTable) {
+
+
+                                            var table = this.createTable(idTable);
+                                            console.log(table);
+                                            var card = this.createCard();
+                                            card.appendChild(table);
+
+                                            document.getElementById('container').append(table);
+
+                                            var table = $('#' + idTable).DataTable({
+                                                "ajax": {
+                                                    "url": deviceTypeUrl,
+                                                    "dataSrc": "items"
+                                                },
+                                                "columns": [{
+                                                        "data": 'deviceType'
+                                                    },
+                                                    {
+                                                        "data": 'magenta'
+                                                    },
+                                                    {
+                                                        "data": 'yellow'
+                                                    },
+                                                    {
+                                                        "data": 'black'
+                                                    },
+                                                    {
+                                                        "data": 'cyan'
+                                                    }
+                                                ],
+                                                "pageLength": 0,
+                                                "footerCallback": function(row, data, start, end, display) {
+                                                    var api = this.api(),
+                                                        data;
+
+                                                    // Remove the formatting to get integer data for summation
+                                                    var intVal = function(i) {
+                                                        return typeof i === 'string' ?
+                                                            i.replace(/[\$,]/g, '') * 1 :
+                                                            typeof i === 'number' ?
+                                                            i : 0;
+                                                    };
+
+                                                    // Total over all pages
+                                                    totalMagenta = api
+                                                        .column(1)
+                                                        .data()
+                                                        .reduce(function(r, n) {
+                                                            r[0] = (!r[0]) ? n : Math.min(r[0], n);
+                                                            r[1] = (!r[1]) ? n : Math.max(r[1], n);
+                                                            return r;
+                                                        }, []); // Total over all pages
+
+                                                    totalYellow = api
+                                                        .column(2)
+                                                        .data()
+                                                        .reduce(function(r, n) {
+                                                            r[0] = (!r[0]) ? n : Math.min(r[0], n);
+                                                            r[1] = (!r[1]) ? n : Math.max(r[1], n);
+                                                            return r;
+                                                        }, []); // Total over all pages
+
+
+                                                    // Total black
+                                                    totalBlack = api
+                                                        .column(3)
+                                                        .data()
+                                                        .reduce(function(r, n) {
+                                                            r[0] = (!r[0]) ? n : Math.min(r[0], n);
+                                                            r[1] = (!r[1]) ? n : Math.max(r[1], n);
+                                                            return r;
+                                                        }, []);
+
+                                                    totalCyan = api
+                                                        .column(4)
+                                                        .data()
+                                                        .reduce(function(r, n) {
+                                                            r[0] = (!r[0]) ? n : Math.min(r[0], n);
+                                                            r[1] = (!r[1]) ? n : Math.max(r[1], n);
+                                                            return r;
+                                                        }, []);
+
+                                                    family = api
+                                                        .column(0)
+                                                        .data()[0];
+														
+													disctinct = DisctinctValuesModule.disctinct( api
+                                                        .column(4)
+                                                        .data() );	
+														
+                                                    // Update footer
+                                                    $(api.column(0).footer()).html('-' + family + '-' + data.length );
+													
+													disctinct = DisctinctValuesModule.disctinct( api
+                                                        .column(1)
+                                                        .data() );	
+                                                    // Update footer Magenta
+                                                    $(api.column(1).footer()).html('' +
+                                                        totalMagenta+ '-'+disctinct 
+                                                    );
+													disctinct = DisctinctValuesModule.disctinct( api
+                                                        .column(2)
+                                                        .data() );	
+                                                    // Update footer yellow
+                                                    $(api.column(2).footer()).html('' +
+                                                        totalYellow+ '-'+disctinct 
+                                                    );
+													disctinct = DisctinctValuesModule.disctinct( api
+                                                        .column(3)
+                                                        .data() );	
+                                                    // Update footer black
+                                                    $(api.column(3).footer()).html('' +
+                                                        totalBlack+ '-'+disctinct 
+                                                    );
+													
+													disctinct = DisctinctValuesModule.disctinct( api
+                                                        .column(4)
+                                                        .data() );	
+														
+                                                    // Update footer Cyan
+                                                    $(api.column(4).footer()).html('' +
+                                                        totalCyan + '-'+disctinct 
+                                                    );
+                                                }
+                                            });
+
+
+
+                                        };
+
+
+                                        var createTable = function(id) {
+
+                                            var table = document.createElement('table');
+                                            table.className = 'table table-striped table-bordered';
+
+
+                                            var thead = document.createElement('thead');
+                                            var tfoot = document.createElement('tfoot');
+
+                                            var tr = document.createElement('tr');
+                                            var th1 = document.createElement('th');
+                                            var t = document.createTextNode("DeviceType");
+                                            th1.appendChild(t);
+                                            var th2 = document.createElement('th');
+                                            var t2 = document.createTextNode("Magenta");
+                                            th2.appendChild(t2);
+                                            var th3 = document.createElement('th');
+                                            var t3 = document.createTextNode("Yellow");
+                                            th3.appendChild(t3);
+                                            var th4 = document.createElement('th');
+                                            var t4 = document.createTextNode("Black");
+                                            th4.appendChild(t4);
+                                            var th5 = document.createElement('th');
+                                            var t5 = document.createTextNode("Cyan");
+                                            th5.appendChild(t5);
+
+                                            tr.appendChild(th1);
+                                            tr.appendChild(th2);
+                                            tr.appendChild(th3);
+                                            tr.appendChild(th4);
+                                            tr.appendChild(th5);
+
+
+                                            var trfooter = document.createElement('tr');
+                                            var th1footer = document.createElement('th');
+                                            var tfooter = document.createTextNode("DeviceType");
+                                            th1footer.appendChild(tfooter);
+                                            var th2footer = document.createElement('th');
+                                            var t2footer = document.createTextNode("Magenta");
+                                            th2footer.appendChild(t2footer);
+                                            var th3footer = document.createElement('th');
+                                            var t3footer = document.createTextNode("Yellow");
+                                            th3footer.appendChild(t3footer);
+                                            var th4footer = document.createElement('th');
+                                            var t4footer = document.createTextNode("Black");
+                                            th4footer.appendChild(t4footer);
+                                            var th5footer = document.createElement('th');
+                                            var t5footer = document.createTextNode("Cyan");
+                                            th5footer.appendChild(t5footer);
+
+                                            trfooter.appendChild(th1footer);
+                                            trfooter.appendChild(th2footer);
+                                            trfooter.appendChild(th3footer);
+                                            trfooter.appendChild(th4footer);
+                                            trfooter.appendChild(th5footer);
+
+                                            thead.appendChild(tr);
+                                            tfoot.appendChild(trfooter);
+
+                                            table.appendChild(thead);
+                                            table.appendChild(tfoot);
+
+                                            table.id = id;
+
+                                            return table;
+                                        };
+
+                                        var createCard = function() {
+                                            var cardH = document.createElement('div');
+                                            var card = document.createElement('div');
+                                            cardH.className = 'panel-heading';
+                                            card.className = 'panel panel-default';
+                                            card.appendChild(cardH);
+                                            return card;
+                                        };
+
+
+                                        return {
+                                            launch: launch,
+                                            createTable: createTable,
+                                            createCard: createCard
+                                        }
+
+                                    })();
+
+
+
+
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=HP COLOR LASERJET FLOW E87650', 'table1');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=HP COLOR LASERJET 4600', 'table2');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=HP COLOR LASERJET 4700', 'table3');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=KYOCERA FS-3830N', 'table4');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=KYOCERA FS-4000DN', 'table5');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CS410DN', 'table6');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CS410N', 'table7');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CS720DE', 'table8');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CS725DE', 'table9');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CS820DE', 'table10');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CX310DN', 'table11');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CX410DE', 'table12');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CX725DE', 'table13');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CX825DE', 'table14');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK CX860DE', 'table15');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C510', 'table16');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C524', 'table17');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C530DN', 'table18');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C532N', 'table19');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C534N', 'table20');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C540N', 'table21');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C543DN', 'table22');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C544DN', 'table23');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C734N', 'table24');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C746N', 'table25');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C748E', 'table26');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C780N', 'table27');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C782N', 'table28');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C792E', 'table29');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C912', 'table30');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C920', 'table31');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C925DE', 'table32');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C935DN', 'table33');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK C950DE', 'table34');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E332N', 'table35');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E342N', 'table36');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E352DN', 'table37');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E360DN', 'table38');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E450DN', 'table39');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK E460DN', 'table40');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS315DN', 'table41');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS410DN', 'table42');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS415DN', 'table43');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS510DN', 'table44');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS811N', 'table45');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS812DN', 'table46');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MS911DE', 'table47');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX410DE', 'table48');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX511DE', 'table49');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX710DE', 'table50');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX810DFE', 'table51');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX812DE', 'table52');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX911DTE', 'table53');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK MX912DXE', 'table54');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T622', 'table55');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T630', 'table56');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T632', 'table57');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T634', 'table58');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T640', 'table59');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T642', 'table60');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T644', 'table61');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK T654', 'table62');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK W840', 'table63');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK W850N', 'table64');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X364DN', 'table65');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X544', 'table66');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X644E', 'table67');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X646E', 'table68');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X654DE', 'table69');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X656DE', 'table70');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X658DE', 'table71');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X734DE', 'table72');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X738DE', 'table73');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X748DE', 'table74');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X792DTSE', 'table75');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X852E', 'table76');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X854E', 'table77');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X860DE', 'table78');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X862DE', 'table79');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X864DE 3', 'table80');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X940E', 'table81');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X945E', 'table82');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X950DE', 'table83');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=LEXMARK X954DHE', 'table84');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX ALTALINK C8045', 'table85');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8570DN', 'table86');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8580DN', 'table87');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8700X', 'table88');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8870', 'table89');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8880DN', 'table90');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 8900/X', 'table91');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX COLORQUBE 9302', 'table92');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3300MFP', 'table93');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3320', 'table94');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3330', 'table95');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3500B', 'table96');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3600DN', 'table97');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3610N', 'table98');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 3635 MFP/S', 'table99');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 4500DT', 'table100');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 4510DT', 'table101');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 4510N', 'table102');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 4600DN', 'table103');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 4622DN', 'table104');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 5550DN', 'table105');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 6140N', 'table106');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 6180N', 'table107');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 6350DP', 'table108');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 6500N', 'table109');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 7760DN', 'table110');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 8500N', 'table111');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 8560', 'table112');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX PHASER 8860', 'table113');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX VERSALINK B405DN', 'table114');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX VERSALINK C400N', 'table115');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 3325', 'table116');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 3345', 'table117');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 3550', 'table118');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 3615', 'table119');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 3655X', 'table120');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 4118', 'table121');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5632', 'table122');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5638', 'table123');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5645', 'table124');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5655', 'table125');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5665', 'table126');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5675', 'table127');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5735', 'table128');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5740', 'table129');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5745', 'table130');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5755', 'table131');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5765', 'table132');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5790', 'table133');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5845', 'table134');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5855', 'table135');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5865', 'table136');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5890', 'table137');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 5945', 'table138');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 6400S', 'table139');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 6400X', 'table140');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 6655X', 'table141');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 7345', 'table142');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 7346', 'table143');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 7545', 'table144');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 7556', 'table145');
+                                    ModuleLauncher.launch('https://whuyp2bk01.execute-api.us-east-1.amazonaws.com/stageone/consumablelevelskaiserfamily?deviceType=XEROX WORKCENTRE 7845', 'table146');
+
+
+
+
+                                });
+                            </script>
+
+</body>
+ <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse1').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+			 $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+</html>
