@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodesnippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reactsnippets/public/closure/clousure.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reactsnippets/public/closure/herbalifesimplifi.html" beforeDir="false" />
@@ -5169,7 +5170,7 @@
       <workItem from="1565105272775" duration="1048000" />
       <workItem from="1573590161786" duration="7000" />
       <workItem from="1573590174216" duration="98000" />
-      <workItem from="1573593955908" duration="355000" />
+      <workItem from="1573593955908" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="2019 intelllij">
       <created>1556145218481</created>
