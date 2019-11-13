@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="samples.js"></script>
+    <script src="utils.js"></script>
+    <title>Kaiser Monitor Tool</title>
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+
+    <script src="./dist/Chart.bundle.js"></script>
+    <script src="./utils.js"></script>
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+<body>
+    <div class="wrapper" style="padding-top:0">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+				
+                <h3> 
+				 <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+				<img  src= "images/hp.png"/ height="42" width="42">
+                                
+                                <span>Toogle sidebar</span>
+                            </button>
+					
+				</h3>
+				<h3>HP Kaiser Tool</h3>
+                <strong> 
+				<button type="button" id="sidebarCollapse1" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>X</span>
+                            </button></strong>
+            </div>
+
+            <ul class="list-unstyled components">
+				<li>
+                    <a href="/">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Usage by device
+                        </a>
+                </li>
+				  <li>
+                    <a href="/consumable.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Consume by device
+                        </a>
+                </li>				<li>
+                    <a href="/datatablesUsage.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Usage by family
+                        </a>
+                </li>
+				  <li>
+                    <a href="/datatables.html">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Consume by family
+                        </a>
+                </li>
+                
+
+              
+               
+            </ul>
+
+
+        </nav>
+        <!-- Page Content Holder -->
+        <div id="content" style="width:100%">
+
+            <h3>Consumable details</h3>
+            <div class="row">
+                <li id="container" style="list-style-type: none;" class="col-md-12 card">
+                </li>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+		
+            function newCanvas(element) {
+                var canvas = document.createElement('canvas');
+                var cardH = document.createElement('div');
+                var card = document.createElement('div');
+
+                cardH.textContent = element.deviceId;
+                cardH.className = 'panel-heading';
+                card.className = 'panel panel-default';
+                card.append(cardH);
+
+                var div = document.getElementById('container');
+                canvas.width = 1000;
+                canvas.height = 300;
+                canvas.style.zIndex = 8;
+                canvas.style.position = "center";
+                canvas.style.border = "";
+
+                var MONTHS = [];
+                var color = Chart.helpers.color;
+                var barChartData = {
+                    labels: [],
+                    datasets: [{
+                            label: 'Cyan',
+                            backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+                            borderColor: window.chartColors.blue,
+                            borderWidth: 1,
+                            data: [
+
+                            ]
+                        },
+                        {
+                            label: 'Magenta',
+                            backgroundColor: color(window.chartColors.purple).alpha(0.5).rgbString(),
+                            borderColor: window.chartColors.purple,
+                            borderWidth: 1,
+                            data: [
+
+                            ]
+                        },
+                        {
+                            label: 'Black',
+                            backgroundColor: color(window.chartColors.black).alpha(0.5).rgbString(),
+                            borderColor: window.chartColors.black,
+                            borderWidth: 1,
+                            data: [
+
+                            ]
+                        },
+                        {
+                            label: 'Yellow',
+                            backgroundColor: color(window.chartColors.yellow).alpha(0.5).rgbString(),
+                            borderColor: window.chartColors.yellow,
+                            borderWidth: 1,
+                            data: [
+
+                            ]
+                        }
+
+                    ]
+
+                };
+
+                var myBar = new Chart(canvas.getContext('2d'), {
+                    type: 'bar',
+                    data: barChartData,
+                    options: {
+                        responsive: true,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: element.deviceId + '  Bar Chart'
+                        }
+                    }
+                });
+
+                card.appendChild(canvas);
+                div.appendChild(card);
+
+                element.collectionDate.forEach(function(coll) {
+                    barChartData.labels.push(coll.collectionDate);
+                    barChartData.datasets[0].data.push(coll.cyan);
+                    barChartData.datasets[1].data.push(coll.magenta);
+                    barChartData.datasets[2].data.push(coll.black);
+                    barChartData.datasets[3].data.push(coll.yellow);
+
+                });
+
+            }
+
+            var apigClient = apigClientFactory.newClient();
+            apigClient.consumablelevelskaiserGet()
+                .then(function(results) {
+                    // Split timestamp and data into separate arrays
+                    var labels = [],
+                        data = [];
+                    var datos = results['data'];
+                    var array1 = datos['items'];
+                    //var obj = JSON.parse(datos);
+
+                    array1.forEach(function(element) {
+
+                        newCanvas(element);
+                    });
+                }).catch(function(results) {
+                    console.log(results)
+                });
+        };
+    </script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse1').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+			 $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
