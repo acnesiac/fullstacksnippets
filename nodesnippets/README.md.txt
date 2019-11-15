@@ -1,2 +1,3 @@
- npm test sum.test
+npm test ./sum/sum.test
+
 
