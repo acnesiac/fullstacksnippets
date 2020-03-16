@@ -2,7 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/anagrams/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/anagrams/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/bst/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/bst/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/capitalize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/capitalize/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/chunk/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/chunk/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/circular/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/circular/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/circular/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/events/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/events/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/events/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fib/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fizzbuzz/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fizzbuzz/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fromlast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fromlast/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/fromlast/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/levelwidth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/levelwidth/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/levelwidth/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/linkedlist/directions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/linkedlist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/linkedlist/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/matrix/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/matrix/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/maxchar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/maxchar/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/midpoint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/midpoint/linkedlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/midpoint/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/palindrome/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/palindrome/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/pyramid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/pyramid/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/qfroms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/qfroms/stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/qfroms/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/queue/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/queue/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/reverseint/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/reverseint/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/reversestring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/reversestring/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/sorting/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/sorting/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/stack/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/stack/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/steps/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/steps/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/tree/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/tree/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/validate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/validate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/validate/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/vowels/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/vowels/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/weave/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/weave/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noode-completed_exercises/weave/test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +280,8 @@
       <workItem from="1573590161786" duration="7000" />
       <workItem from="1573590174216" duration="98000" />
       <workItem from="1573593955908" duration="743000" />
-      <workItem from="1584353183383" duration="264000" />
+      <workItem from="1584353183383" duration="442000" />
+      <workItem from="1584378101612" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="2019 intelllij">
       <created>1556145218481</created>
@@ -288,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573589726389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="algoritm in nodejs commons">
+      <created>1584353500137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584353500137</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,17 +393,22 @@
     <MESSAGE value="2019 intelllij" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="closures" />
-    <option name="LAST_COMMIT_MESSAGE" value="closures" />
+    <MESSAGE value="algoritm in nodejs commons" />
+    <option name="LAST_COMMIT_MESSAGE" value="algoritm in nodejs commons" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584353496272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584353496272" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1584353410574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584353410574" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584353425049">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584353565796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584353425049" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584353565796" />
   </component>
   <component name="masterDetails">
     <states>
