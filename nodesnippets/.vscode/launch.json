@@ -21,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\slice.js"
+            "program": "${workspaceFolder}\\mapandfilter\\mapandfilter.js"
         }
     ]
 }

@@ -1,8 +1,10 @@
-var arr = [1,2,3,4,5,6,7,8,9,0];
+var arr = [1,1,1];
+var reduce = arr.filter((value,index ) => value ===1 )
+                .map( (value ) => value + 1 )
+                .reduce ((previous,current) => previous += current );
+console.log(reduce);
 var res = [];
-console.log(arr);
 res = arr.map((a,b) =>  a +1 );
-console.log(res);
 res.sort((a,b) => a-b);
 console.log(Math.min(...res));
 console.log(res);
