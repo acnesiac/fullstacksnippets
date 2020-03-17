@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/codilityhackerrank/codilityhackerrank.iml" filepath="$PROJECT_DIR$/codilityhackerrank/codilityhackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/datastructure/datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/javapatterns/javapatterns.iml" filepath="$PROJECT_DIR$/javapatterns/javapatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datastructure/src/main/main.iml" filepath="$PROJECT_DIR$/datastructure/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-course.iml" filepath="$PROJECT_DIR$/spring-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
     </modules>

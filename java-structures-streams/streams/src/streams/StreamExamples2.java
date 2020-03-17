@@ -10,15 +10,11 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamExamples2 {
-	
-	
 	public static void main(String[] args) {
-		
 		map(IntStream.of(1,2,3,4,5,6));
 		max(IntStream.of(1,2,3,4,5,6));
 		max(IntStream.of(1,2,3,4,5).boxed().collect(Collectors.toList()).stream());
 		filter(IntStream.of(1,2,3,4,5).boxed().collect(Collectors.toList()).stream());
-		
 	}
 	
 	private static void map(IntStream of) {

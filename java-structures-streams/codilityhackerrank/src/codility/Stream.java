@@ -50,7 +50,7 @@ class Car{
     public int getModel() {
         return model;
     }
-.
+
     public void setModel(int model) {
         this.model = model;
     }
