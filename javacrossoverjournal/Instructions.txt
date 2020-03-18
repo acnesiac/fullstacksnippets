@@ -8,7 +8,7 @@ Prerequisites
 	
 Run instructions
 
-	1. Configure the database connection data from Code/src/main/resources/application.properties
+	1. Configure the database connection data from Code/src/main/resources/application.properties  (install mysql)
 	2. Go to the Code folder and run "mvn spring-boot:run".
 	3. Go to http://localhost:8080
 	4. (Optional) By default, the application stores the uploaded PDFs in <User_home>/upload directory. If you want to change this directory, you can use the -Dupload-dir=<path> system property.
