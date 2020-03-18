@@ -3,5 +3,4 @@ var fibo = function(a){
     return fibo (a - 1) + fibo (a - 2);
 }
 
-
 console.log(fibo(10));
