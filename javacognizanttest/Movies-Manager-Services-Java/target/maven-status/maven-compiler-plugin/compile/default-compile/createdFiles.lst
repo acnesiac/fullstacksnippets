@@ -1,0 +1,9 @@
+com\cognizant\devtest\moviesmanager\api\controller\MovieController.class
+com\cognizant\devtest\moviesmanager\WebConfiguration$1.class
+com\cognizant\devtest\moviesmanager\domain\repository\MovieRepository.class
+com\cognizant\devtest\moviesmanager\domain\entity\Movie.class
+com\cognizant\devtest\moviesmanager\domain\repository\AccountRepository.class
+com\cognizant\devtest\moviesmanager\domain\entity\Account.class
+com\cognizant\devtest\moviesmanager\MoviesManagerApplication.class
+com\cognizant\devtest\moviesmanager\WebConfiguration.class
+com\cognizant\devtest\moviesmanager\api\controller\AccountController.class
