@@ -5,7 +5,4 @@ var Module = (function (){
         }
     };
 })();
-
-
-
 module.exports = Module.sinc;
