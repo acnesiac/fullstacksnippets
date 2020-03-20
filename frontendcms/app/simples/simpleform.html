@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+
+  function submit() {
+    console.log('submit');
+    console.log('clicking');
+    document.getElementById('surname').value = document.getElementById('name').value;
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    // Handler when the DOM is fully loaded
+    document.getElementById("button").addEventListener("click", ()=>(
+      submit()
+    ));
+  });
+
+</script>
+<form onsubmit="return false">
+  <input type="text" id="name"/>
+  <input type="text" id="surname"/>
+  <input type=submit  value="Submit" id="button"/>
+</form>
+</body>
+</html>
+
+
