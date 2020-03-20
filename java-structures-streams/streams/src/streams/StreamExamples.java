@@ -10,7 +10,7 @@ public class StreamExamples {
 	
 	public static void main(String[] args) {		
 		// 
-		int[]values  = {1,2,4,4};
+		int[] values  = {1,2,4,4};
 		max(IntStream.of(values));
 		map(IntStream.of(values));
 		filter(IntStream.of(values));
