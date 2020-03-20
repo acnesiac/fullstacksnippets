@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("submit").addEventListener("click",() => {
+        console.log(' submit click ');
+      }
+    );
+  });
+
+</script>
+<body>
+  <form onsubmit="return false" >
+    <input type = "text" />
+    <input type="submit" id="submit" value="submit"/>
+  </form>
+</body>
+</html>

@@ -16,7 +16,8 @@ node js, npm
 ### Installing
 
 npm install
-
+npm install grunt
+npm install bower
 ## Deployment
 
 grunt serve
