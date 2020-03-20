@@ -9,6 +9,7 @@
     // and using jQuery syntax create  a <div> and append it to the body tag.
     // Call the anonymous function.
     $(document).ready(function () {
+
       var Module = (function () {
         return {
           log: function () {
@@ -16,11 +17,22 @@
             console.log('My anonymous closure');
           }
         };
-      })().log();
+      })();
+
+      $('#submit').click(() => {
+        console.log('clicking');
+        Module.log();
+      });
+
     });
   </script>
 </head>
 <body>
   <div id="body">Hello</div>
+  <form onsubmit="return false">
+    <input type="text" />
+    <input type="submit" value="submit" id="submit"/>
+  </form>
+
 </body>
 </html>
