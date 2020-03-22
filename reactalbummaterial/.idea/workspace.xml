@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ab9237c-06d3-4cad-b1f0-79305f42ba62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/OffCanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/OffCanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/game/Square.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/game/Square.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/reacttutorial/ShoppingList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/reacttutorial/ShoppingList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/test/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/test/Toggle.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZPgswwXvlUmJD6GR303S1jT6oV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactpricingmaterial" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ab9237c-06d3-4cad-b1f0-79305f42ba62" name="Default Changelist" comment="" />
+      <created>1584746353773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584746353773</updated>
+      <workItem from="1584746355244" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584746410629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584746410629" />
+  </component>
+</project>
