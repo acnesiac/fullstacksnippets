@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<style type="text/css">
-		
-		body{ background-color: blue; }
+
+		body{ background-color: white; }
 		input:hover{background-color: yellow;}
 
 	</style>
@@ -24,7 +25,7 @@
 				}
 				var Module = moduleFunction();
 				Module.talk();
-				
+
 				$('#buttonme').on('click', function(){
 						console.log('  clicking me ' );
 					}
@@ -43,6 +44,6 @@
 	</script>
 </head>
 <body>
-	<input id="buttonme" type="button" value="go">
+	<input id="buttonme" type="button"  class="btn btn-primary" value="submit">
 </body>
 </html>

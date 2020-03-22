@@ -1,52 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Document</title>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script type="text/javascript">
-         $(document).ready(function(){
-             var aRequest = function(){
-                 $.ajax({
-                 url: 'https://jsonplaceholder.typicode.com/todos'
-                 }).success(function(response){
-                     var albums = response;
-                     var result="";
-                     for(var i=0,len=length;i<albums.length;i++){
-                         var album = albums[i];
-                         result= result + "<li>" + album.userId + "</li> <li>" + album.title + "</li> ";
-                     }
-                     $("#results").html(result);
-                 });
-             }
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('myButton').addEventListener('click', function (e) {
+        console.log(e.target.value);
+      });
+      document.getElementById('myText').addEventListener('change', function (e) {
+        console.log(e.target.value);
+      });
+    });
+    // $(document).ready(function(){
+    //   var aRequest = function(){
+    //     $.ajax({
+    //       url: 'https://jsonplaceholder.typicode.com/todos'
+    //     }).success(function(response){
+    //       var albums = response;
+    //       var result="";
+    //       for(var i=0,len=length;i<albums.length;i++){
+    //         var album = albums[i];
+    //         result= result + "<li>" + album.userId + "</li> <li>" + album.title + "</li> ";
+    //       }
+    //       $("#results").html(result);
+    //     });
+    //   }
+    //
+    //   $('h1').click(aRequest);
+    //
+    //   var aRequest1 = function(){
+    //     $.ajax({url : 'http://'}).sucess(function(response){});
+    //   }
+    //
+    //   var arr = [5, 6, 13, 0, 1, 18, 23];
+    //   var sum = arr.reduce((a, b) => a + b);  // 66
+    //   var even = arr.filter(v => v % 2 == 0); // [6, 0, 18]
+    //   var double = arr.map(v => v * 2);       // [10, 12, 26, 0, 2, 36, 46]
+    //   console.log('' + sum);
+    //   var divisibleBy3 = arr.filter(function(v){return  v%3 ==0; });
+    //   console.log(divisibleBy3);
+    //   var divisibleBy4 = arr.filter(  (v)=>v%3==0 );
+    //   console.log(divisibleBy4);
+    //   function multiply (x,y){
+    //     return x - y;
+    //   }
+    //
+    //   var multiply = (x, y) => x*y;
+    //   console.log('' + multiply(3,3));
+    //
+    // });
 
-             $('h1').click(aRequest);
+  </script>
+</head>
+<body>
+<h1>Click on me</h1>
+<div id="results"></div>
+<div class="container">
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" id="myText"/>
+    </div>
+    <input type="button" id="myButton" value="submit" class="btn btn-warning"/>
+  </form>
+</div>
+</body>
 
-             var aRequest1 = function(){
-                 $.ajax({url : 'http://'}).sucess(function(response){});
-             }
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-             var arr = [5, 6, 13, 0, 1, 18, 23];
-             var sum = arr.reduce((a, b) => a + b);  // 66
-             var even = arr.filter(v => v % 2 == 0); // [6, 0, 18]
-             var double = arr.map(v => v * 2);       // [10, 12, 26, 0, 2, 36, 46]
-             console.log('' + sum);
-             var divisibleBy3 = arr.filter(function(v){return  v%3 ==0; });
-             console.log(divisibleBy3);
-             var divisibleBy4 = arr.filter(  (v)=>v%3==0 );
-             console.log(divisibleBy4);
-             function multiply (x,y){
-                 return x - y;
-             }
-
-             var multiply = (x, y) => x*y;
-             console.log('' + multiply(3,3));
-
-         });
-      </script>
-   </head>
-   <body>
-      <h1>Click on me</h1>
-      <div id="results"></div>
-   </body>
 </html>
