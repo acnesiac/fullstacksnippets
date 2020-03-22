@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f81e32bd-20fd-44ca-96ab-f10b1ecf6760" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/BootstrapBeautyForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/OffCanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/forms/OffCanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/game/Square.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/game/Square.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/reacttutorial/ShoppingList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/reacttutorial/ShoppingList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/test/Toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/src/test/Toggle.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZPh6QNl3tuI2juZwvfFH3W6wWA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f81e32bd-20fd-44ca-96ab-f10b1ecf6760" name="Default Changelist" comment="" />
+      <created>1584746460442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584746460442</updated>
+      <workItem from="1584746461800" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

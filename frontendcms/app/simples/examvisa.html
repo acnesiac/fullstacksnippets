@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module pattern</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script type="text/javascript">
+
+
+    $(document).ready(function(){
+
+
+      function clousure(){
+        return {
+          data : {
+            value : 'hello world 2'
+          },
+          show : function(){console.log('hello ' + this.data.value );}
+          ,
+          show1 : function(){console.log('hello ' + this.data.value );}
+
+        }
+
+      }
+
+      var Module = clousure();
+      Module.show();
+
+      console.log(document);
+
+
+      $( "#boton" ).click(function() {
+        var textVal = $('#text1').val();
+        var textVal2 = $('#text2').val();
+
+        $( "#result" ).html("Why are they named : " + textVal  + ',' + textVal2 + '?');
+
+      });
+
+
+      $( "#boton1" ).click(function() {
+        var textVal3 = $('#text3').val();
+        var number = textVal3.length -2 ;
+
+        $( "#result1" ).html("Pattern : "  + '' + textVal3.charAt(0) + number + textVal3.charAt(textVal3.length-1) );
+
+      });
+
+    });
+
+  </script>
+
+</head>
+<body>
+
+<id>
+
+  <input id="text1" type="text"  value="i18n"/>
+  <input id="text2" type="text" value="|11n"/>
+
+  <button id="boton" class="btn-default">I know</button>
+  <a id="result" />
+
+</id>
+<br>
+<id>
+  <input id="text3" type="text"/>
+
+  <button id="boton1" class="btn-default">Applies pattern</button>
+
+  <a id="result1" href=""></a>
+</id>
+</body>
+</html>
