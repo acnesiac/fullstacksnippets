@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+
+  var Module = (function autoself() {
+
+
+    return {
+
+      value: 'hola mundo cruel',
+
+      privateMethod: function privateMethod() {
+        return alert("hola " + this.value);
+      }
+    };
+  })();
+
+  Module.privateMethod();
+
+  //1,3,4,5,4,3
+  function countLettersInaWord(word) {
+    var numbersRepeated = [];
+    var repeated = -1;
+    for (var i = 0; i < word.length; i++) {
+      if (!numbersRepeated[word[i]]) {
+        numbersRepeated[word[i]]
+      ]
+        = word[i]
+      ]
+        ;
+
+      } else {
+        repeated = word[i]
+      ]
+        ;
+        break;
+      }
+
+    }
+    return repeated;
+  }
+
+  countLettersInaWord("1234567877");
+
+</script>
+</body>
+</html>

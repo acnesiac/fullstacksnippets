@@ -1,0 +1,38 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+		<script type="text/javascript">
+
+      $(document).ready(function() {
+
+
+      var POST =  {
+          getPost : function(){
+            $.ajax({
+              url: "http://jsonplaceholder.typicode.com/posts/1"
+            }).then(function(data) {
+              $('.greeting-id').append(data.id);
+              $('.greeting-content').append(data.body);
+            });
+
+          }
+      };
+
+      POST.getPost();
+
+
+			});
+
+		</script>
+	</head>
+	<body>
+        <div>
+            <p class="greeting-id">The ID is </p>
+            <p class="greeting-content">The content is </p>
+        </div>
+    </body>
+	</html>

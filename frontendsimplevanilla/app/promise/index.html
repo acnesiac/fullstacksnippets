@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+
+
+  function API() {
+    this.uri = 'http://www.my-hipster-api.io/';
+  }
+
+  API.prototype.get = function (resource) {
+    return new Promise((resolve, reject) => {
+      console.log(this.uri);
+    });
+  };
+
+  var api = new API();
+
+  // by calling this method, we should be making a request to
+  // http://www.my-hipster-api.io/nuggets
+  api.get('nuggets').then(function (data) {
+    console.log(data);
+  })
+
+
+</script>
+</body>
+</html>
