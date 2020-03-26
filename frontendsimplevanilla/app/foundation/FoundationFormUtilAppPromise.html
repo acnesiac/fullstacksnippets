@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<script>
+  $(document).ready(function () {
+    var App = {
+      bind: function () {
+        $("#button1").on('click', function () {
+          API.getPost();
+        })
+      }
+    };
+    var Util = {
+      list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+      init: function () {
+        this.list.sort(function (a, b) {
+          return a - b
+        });
+        console.log(this.list);
+      }
+    };
+    var API = {
+      getPost: function () {
+        $.ajax('http://jsonplaceholder.typicode.com/posts/1').then(function (data) {
+          console.log(data.title);
+          $('#input1').val(Math.random() + data.title);
+          return data;
+        }).then(function (data) {
+          console.log(data);
+          $('#input2').val(Math.random() + data);
+        });
+      }
+    };
+    Util.init();
+    App.bind();
+  });
+</script>
+<div class="grid-container">
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 cell">
+      <h1>Welcome to Foundation</h1>
+    </div>
+  </div>
+  <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+  <form>
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <label>Input Label</label>
+        <input id="input1" type="text" placeholder="large-12.cell"/>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x">
+      <div class="large-4 medium-4 cell">
+        <label>Input Label</label>
+        <input id="input2" type="text" placeholder="large-4.cell"/>
+      </div>
+  </form>
+</div>
+<div class="large-4 medium-4 cell">
+  <h5>Try one of these buttons:</h5>
+  <p><a id="button1" href="#" class="button">Simple Button</a><br/>
+</div>
+</div>
+</div>
+</body>
+</html>

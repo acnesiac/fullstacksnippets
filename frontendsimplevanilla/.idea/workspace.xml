@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005ed60d-9087-4874-896b-eb55e3ec9079" name="Default Changelist" comment="" />
+    <list default="true" id="005ed60d-9087-4874-896b-eb55e3ec9079" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jquery/snippet2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/jquery/snippet2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZOuWjSgSyeALkJUVdasdEo5Gfe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,8 +33,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontendaxiosmocha" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,40 +74,65 @@
       <option name="presentableId" value="Default" />
       <updated>1584722494492</updated>
       <workItem from="1584722499045" duration="8173000" />
+      <workItem from="1584901253927" duration="9283000" />
     </task>
+    <task id="LOCAL-00001" summary="myButton myText form-control form-group">
+      <created>1584903045884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584903045885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="myButton myText form-control form-group" />
+    <option name="LAST_COMMIT_MESSAGE" value="myButton myText form-control form-group" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584732951730">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584902590300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584732951730" />
-    <state width="1345" height="96" key="GridCell.Tab.0.bottom" timestamp="1584732960439">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584902590300" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584930797349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584732960439" />
-    <state width="1345" height="96" key="GridCell.Tab.0.center" timestamp="1584732960438">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584930797349" />
+    <state width="1345" height="96" key="GridCell.Tab.0.bottom" timestamp="1584930800494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584732960438" />
-    <state width="1345" height="96" key="GridCell.Tab.0.left" timestamp="1584732960438">
+    <state width="1345" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584930800494" />
+    <state width="1345" height="96" key="GridCell.Tab.0.center" timestamp="1584930800493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584732960438" />
-    <state width="1345" height="96" key="GridCell.Tab.0.right" timestamp="1584732960438">
+    <state width="1345" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584930800493" />
+    <state width="1345" height="96" key="GridCell.Tab.0.left" timestamp="1584930800493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584732960438" />
+    <state width="1345" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584930800493" />
+    <state width="1345" height="96" key="GridCell.Tab.0.right" timestamp="1584930800493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584930800493" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584902601008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584902601008" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1584923340021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584923340021" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1584730302124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584730302124" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584725324566">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584903074245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584725324566" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584903074245" />
   </component>
 </project>
