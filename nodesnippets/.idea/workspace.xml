@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d62dc7e7-41cf-4c4e-81cc-2e60c00cae10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/assign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-structures-streams/codilityhackerrank/src/codility/AbsDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/codilityhackerrank/src/codility/AbsDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javacrossoverjournal/journals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacrossoverjournal/journals.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/binarytree.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/binarytree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordscount/wordscount.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordscount/wordscount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
     </list>
@@ -104,7 +105,7 @@
       <workItem from="1584498504495" duration="30000" />
       <workItem from="1584499351698" duration="748000" />
       <workItem from="1584500119144" duration="159000" />
-      <workItem from="1585239239152" duration="10057000" />
+      <workItem from="1585239239152" duration="10943000" />
     </task>
     <task id="LOCAL-00001" summary="serverless">
       <created>1545214983267</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585668836685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;Tree">
+      <created>1585681170274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585681170274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="serverless" />
-    <option name="LAST_COMMIT_MESSAGE" value="serverless" />
+    <MESSAGE value="&#10;Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Tree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585254662321">
@@ -139,10 +148,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585254837166" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585668824021">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585681167033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585668824021" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585681167033" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585254658948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,11 +250,6 @@
           <url>file://$PROJECT_DIR$/console.js</url>
           <line>2</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/wordscount/wordscount.js</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/hashfrequencywords/ocurrences.js</url>
