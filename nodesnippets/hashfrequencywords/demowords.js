@@ -11,7 +11,7 @@ for (var i= 0 ; i < arr.length; i ++){
 		}
 }
 
-var res = Object.keys(hash)
+var res = Object.values(hash)
 		.sort()
 		.forEach(
 			function (key,index){  
