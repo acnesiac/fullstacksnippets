@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d62dc7e7-41cf-4c4e-81cc-2e60c00cae10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hashfrequencywords/ocurrences.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/binarytree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashfrequencywords/demowords.js" beforeDir="false" afterPath="$PROJECT_DIR$/hashfrequencywords/demowords.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/binarytree.js" beforeDir="false" afterPath="$PROJECT_DIR$/tree/binarytree.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactsnippetsbootstrap/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1584498504495" duration="30000" />
       <workItem from="1584499351698" duration="748000" />
       <workItem from="1584500119144" duration="159000" />
-      <workItem from="1585239239152" duration="8990000" />
+      <workItem from="1585239239152" duration="10057000" />
     </task>
     <task id="LOCAL-00001" summary="serverless">
       <created>1545214983267</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545214983267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="serverless">
+      <created>1585668836684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585668836685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +139,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585254837166" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585668824021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585668824021" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585254658948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,6 +211,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="198" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1585254966987" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585668843214">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585668843214" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584498504546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

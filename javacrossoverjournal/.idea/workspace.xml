@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e273a427-1c64-4c84-9619-7e504beed17a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/streams/src/streams/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/streams/src/streams/StreamExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javacognizanttest/Movies-Manager-Services-Java/movies-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacognizanttest/Movies-Manager-Services-Java/movies-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javasiitrial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javasiitrial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/journals.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodesnippets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodesnippets/slice/slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/slice/slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodesnippets/visa/visa.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/visa/visa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543763821056" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-structures-streams" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -142,6 +140,7 @@
       <updated>1543763608796</updated>
       <workItem from="1543763610139" duration="313000" />
       <workItem from="1584498675258" duration="588000" />
+      <workItem from="1585674787413" duration="1008000" />
     </task>
     <servers />
   </component>
@@ -149,10 +148,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584499279135">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585675815703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584499279135" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585675815703" />
     <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1584499285246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -169,6 +168,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584499285246" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585674891565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585674891565" />
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1585675209195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1585675209195" />
   </component>
   <component name="masterDetails">
     <states>
