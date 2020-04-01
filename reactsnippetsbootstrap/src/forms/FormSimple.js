@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class FormSimple extends React.Component {
-    constructor(){
+    constructor() {
         super()
 
     }
@@ -16,4 +16,5 @@ class FormSimple extends React.Component {
             </div>)
     }
 }
+
 export default FormSimple

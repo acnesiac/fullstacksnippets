@@ -5,13 +5,12 @@ import React from 'react'
 import EmpleadoList from './EmpleadoList'
 
 class EmpleadoApp extends React.Component {
-
     constructor(props) {
         super(props)
         this.state = {empleados: []}
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/comments')
             .then((response) => {
                 return response.json()
@@ -20,13 +19,14 @@ class EmpleadoApp extends React.Component {
                 this.setState({empleados: empleados})
             })
     }
+
     render() {
         if (this.state.empleados.length > 0) {
             return (
                 <div className="container">
-                <div className="container-fluid">
-                    <EmpleadoList listado={this.state.empleados}/>
-                </div>
+                    <div className="container-fluid">
+                        <EmpleadoList listado={this.state.empleados}/>
+                    </div>
                 </div>
             )
         } else {
@@ -34,4 +34,5 @@ class EmpleadoApp extends React.Component {
         }
     }
 }
+
 export default EmpleadoApp
