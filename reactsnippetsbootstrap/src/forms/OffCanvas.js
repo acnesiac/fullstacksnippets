@@ -4,77 +4,16 @@ class OffCanvas extends React.Component {
     constructor() {
         super()
     }
-
     render() {
         return (
             <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div className="container">
-                        <a className="navbar-brand" href="#">Container</a>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarsExample07">
-                            <ul className="navbar-nav mr-auto">
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Link</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link disabled" href="#">Disabled</a>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="dropdown07"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div className="dropdown-menu" aria-labelledby="dropdown07">
-                                        <a className="dropdown-item" href="#">Action</a>
-                                        <a className="dropdown-item" href="#">Another action</a>
-                                        <a className="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <form className="form-inline my-2 my-md-0">
-                                <input className="form-control" type="text" placeholder="Search" aria-label="Search"/>
-                            </form>
-                        </div>
-                    </div>
-                </nav>
                 <main role="main" class="container">
                     <div className="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
                         <form className="form-inline my-2 my-lg-0">
                             <input className="form-control mr-sm-2" type="text" placeholder="Search"
                                    aria-label="Search"/>
                             <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                    Action
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                    Action
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </div>
+
                         </form>
                     </div>
                     <div className="my-3 p-3 bg-white rounded shadow-sm">
@@ -122,7 +61,6 @@ class OffCanvas extends React.Component {
                             <a href="#">All updates</a>
                         </small>
                     </div>
-
                     <div className="my-3 p-3 bg-white rounded shadow-sm">
                         <h6 className="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
 

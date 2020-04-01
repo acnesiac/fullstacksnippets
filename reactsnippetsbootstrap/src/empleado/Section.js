@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Calculator from './Calculator';
-import Empleado from './Empleado';
+import Empleado from './EmpleadoApp';
 class Section extends Component {
 	render (){
 	return (
@@ -81,4 +81,3 @@ class Section extends Component {
 }
 export default Section;
 
-	

@@ -8,7 +8,6 @@ var counts = function (){
         }else{
             ++hash[key];
         }
-        
     } );
     console.log(hash);
 }
