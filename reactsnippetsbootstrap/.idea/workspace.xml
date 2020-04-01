@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f051de3d-050c-4ad6-918c-43f1197c4345" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="f051de3d-050c-4ad6-918c-43f1197c4345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
     </list>
@@ -128,10 +128,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.it will add food to favoriteFood list" />
         <item itemvalue="Jest.renders without crashing" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +159,7 @@
       <workItem from="1584745757148" duration="593000" />
       <workItem from="1584933023002" duration="2847000" />
       <workItem from="1585239132026" duration="7000" />
+      <workItem from="1585750321796" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary="npx support">
       <created>1543775733731</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568137489465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Default Changelist">
+      <created>1585751046056</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585751046056</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,33 +309,45 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="62" key="#test/0.0.1366.728@0.0.1366.728" timestamp="1584933386085" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585751043091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585751043091" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584746347604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584746347604" />
-    <state width="1345" height="157" key="GridCell.Tab.0.bottom" timestamp="1584935505033">
+    <state width="1345" height="81" key="GridCell.Tab.0.bottom" timestamp="1585751023192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="157" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584935505033" />
-    <state width="1345" height="157" key="GridCell.Tab.0.center" timestamp="1584935505032">
+    <state width="1345" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585751023192" />
+    <state width="1345" height="81" key="GridCell.Tab.0.center" timestamp="1585751023191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="157" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584935505032" />
-    <state width="1345" height="157" key="GridCell.Tab.0.left" timestamp="1584935505032">
+    <state width="1345" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585751023191" />
+    <state width="1345" height="81" key="GridCell.Tab.0.left" timestamp="1585751023191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="157" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584935505032" />
-    <state width="1345" height="157" key="GridCell.Tab.0.right" timestamp="1584935505033">
+    <state width="1345" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585751023191" />
+    <state width="1345" height="81" key="GridCell.Tab.0.right" timestamp="1585751023191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="157" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584935505033" />
+    <state width="1345" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585751023191" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1585750495427">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1585750495427" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585750761790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585750761790" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

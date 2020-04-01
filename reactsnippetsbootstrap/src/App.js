@@ -6,6 +6,8 @@ import DashBoard from "./forms/DashBoard";
 import ShoppingList from "./reacttutorial/ShoppingList";
 import Square from "./game/Square";
 import Toggle from "./test/Toggle";
+import Beatle from "./rateapp/Beatle";
+import RateApp from "./rateapp/RateApp";
 
 class App extends Component {
   constructor(){
@@ -17,12 +19,13 @@ class App extends Component {
     return (
       <div className="App">
           <OffCanvas/>
-          <BootstrapBeautyFooter/>
+          <RateApp/>
+          {/*<BootstrapBeautyFooter/>
           <BootstrapBeautyForm/>
           <DashBoard/>
           <ShoppingList name = "Hola mundo"/>
           <Square/>
-          <Toggle/>
+          <Toggle/>*/}
        </div>
     );
   }

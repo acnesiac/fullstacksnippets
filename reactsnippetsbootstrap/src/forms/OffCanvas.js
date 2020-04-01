@@ -16,6 +16,7 @@ class OffCanvas extends React.Component {
                                 aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
+
                         <div className="collapse navbar-collapse" id="navbarsExample07">
                             <ul className="navbar-nav mr-auto">
                                 <li className="nav-item active">
@@ -122,7 +123,6 @@ class OffCanvas extends React.Component {
                             <a href="#">All updates</a>
                         </small>
                     </div>
-
                     <div className="my-3 p-3 bg-white rounded shadow-sm">
                         <h6 className="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
 
