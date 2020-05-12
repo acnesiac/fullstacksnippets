@@ -8,6 +8,8 @@ import Toggle from "./test/Toggle";
 import Beatle from "./rateapp/Beatle";
 import RateApp from "./rateapp/RateApp";
 import EmpleadoApp from "./empleado/EmpleadoApp";
+import {Router} from "react-router";
+import {Route} from "react-router";
 
 
 class App extends Component {
@@ -40,9 +42,13 @@ class App extends Component {
               </div>
           </nav>
 
-          <RateApp/>
-          <OffCanvas/>
-            <EmpleadoApp></EmpleadoApp>
+          <Router history={browserHistory}>
+              <div>
+                  <Route path="/" component={RateApp} />
+                  <Route path="/contact" component={OffCanvas} />
+                  <Route path="/empleado" component={EmpleadoApp} />
+              </div>
+          </Router>
           {/*<BootstrapBeautyFooter/>
           <BootstrapBeautyForm/>
           <DashBoard/>
