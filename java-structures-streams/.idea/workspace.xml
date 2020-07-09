@@ -2,21 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd511a4-dfc3-4d9f-8776-29ddbccf6c9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codilityhackerrank/src/codility/AbsDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/codilityhackerrank/src/codility/AbsDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacrossoverjournal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javacrossoverjournal/journals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacrossoverjournal/journals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/javastructurespatternsstreams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontendpatterns/app/patterns/closure/herbalifesucessgetfunc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendpatterns/app/patterns/closure/herbalifesucessgetfunc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javacognizanttest/Movies-Manager-Services-Java/movies-manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodealgocastjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodealgocastjs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nodesnippets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactempleados" beforeDir="false" afterPath="$PROJECT_DIR$/../reactempleados" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjsonplaceholders" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjsonplaceholders" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodesnippets/reduceforeach/mapfilterjson.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/reduceforeach/mapfilterjson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodesnippets/sum/sum.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/sum/sum.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nodesnippets/wordscount/wordscount.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nodesnippets/wordscount/wordscount.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="spring-course" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -36,15 +54,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543766556197" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-design-patterns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -166,6 +184,7 @@
       <workItem from="1584409916297" duration="1245000" />
       <workItem from="1584496832432" duration="326000" />
       <workItem from="1585675820835" duration="645000" />
+      <workItem from="1593583299557" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <created>1584410435441</created>
@@ -187,56 +206,20 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1584410429621">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584410429621" />
     <state x="463" y="57" key="FileChooserDialogImpl" timestamp="1585676457327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="57" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585676457327" />
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1584411497717">
+    <state x="65" y="25" key="new project wizard" timestamp="1593583537579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584411497717" />
-    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1584411497716">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584411497716" />
-    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1584411497716">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584411497716" />
-    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1584411497717">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584411497717" />
-    <state x="348" y="62" key="NewModule_or_Project.wizard" timestamp="1584410082844">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="348" y="62" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1584410082844" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1584410124544">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584410124544" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584410439007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584410439007" />
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584409919782">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584409919782" />
-    <state x="66" y="0" key="new project wizard" timestamp="1584410048697">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="66" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584410048697" />
+    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593583537579" />
   </component>
 </project>

@@ -12,4 +12,5 @@ var counts = function (){
     console.log(hash);
 }
 counts();
+
 module.exports = counts;
