@@ -8,9 +8,7 @@ class App extends Component {
       title: '',
       description: '',
       _id: '',
-      tasks: [],
-      icecreamId : '',
-      name : 'test'
+      tasks: []
     };
     this.handleChange = this.handleChange.bind(this);
     this.addTask = this.addTask.bind(this);
@@ -37,14 +35,14 @@ class App extends Component {
           'Content-Type': 'application/json'
         }
       })
-        .then(res => res.json())
-        .then(data => {
-          window.M.toast({html: 'Task Updated'});
-          this.setState({_id: '', title: '', description: ''});
-          this.fetchTasks();
-        });
+          .then(res => res.json())
+          .then(data => {
+            window.M.toast({html: 'Task Updated'});
+            this.setState({_id: '', title: '', description: ''});
+            this.fetchTasks();
+          });
     } else {
-      fetch('https://uul6k2sxpg.execute-api.us-east-1.amazonaws.com/latest/icecreams', {
+      fetch('/api/tasks', {
         method: 'POST',
         body: JSON.stringify(this.state),
         headers: {
@@ -52,14 +50,14 @@ class App extends Component {
           'Content-Type': 'application/json'
         }
       })
-        .then(res => res.json())
-        .then(data => {
-          console.log(data);
-          window.M.toast({html: 'Task Saved'});
-          this.setState({title: '', description: ''});
-          this.fetchTasks();
-        })
-        .catch(err => console.error(err));
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            window.M.toast({html: 'Task Saved'});
+            this.setState({title: '', description: ''});
+            this.fetchTasks();
+          })
+          .catch(err => console.error(err));
     }
 
   }
@@ -73,26 +71,26 @@ class App extends Component {
           'Content-Type': 'application/json'
         }
       })
-        .then(res => res.json())
-        .then(data => {
-          console.log(data);
-          M.toast({html: 'Task deleted'});
-          this.fetchTasks();
-        });
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            M.toast({html: 'Task deleted'});
+            this.fetchTasks();
+          });
     }
   }
 
   editTask(id) {
     fetch(`/api/tasks/${id}`)
-      .then(res => res.json())
-      .then(data => {
-        console.log(data);
-        this.setState({
-          title: data.title,
-          description: data.description,
-          _id: data._id
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          this.setState({
+            title: data.title,
+            description: data.description,
+            _id: data._id
+          });
         });
-      });
   }
 
   componentDidMount() {
@@ -100,84 +98,84 @@ class App extends Component {
   }
 
   fetchTasks() {
-    fetch('https://uul6k2sxpg.execute-api.us-east-1.amazonaws.com/latest/icecreams')
-      .then(res => res.json())
-      .then(data => {
-        this.setState({tasks: data});
-        console.log(this.state.tasks);
-      });
+    fetch('/api/tasks')
+        .then(res => res.json())
+        .then(data => {
+          this.setState({tasks: data});
+          console.log(this.state.tasks);
+        });
   }
 
   render() {
     return (
-      <div>
-        {/* NAVIGATION */}
-        <nav className="light-blue darken-4">
-          <div className="container">
-            <div className="nav-wrapper">
-              <a href="#" className="brand-logo"></a>
-            </div>
-          </div>
-        </nav>
-
-        <div className="container">
-          <div className="row">
-            <div className="col s5">
-              <div className="card">
-                <div className="card-content">
-                  <form onSubmit={this.addTask}>
-                    <div className="row">
-                      <div className="input-field col s12">
-                        <input name="icecreamId" onChange={this.handleChange} value={this.state.icecreamId} type="text" placeholder="Task Title" autoFocus/>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="input-field col s12">
-                        <textarea name="name" onChange={this.handleChange} value={this.state.name} cols="30" rows="10" placeholder="Task Description" className="materialize-textarea"></textarea>
-                      </div>
-                    </div>
-
-                    <button type="submit" className="btn light-blue darken-4">
-                      Send 
-                    </button>
-                  </form>
-                </div>
+        <div>
+          {/* NAVIGATION */}
+          <nav className="light-blue darken-4">
+            <div className="container">
+              <div className="nav-wrapper">
+                <a href="#" className="brand-logo">MERN Stack</a>
               </div>
             </div>
-            <div className="col s7">
-              <table>
-                <thead>
+          </nav>
+
+          <div className="container">
+            <div className="row">
+              <div className="col s5">
+                <div className="card">
+                  <div className="card-content">
+                    <form onSubmit={this.addTask}>
+                      <div className="row">
+                        <div className="input-field col s12">
+                          <input name="title" onChange={this.handleChange} value={this.state.title} type="text" placeholder="Task Title" autoFocus/>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="input-field col s12">
+                          <textarea name="description" onChange={this.handleChange} value={this.state.description} cols="30" rows="10" placeholder="Task Description" className="materialize-textarea"></textarea>
+                        </div>
+                      </div>
+
+                      <button type="submit" className="btn light-blue darken-4">
+                        Send
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div className="col s7">
+                <table>
+                  <thead>
                   <tr>
-                    <th>Icecream</th>
-                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Description</th>
                   </tr>
-                </thead>
-                <tbody>
-                  { 
+                  </thead>
+                  <tbody>
+                  {
                     this.state.tasks.map(task => {
                       return (
-                        <tr key={task._icecreamid}>
-                          <td>{task.icecreamid}</td>
-                          <td>{task.name}</td>
-                          <td>
-                            <button onClick={() => this.deleteTask(task._id)} className="btn light-blue darken-4">
-                              <i className="material-icons">delete</i> 
-                            </button>
-                            <button onClick={() => this.editTask(task._id)} className="btn light-blue darken-4" style={{margin: '4px'}}>
-                              <i className="material-icons">edit</i>
-                            </button>
-                          </td>
-                        </tr>
+                          <tr key={task._id}>
+                            <td>{task.title}</td>
+                            <td>{task.description}</td>
+                            <td>
+                              <button onClick={() => this.deleteTask(task._id)} className="btn light-blue darken-4">
+                                <i className="material-icons">delete</i>
+                              </button>
+                              <button onClick={() => this.editTask(task._id)} className="btn light-blue darken-4" style={{margin: '4px'}}>
+                                <i className="material-icons">edit</i>
+                              </button>
+                            </td>
+                          </tr>
                       )
                     })
                   }
-                </tbody>
-              </table>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
 
-      </div>
+        </div>
     )
   }
 }
