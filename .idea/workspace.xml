@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nodesnippets/console/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/console/console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodesnippets/hashfrequencywords/demowords.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/hashfrequencywords/demowords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodesnippets/mapandfilter/mapandfilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodesnippets/mapandfilter/mapandfilter.js" afterDir="false" />
+    <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="algoritm in nodejs commons">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -58,11 +58,13 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodesnippets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hojadevidabackend" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,20 +78,7 @@
       <recent name="C:\dev\backendsnippets\BillingAccountManagement\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="streams" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KafkaOnStarProducer">
     <configuration name="KafkaOnStarProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.ac.ebi.produce.KafkaOnStarProducer" />
       <module name="kafka-streaming-websockets" />
@@ -148,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="streams" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="kafka-streaming-websockets" />
       <extension name="coverage">
@@ -182,6 +184,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -221,6 +224,8 @@
       <workItem from="1584353183383" duration="442000" />
       <workItem from="1584378101612" duration="583000" />
       <workItem from="1584395860327" duration="53000" />
+      <workItem from="1601575407390" duration="245000" />
+      <workItem from="1601577696173" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="2019 intelllij">
       <created>1556145218481</created>
@@ -303,7 +308,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -320,13 +325,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019 intelllij" />
@@ -336,18 +340,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="algoritm in nodejs commons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584353496272">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1601575431565">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584353496272" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1584395903281">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601575431565" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601577907843">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584395903281" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584353565796">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601577907843" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601575545429">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584353565796" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601575545429" />
   </component>
   <component name="masterDetails">
     <states>
