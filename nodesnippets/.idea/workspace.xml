@@ -143,10 +143,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.visa.test.js" />
       <item itemvalue="Jest.visa.test.js (1)" />
-      <item itemvalue="Node.js.nodesnippet" />
+      <item itemvalue="Jest.visa.test.js" />
       <item itemvalue="Node.js.mapfilterjson.js" />
+      <item itemvalue="Node.js.nodesnippet" />
     </list>
     <recent_temporary>
       <list>
