@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="algoritm in nodejs commons">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cfb30355-f0d8-4ce5-83fb-e3b9db12611e" name="Default Changelist" comment="algoritm in nodejs commons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,6 +224,7 @@
       <workItem from="1584395860327" duration="53000" />
       <workItem from="1601575407390" duration="245000" />
       <workItem from="1601577696173" duration="213000" />
+      <workItem from="1601653672267" duration="175000" />
     </task>
     <task id="LOCAL-00001" summary="2019 intelllij">
       <created>1556145218481</created>
@@ -344,14 +343,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601575431565" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601577907843">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601653846155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601577907843" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601575545429">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601653846155" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601653796863">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601575545429" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601653796863" />
   </component>
   <component name="masterDetails">
     <states>

@@ -1,81 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:angularsnippets" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:angularsnippets" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:angular-tour-of-heroes" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:blog" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:datasource" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:datsource" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:expressnodetest" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontendaxiosmocha" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontendchartawskaiser" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontendchartjs" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontendcircularnavigation" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontendcms" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:reactmerncrud" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d62dc7e7-41cf-4c4e-81cc-2e60c00cae10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__com_h2database_h2_1_4_191.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_hibernate_hibernate_core_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_hibernate_hibernate_java8_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_orm_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo1/demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo2/demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javacognizanttest/demo3/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/javastructurespatternsstreams.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javastructurespatternsstreams/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node-completed_exercises/.idea/node-completed_exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodejavascript_cardio/.idea/nodejavascript_cardio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/out/production/streamsmore/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamsmore/streamsmore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontendpatterns/app/patterns/closure/herbalifesucessgetfunc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendpatterns/app/patterns/closure/herbalifesucessgetfunc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-structures-streams/datastructure/datastructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-structures-streams/datastructure/datastructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javacognizanttest/Movies-Manager-Services-Java/movies-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javacognizanttest/Movies-Manager-Services-Java/movies-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodealgocastjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nodealgocastjs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontendcms/app/closure/closure.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendcms/app/closure/closure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontendcms/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendcms/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontendcms/app/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendcms/app/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontendcms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontendcms/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reduceforeach/mapfilterjson.js" beforeDir="false" afterPath="$PROJECT_DIR$/reduceforeach/mapfilterjson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sum/sum.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/sum/sum.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordscount/wordscount.js" beforeDir="false" afterPath="$PROJECT_DIR$/wordscount/wordscount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settimeout/settimeout.js" beforeDir="false" afterPath="$PROJECT_DIR$/settimeout/settimeout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +162,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontendpatterns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,10 +206,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.visa.test.js (1)" />
       <item itemvalue="Jest.visa.test.js" />
-      <item itemvalue="Node.js.mapfilterjson.js" />
+      <item itemvalue="Jest.visa.test.js (1)" />
       <item itemvalue="Node.js.nodesnippet" />
+      <item itemvalue="Node.js.mapfilterjson.js" />
     </list>
     <recent_temporary>
       <list>
@@ -156,6 +219,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -182,6 +246,7 @@
       <workItem from="1585239239152" duration="20605000" />
       <workItem from="1593493348144" duration="2035000" />
       <workItem from="1593581496981" duration="1901000" />
+      <workItem from="1601658328926" duration="202000" />
     </task>
     <task id="LOCAL-00001" summary="serverless">
       <created>1545214983267</created>
@@ -215,7 +280,18 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="serverless" />
@@ -224,18 +300,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="&#10;Objects assign and keys" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585254662321">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585254662321" />
-    <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1585254837166">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585254837166" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585690995930">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585690995930" />
     <state width="377" height="466" key="DebuggerActiveHint" timestamp="1593493571715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,10 +372,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1593493613521" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585668843214">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601658462660">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585668843214" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601658462660" />
     <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1593582597604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
