@@ -1,0 +1,11 @@
+.App {
+  padding: 30px;
+}
+
+input {
+  padding:15px;
+}
+
+.form-control{
+ height: auto !important;
+}
